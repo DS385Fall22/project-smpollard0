@@ -1,0 +1,2338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-bc48a7a137af2c1cf5c",applicationID:"1152932465"};/*! For license information please see nr-loader-rum-1220.min.js.LICENSE.txt */
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.NRBA=e():t.NRBA=e()}(self,(function(){return function(){var t,e,n={9034:function(t,e,n){"use strict";var r=n(4168);e.Z=(0,r.ky)(16)},5973:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1])},4280:function(t,e,n){"use strict";n.d(e,{H:function(){return o}});var r=document.createElement("div");r.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e";var o,i=r.getElementsByTagName("div").length;o=4===i?6:3===i?7:2===i?8:1===i?9:0},5955:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=function(t,e){var n=this;return t&&"object"==typeof t?e&&"object"==typeof e?(Object.assign(this,e),void Object.entries(t).forEach((function(t){var e=t[0],r=t[1];n[e]=r}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")}},441:function(t,e,n){"use strict";n.d(e,{C:function(){return c},L:function(){return u}});var r=n(1424),o=n(5955),i={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function c(t){if(!t)throw new Error("All info objects require an agent identifier!");if(!a[t])throw new Error("Info for "+t+" was never set");return a[t]}function u(t,e){if(!t)throw new Error("All info objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"info")}},1476:function(t,e,n){"use strict";n.d(e,{Dg:function(){return c},Mt:function(){return u}});var r=n(1424),o=n(5955),i={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},a={};function c(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"config")}function u(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");var n=function(t){if(!t)throw new Error("All configuration objects require an agent identifier!");if(!a[t])throw new Error("Configuration for "+t+" was never set");return a[t]}(t);if(n){for(var r=e.split("."),o=0;o<r.length-1;o++)if("object"!=typeof(n=n[r[o]]))return;n=n[r[r.length-1]]}return n}},2085:function(t,e,n){"use strict";n.d(e,{Y:function(){return r}});var r=(0,n(1424).mF)().o},1220:function(t,e,n){"use strict";n.d(e,{O:function(){return w},s:function(){return x}});var r={};n.r(r),n.d(r,{agent:function(){return a},match:function(){return f},version:function(){return c}});var o=n(4280),i=n(6959),a=null,c=null;if(navigator.userAgent){var u=navigator.userAgent,s=u.match(/Version\/(\S+)\s+Safari/);s&&-1===u.indexOf("Chrome")&&-1===u.indexOf("Chromium")&&(a="Safari",c=s[1])}function f(t,e){if(!a)return!1;if(t!==a)return!1;if(!e)return!0;if(!c)return!1;for(var n=c.split("."),r=e.split("."),o=0;o<r.length;o++)if(r[o]!==n[o])return!1;return!0}var d=n(5955),l=n(1424),v=n(4168),p=window.sessionStorage,h="NRBA_SESSION_ID";var g=n(1476),y=window.XMLHttpRequest,m=y&&y.prototype,b={};function w(t){if(!t)throw new Error("All runtime objects require an agent identifier!");if(!b[t])throw new Error("Runtime for "+t+" was never set");return b[t]}function x(t,e){if(!t)throw new Error("All runtime objects require an agent identifier!");var n,a;b[t]=new d.I(e,(n=t,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===o.H?2e3:3e4,offset:(0,i.yf)(),onerror:void 0,origin:""+window.location,ptid:void 0,releaseIds:{},sessionId:!0===(0,g.Mt)(n,"privacy.cookies_enabled")?(null===(a=p.getItem(h))&&(a=(0,v.ky)(16),p.setItem(h,a)),a):"0",xhrWrappable:y&&m&&m.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:r})),(0,l.Qy)(t,b[t],"runtime")}},158:function(t,e,n){"use strict";n.d(e,{q:function(){return r}});var r=["1220","PROD"].filter((function(t){return t})).join(".")},3707:function(t,e,n){"use strict";n.d(e,{w:function(){return o}});var r={agentIdentifier:""},o=function(t){var e=this;if("object"!=typeof t)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,r),Object.entries(t).forEach((function(t){var n=t[0],o=t[1];Object.keys(r).includes(n)&&(e.sharedContext[n]=o)}))}},1776:function(t,e,n){"use strict";n.d(e,{ee:function(){return r}});var r,o=n(1424),i=n(4217),a=n(357),c="nr@context",u=(0,o.fP)();function s(){}function f(){return new s}function d(){(r.backlog.api||r.backlog.feature)&&(r.aborted=!0,r.backlog={})}u.ee?r=u.ee:(r=function t(e,n){var o={},u={},l={},v={on:g,addEventListener:g,removeEventListener:y,emit:h,get:b,listeners:m,context:p,buffer:w,abort:d,aborted:!1,isBuffering:x,debugId:n,backlog:e&&e.backlog?e.backlog:{}};return v;function p(t){return t&&t instanceof s?t:t?(0,i.X)(t,c,f):f()}function h(t,n,o,i,a){if(!1!==a&&(a=!0),!r.aborted||i){e&&a&&e.emit(t,n,o);for(var c=p(o),s=m(t),f=s.length,d=0;d<f;d++)s[d].apply(c,n);var l=O()[u[t]];return l&&l.push([v,t,n,c]),c}}function g(t,e){o[t]=m(t).concat(e)}function y(t,e){var n=o[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return o[t]||[]}function b(e){return l[e]=l[e]||t(v,e)}function w(t,e){var n=O();v.aborted||(0,a.D)(t,(function(t,r){e=e||"feature",u[r]=e,e in n||(n[e]=[])}))}function x(t){return!!O()[u[t]]}function O(){return v.backlog}}(void 0,"globalEE"),u.ee=r)},7361:function(t,e,n){"use strict";n.d(e,{E:function(){return r},p:function(){return o}});var r=n(1776).ee.get("handle");function o(t,e,n,o,i){i?(i.buffer([t],o),i.emit(t,e,n)):(r.buffer([t],o),r.emit(t,e,n))}},3350:function(t,e,n){"use strict";n.d(e,{X:function(){return i}});var r=n(7361);i.on=a;var o=i.handlers={};function i(t,e,n,i){a(i||r.E,o,t,e,n)}function a(t,e,n,o,i){i||(i="feature"),t||(t=r.E);var a=e[i]=e[i]||{};(a[n]=a[n]||[]).push([t,o])}},4408:function(t,e,n){"use strict";n.d(e,{m:function(){return i}});var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(t){}function i(t){return r?{passive:!0,capture:!!t}:!!t}},4168:function(t,e,n){"use strict";function r(){var t=null,e=0,n=window.crypto||window.msCrypto;function r(){return t?15&t[e++]:16*Math.random()|0}n&&n.getRandomValues&&(t=n.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)a+="x"===(o=i[c])?r().toString(16):"y"===o?(o=3&r()|8).toString(16):o;return a}function o(t){var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<t;i++)o.push(a().toString(16));return o.join("");function a(){return e?15&e[n++]:16*Math.random()|0}}n.d(e,{Rl:function(){return r},ky:function(){return o}})},6959:function(t,e,n){"use strict";n.d(e,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var r=n(2364),o=(new Date).getTime(),i=o;function a(){return r.G&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-i}function c(){return o}function u(t){i=t}function s(){return i}},2364:function(t,e,n){"use strict";n.d(e,{G:function(){return r}});var r=void 0!==window.performance&&window.performance.timing&&void 0!==window.performance.timing.navigationStart},1793:function(t,e,n){"use strict";function r(t){var e,n=0;for(e=0;e<t.length;e++)n+=(e+1)*t.charCodeAt(e);return Math.abs(n)}n.d(e,{v:function(){return s},s:function(){return u}});var o=n(6972),i=n(5973),a=n(6959),c=n(2364),u=!0;function s(t){var e=function(){if(i.I&&i.I<9)return;if(c.G)return u=!1,window.performance.timing.navigationStart}()||function(){for(var t=document.cookie.split(" "),e=0;e<t.length;e++)if(0===t[e].indexOf("NREUM=")){for(var n,o,i,a,c=t[e].substring("NREUM=".length).split("&"),u=0;u<c.length;u++)0===c[u].indexOf("s=")?i=c[u].substring(2):0===c[u].indexOf("p=")?";"===(o=c[u].substring(2)).charAt(o.length-1)&&(o=o.substr(0,o.length-1)):0===c[u].indexOf("r=")&&";"===(n=c[u].substring(2)).charAt(n.length-1)&&(n=n.substr(0,n.length-1));if(n){var s=r(document.referrer);(a=s==n)||(a=r(document.location.href)==n&&s==o)}if(a&&i){if((new Date).getTime()-i>6e4)return;return i}}}();e&&((0,o.B)(t,"starttime",e),(0,a.nb)(e))}},6972:function(t,e,n){"use strict";n.d(e,{B:function(){return i},L:function(){return a}});var r=n(6959),o={};function i(t,e,n){void 0===n&&(n=(0,r.zO)()+(0,r.os)()),o[t]=o[t]||{},o[t][e]=n}function a(t,e,n,r){var i,a,c=t.sharedContext.agentIdentifier,u=null==(i=o[c])?void 0:i[n],s=null==(a=o[c])?void 0:a[r];void 0!==u&&void 0!==s&&t.store("measures",e,{value:s-u})}},7299:function(t,e,n){"use strict";n.d(e,{T:function(){return a}});var r=window,o=r;function i(){return o}var a={isFileProtocol:function(){var t=i(),e=!(!t.location||!t.location.protocol||"file:"!==t.location.protocol);e&&(a.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},847:function(t,e,n){"use strict";n.d(e,{K:function(){return a}});var r=n(1220),o=n(1476),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function a(t){var e={};return i.forEach((function(n){e[n]=function(t,e){return!0!==(0,r.O)(e).disabled&&!1!==(0,o.Mt)(e,t+".enabled")}(n,t)})),e}},5023:function(t,e,n){"use strict";n.d(e,{W:function(){return o}});var r=n(1776),o=function(t,e,n){void 0===n&&(n=[]),this.agentIdentifier=t,this.aggregator=e,this.ee=r.ee.get(t),this.externalFeatures=n}},4217:function(t,e,n){"use strict";n.d(e,{X:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(t){}return t[e]=o,o}},357:function(t,e,n){"use strict";n.d(e,{D:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}},603:function(t,e,n){"use strict";n.d(e,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var r=n(1476),o=n(3707),i=n(7299);function a(t,e){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},a(t,e)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(t){var e,n;function r(e){return t.call(this,e)||this}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,a(e,n);var o=r.prototype;return o.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},o.obfuscateString=function(t){if(!t||"string"!=typeof t)return t;for(var e=s(this.sharedContext.agentIdentifier),n=t,r=0;r<e.length;r++){var o=e[r].regex,i=e[r].replacement||"*";n=n.replace(o,i)}return n},r}(o.w);function s(t){var e=[],n=(0,r.Mt)(t,"obfuscate")||[];return e=e.concat(n),i.T.isFileProtocol()&&e.push(c),e}function f(t){for(var e=!1,n=!1,r=0;r<t.length;r++){"regex"in t[r]?"string"!=typeof t[r].regex&&t[r].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),n=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),n=!0);var o=t[r].replacement;o&&"string"!=typeof o&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),e=!0)}return!e&&!n}},1424:function(t,e,n){"use strict";n.d(e,{EZ:function(){return u},Qy:function(){return c},ce:function(){return o},fP:function(){return i},gG:function(){return s},mF:function(){return a}});var r=n(6959),o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function i(){return window.NREUM||(window.NREUM={}),void 0===window.newrelic&&(window.newrelic=window.NREUM),window.NREUM}function a(){var t=i();if(!t.o){var e=window,n=e.XMLHttpRequest;t.o={ST:setTimeout,SI:e.setImmediate,CT:clearTimeout,XHR:n,REQ:e.Request,EV:e.Event,PR:e.Promise,MO:e.MutationObserver,FETCH:e.fetch}}return t}function c(t,e,n){var o,a,c=i(),u=c.initializedAgents||{},s=u[t]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[t]=Object.assign({},s,((o={})[n]=e,o)),a)),c}function u(t,e){i()[t]=e}function s(){var t,e;return t=i(),e=t.info||{},t.info=Object.assign({beacon:o.beacon,errorBeacon:o.errorBeacon},e),function(){var t=i(),e=t.init||{};t.init=Object.assign({},e)}(),a(),function(){var t=i(),e=t.loader_config||{};t.loader_config=Object.assign({},e)}(),i()}},8539:function(t){t.exports=function(t,e,n){e||(e=0),void 0===n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}}},r={};function o(t){var e=r[t];if(void 0!==e)return e.exports;var i=r[t]={exports:{}};return n[t](i,i.exports,o),i.exports}o.m=n,o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,{a:e}),e},o.d=function(t,e){for(var n in e)o.o(e,n)&&!o.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},o.f={},o.e=function(t){return Promise.all(Object.keys(o.f).reduce((function(e,n){return o.f[n](t,e),e}),[]))},o.u=function(t){return t+"."+o.h().slice(0,8)+"-1220.js"},o.h=function(){return"2d6a2503b7f18a5b77dd"},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},t={},e="NRBA:",o.l=function(n,r,i,a){if(t[n])t[n].push(r);else{var c,u;if(void 0!==i)for(var s=document.getElementsByTagName("script"),f=0;f<s.length;f++){var d=s[f];if(d.getAttribute("src")==n||d.getAttribute("data-webpack")==e+i){c=d;break}}c||(u=!0,(c=document.createElement("script")).charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.setAttribute("data-webpack",e+i),c.src=n),t[n]=[r];var l=function(e,r){c.onerror=c.onload=null,clearTimeout(v);var o=t[n];if(delete t[n],c.parentNode&&c.parentNode.removeChild(c),o&&o.forEach((function(t){return t(r)})),e)return e(r)},v=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),u&&document.head.appendChild(c)}},o.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},o.p="https://js-agent.newrelic.com/",function(){var t={299:0,82:0};o.f.j=function(e,n){var r=o.o(t,e)?t[e]:void 0;if(0!==r)if(r)n.push(r[2]);else{var i=new Promise((function(n,o){r=t[e]=[n,o]}));n.push(r[2]=i);var a=o.p+o.u(e),c=new Error;o.l(a,(function(n){if(o.o(t,e)&&(0!==(r=t[e])&&(t[e]=void 0),r)){var i=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;c.message="Loading chunk "+e+" failed.\n("+i+": "+a+")",c.name="ChunkLoadError",c.type=i,c.request=a,r[1](c)}}),"chunk-"+e,e)}};var e=function(e,n){var r,i,a=n[0],c=n[1],u=n[2],s=0;if(a.some((function(e){return 0!==t[e]}))){for(r in c)o.o(c,r)&&(o.m[r]=c[r]);if(u)u(o)}for(e&&e(n);s<a.length;s++)i=a[s],o.o(t,i)&&t[i]&&t[i][0](),t[i]=0},n=self.webpackChunkNRBA=self.webpackChunkNRBA||[];n.forEach(e.bind(null,0)),n.push=e.bind(null,n.push.bind(n))}();var i={};return function(){"use strict";o.r(i);var t=o(9034),e=o(4408),n=window,r=n.document;function a(t){"complete"===r.readyState&&t()}function c(t){a(t),r.addEventListener?n.addEventListener("load",t,(0,e.m)(!1)):n.attachEvent("onload",t)}function u(t){a(t),r.addEventListener?r.addEventListener("DOMContentLoaded",t,(0,e.m)(!1)):r.attachEvent("onreadystatechange",a)}var s=o(1776);function f(){f=function(){return t};var t={},e=Object.prototype,n=e.hasOwnProperty,r="function"==typeof Symbol?Symbol:{},o=r.iterator||"@@iterator",i=r.asyncIterator||"@@asyncIterator",a=r.toStringTag||"@@toStringTag";function c(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{c({},"")}catch(t){c=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var o=e&&e.prototype instanceof l?e:l,i=Object.create(o.prototype),a=new j(r||[]);return i._invoke=function(t,e,n){var r="suspendedStart";return function(o,i){if("executing"===r)throw new Error("Generator is already running");if("completed"===r){if("throw"===o)throw i;return P()}for(n.method=o,n.arg=i;;){var a=n.delegate;if(a){var c=x(a,n);if(c){if(c===d)continue;return c}}if("next"===n.method)n.sent=n._sent=n.arg;else if("throw"===n.method){if("suspendedStart"===r)throw r="completed",n.arg;n.dispatchException(n.arg)}else"return"===n.method&&n.abrupt("return",n.arg);r="executing";var u=s(t,e,n);if("normal"===u.type){if(r=n.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:n.done}}"throw"===u.type&&(r="completed",n.method="throw",n.arg=u.arg)}}}(t,n,a),i}function s(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}t.wrap=u;var d={};function l(){}function v(){}function p(){}var h={};c(h,o,(function(){return this}));var g=Object.getPrototypeOf,y=g&&g(g(_([])));y&&y!==e&&n.call(y,o)&&(h=y);var m=p.prototype=l.prototype=Object.create(h);function b(t){["next","throw","return"].forEach((function(e){c(t,e,(function(t){return this._invoke(e,t)}))}))}function w(t,e){function r(o,i,a,c){var u=s(t[o],t,i);if("throw"!==u.type){var f=u.arg,d=f.value;return d&&"object"==typeof d&&n.call(d,"__await")?e.resolve(d.__await).then((function(t){r("next",t,a,c)}),(function(t){r("throw",t,a,c)})):e.resolve(d).then((function(t){f.value=t,a(f)}),(function(t){return r("throw",t,a,c)}))}c(u.arg)}var o;this._invoke=function(t,n){function i(){return new e((function(e,o){r(t,n,e,o)}))}return o=o?o.then(i,i):i()}}function x(t,e){var n=t.iterator[e.method];if(void 0===n){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,x(t,e),"throw"===e.method))return d;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var r=s(n,t.iterator,e.arg);if("throw"===r.type)return e.method="throw",e.arg=r.arg,e.delegate=null,d;var o=r.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,d):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,d)}function O(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function E(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function j(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(O,this),this.reset(!0)}function _(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,i=function e(){for(;++r<t.length;)if(n.call(t,r))return e.value=t[r],e.done=!1,e;return e.value=void 0,e.done=!0,e};return i.next=i}}return{next:P}}function P(){return{value:void 0,done:!0}}return v.prototype=p,c(m,"constructor",p),c(p,"constructor",v),v.displayName=c(p,a,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===v||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,p):(t.__proto__=p,c(t,a,"GeneratorFunction")),t.prototype=Object.create(m),t},t.awrap=function(t){return{__await:t}},b(w.prototype),c(w.prototype,i,(function(){return this})),t.AsyncIterator=w,t.async=function(e,n,r,o,i){void 0===i&&(i=Promise);var a=new w(u(e,n,r,o),i);return t.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},b(m),c(m,a,"Generator"),c(m,o,(function(){return this})),c(m,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var n in t)e.push(n);return e.reverse(),function n(){for(;e.length;){var r=e.pop();if(r in t)return n.value=r,n.done=!1,n}return n.done=!0,n}},t.values=_,j.prototype={constructor:j,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!t)for(var e in this)"t"===e.charAt(0)&&n.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function r(n,r){return a.type="throw",a.arg=t,e.next=n,r&&(e.method="next",e.arg=void 0),!!r}for(var o=this.tryEntries.length-1;o>=0;--o){var i=this.tryEntries[o],a=i.completion;if("root"===i.tryLoc)return r("end");if(i.tryLoc<=this.prev){var c=n.call(i,"catchLoc"),u=n.call(i,"finallyLoc");if(c&&u){if(this.prev<i.catchLoc)return r(i.catchLoc,!0);if(this.prev<i.finallyLoc)return r(i.finallyLoc)}else if(c){if(this.prev<i.catchLoc)return r(i.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return r(i.finallyLoc)}}}},abrupt:function(t,e){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),E(n),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;E(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,n){return this.delegate={iterator:_(t),resultName:e,nextLoc:n},"next"===this.method&&(this.arg=void 0),d}},t}function d(t,e,n,r,o,i,a){try{var c=t[i](a),u=c.value}catch(t){return void n(t)}c.done?e(u):Promise.resolve(u).then(r,o)}var l=0;function v(t){var e;(e=f().mark((function e(){var n,r;return f().wrap((function(e){for(;;)switch(e.prev=e.next){case 0:if(!l++){e.next=2;break}return e.abrupt("return");case 2:return e.prev=2,e.next=5,o.e(552).then(o.bind(o,5552));case 5:return n=e.sent,r=n.aggregator,e.next=9,r(t);case 9:e.next=15;break;case 11:e.prev=11,e.t0=e.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",e.t0),s.ee.abort();case 15:case"end":return e.stop()}}),e,null,[[2,11]])})),function(){var t=this,n=arguments;return new Promise((function(r,o){var i=e.apply(t,n);function a(t){d(i,r,o,a,c,"next",t)}function c(t){d(i,r,o,a,c,"throw",t)}a(void 0)}))})()}var p=o(8539),h=o.n(p),g=o(1424),y=o(1220),m=o(441),b=o(7361),w=o(357),x=o(6959);var O=o(1476),E=o(5955),j={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};var P=!1;var A=o(6972),k=o(1793),L=o(5023);function S(t,e){return S=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},S(t,e)}var T,C,I,R=function(t){var e,n;function r(e){var n;return n=t.call(this,e)||this,(0,k.v)(e),(0,A.B)(e,"firstbyte",(0,x.yf)()),c((function(){return n.measureWindowLoaded()})),u((function(){return n.measureDomContentLoaded()})),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,S(e,n);var o=r.prototype;return o.measureWindowLoaded=function(){var t=(0,x.zO)();(0,A.B)(this.agentIdentifier,"onload",t+(0,x.os)()),(0,b.p)("timing",["load",t],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,A.B)(this.agentIdentifier,"domContent",(0,x.zO)()+(0,x.os)())},r}(L.W);void 0!==document.hidden?(T="hidden",C="visibilitychange",I="visibilityState"):void 0!==document.msHidden?(T="msHidden",C="msvisibilitychange"):void 0!==document.webkitHidden&&(T="webkitHidden",C="webkitvisibilitychange",I="webkitVisibilityState");var M=o(2085);function N(t,e){return N=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},N(t,e)}var D=function(t){var n,r;function o(n){var r,o;if((r=t.call(this,n)||this).pageHiddenTime="hidden"===document.visibilityState?-1:1/0,r.performanceObserver,r.lcpPerformanceObserver,r.clsPerformanceObserver,r.fiRecorded=!1,!r.isEnabled())return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(r);if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){r.performanceObserver=new PerformanceObserver((function(){var t;return(t=r).perfObserver.apply(t,arguments)}));try{r.performanceObserver.observe({entryTypes:["paint"]})}catch(t){}r.lcpPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).lcpObserver.apply(t,arguments)}));try{r.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(t){}r.clsPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).clsObserver.apply(t,arguments)}));try{r.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(t){}}if("addEventListener"in document){r.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(t){document.addEventListener(t,(function(){var t;return(t=r).captureInteraction.apply(t,arguments)}),(0,e.m)(!1))}))}return o=function(){var t;return(t=r).captureVisibilityChange.apply(t,arguments)},"addEventListener"in document&&C&&document.addEventListener(C,(function(){I&&document[I]?o(document[I]):document[T]?o("hidden"):o("visible")}),(0,e.m)(!1)),r}r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,N(n,r);var i=o.prototype;return i.isEnabled=function(){return!1!==(0,O.Mt)(this.agentIdentifier,"page_view_timing.enabled")},i.perfObserver=function(t,e){var n=this;t.getEntries().forEach((function(t){"first-paint"===t.name?(0,b.p)("timing",["fp",Math.floor(t.startTime)],void 0,void 0,n.ee):"first-contentful-paint"===t.name&&(0,b.p)("timing",["fcp",Math.floor(t.startTime)],void 0,void 0,n.ee)}))},i.lcpObserver=function(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(this.pageHiddenTime<r.startTime)return;var o=[r],i=this.addConnectionAttributes({});i&&o.push(i),(0,b.p)("lcp",o,void 0,void 0,this.ee)}},i.clsObserver=function(t){var e=this;t.getEntries().forEach((function(t){t.hadRecentInput||(0,b.p)("cls",[t],void 0,void 0,e.ee)}))},i.addConnectionAttributes=function(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t},i.captureInteraction=function(t){if(t instanceof M.Y.EV&&!this.fiRecorded){var e=Math.round(t.timeStamp),n={type:t.type};this.addConnectionAttributes(n),e<=(0,x.zO)()?n.fid=(0,x.zO)()-e:e>(0,x.os)()&&e<=Date.now()?(e-=(0,x.os)(),n.fid=(0,x.zO)()-e):e=(0,x.zO)(),this.fiRecorded=!0,(0,b.p)("timing",["fi",e,n],void 0,void 0,this.ee)}},i.captureVisibilityChange=function(t){"hidden"===t&&(this.pageHiddenTime=(0,x.zO)(),(0,b.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(L.W),q=o(3350),B="React",z="Angular",G="AngularJS",H="Backbone",F="Ember",V="Vue",Z="Meteor",U="Zepto",X="Jquery";function Q(){var t=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var t=document.querySelectorAll("body > div"),e=0;e<t.length;e++)if(Object.keys(t[e]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(t){return!1}})()&&t.push(B),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(t){return!1}}()&&t.push(G),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(t){return!1}}()&&t.push(z),window.Backbone&&t.push(H),window.Ember&&t.push(F),window.Vue&&t.push(V),window.Meteor&&t.push(Z),window.Zepto&&t.push(U),window.jQuery&&t.push(X)}catch(t){}return t}var W=o(7299),K=o(603),Y=o(158);function J(t,e){return J=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},J(t,e)}var $=function(t){var e,n;function r(e){var n;return(n=t.call(this,e)||this).singleChecks(),(0,q.X)("record-supportability",(function(){var t;return(t=n).recordSupportability.apply(t,arguments)}),void 0,n.ee),(0,q.X)("record-custom",(function(){var t;return(t=n).recordCustom.apply(t,arguments)}),void 0,n.ee),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,J(e,n);var o=r.prototype;return o.recordSupportability=function(t,e){var n=["sm",t,{name:t},e];return(0,b.p)("storeMetric",n,null,void 0,this.ee),n},o.recordCustom=function(t,e){var n=["cm",t,{name:t},e];return(0,b.p)("storeEventMetrics",n,null,void 0,this.ee),n},o.singleChecks=function(){var t=this;this.recordSupportability("Generic/Version/"+Y.q+"/Detected"),u((function(){Q().forEach((function(e){t.recordSupportability("Framework/"+e+"/Detected")}))})),W.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),W.T.supportabilityMetricSent=!0);var e=(0,K.$c)(this.agentIdentifier);e.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),e.length>0&&!(0,K.Ng)(e)&&this.recordSupportability("Generic/Obfuscate/Invalid")},r}(L.W),tt=o(847);new Promise((function(e,n){if(P)e(P);else{var r=(0,g.gG)();try{(0,m.L)(t.Z,r.info),(0,O.Dg)(t.Z,r.init),function(t,e){if(!t)throw new Error("All loader-config objects require an agent identifier!");_[t]=new E.I(e,j),(0,g.Qy)(t,_[t],"loader_config")}(t.Z,r.loader_config),(0,y.s)(t.Z,{}),function(t){var e=(0,g.fP)(),n=s.ee.get(t),r=n.get("tracer"),o="api-",i="api-ixn-";function a(){}(0,w.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(t,n){e[n]=u(o,n,!0,"api")})),e.addPageAction=u(o,"addPageAction",!0),e.setCurrentRouteName=u(o,"routeName",!0),e.setPageViewName=function(e,n){if("string"==typeof e)return"/"!==e.charAt(0)&&(e="/"+e),(0,y.O)(t).customTransaction=(n||"http://custom.transaction")+e,u(o,"setPageViewName",!0,"api")()},e.setCustomAttribute=function(e,n){var r,i=(0,m.C)(t);return(0,m.L)(t,Object.assign({},i,{jsAttributes:Object.assign({},i.jsAttributes,(r={},r[e]=n,r))})),u(o,"setCustomAttribute",!0,"api")()},e.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(t,e){var o={},i=this,a="function"==typeof e;return(0,b.p)("api-ixn-tracer",[(0,x.zO)(),t,o],i,void 0,n),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,x.zO)(),i,a],o),a)try{return e.apply(this,arguments)}catch(t){throw r.emit("fn-err",[arguments,this,"string"==typeof t?new Error(t):t],o),t}finally{r.emit("fn-end",[(0,x.zO)()],o)}}}};function u(t,e,r,o){return function(){return(0,b.p)("record-supportability",["API/"+e+"/called"],void 0,void 0,n),(0,b.p)(t+e,[(0,x.zO)()].concat(h()(arguments)),r?null:this,o,n),r?void 0:this}}(0,w.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(t,e){c[e]=u(i,e)})),e.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),(0,b.p)("record-supportability",["API/noticeError/called"],void 0,void 0,n),(0,b.p)("err",[t,(0,x.zO)(),!1,e],void 0,void 0,n)}}(t.Z),e(P=!0)}catch(t){n(t)}}})).then((function(){var e,n,r,o=(0,tt.K)(t.Z);o.page_view_event&&new R(t.Z),o.page_view_timing&&new D(t.Z),o.metrics&&new $(t.Z),e="lite",n?setTimeout((function(){return v(e)}),r||1e3):c((function(){return v(e)}))}))}(),i}()}));</script>
+<link rel="canonical" href="https://www.csustan.edu/" />
+<link rel="shortlink" href="https://www.csustan.edu/" />
+<meta name="description" content="Stanislaus State: An exceptional public university that, because of its student-friendly size and commitment to excellence, is able to offer all the benefits of a private education." />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/csustan/favicon.ico" type="image/vnd.microsoft.icon" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Home | California State University Stanislaus</title>
+    <link rel="stylesheet" media="all" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="//unpkg.com/aos@2.3.1/dist/aos.css" />
+<link rel="stylesheet" media="all" href="//use.typekit.net/kdv7irc.css?display=swap" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&amp;display=swap" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&amp;display=swap" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined&amp;display=swap" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Playfair+Display:wght@600&amp;display=swap&#039;" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ZZEtv-6BXnfoveL1CVyHl-er3RSlDAW7s-dv9mdh-iw.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_l8GwscijywN5tIsFh3T-xUnEF4eX_N5oWHBkyKZ1nnw.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_O8l19XGh7rD6E5_GwEB5j5axLfDRHTTAnpVS65U8mRs.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_FUltFnT7_dJJk4W8PfNMBkg_FwY_HhH2X2cM7S_13_g.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_wwgYd_dmyiieSc3nfIXklQez_qJ0diknc64mccrF4JE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_rlYm2EmxDhNUY-RUm85ht9eNNH2f0c5L4KXDYkHUQP4.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_M2Pb0K7OgrGBZTBRRUzc9cQz8xbOM4GNXiy0qfPnnKQ.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_5nEentQJs6br1CKnt1N1lGLL6VA87H4_awqEpOtu0sw.css" />
+
+    <script src="/sites/default/files/js/js_IwLksrG8sKkrR2rg_KLQ1vbcNXBo3jnW5xFRgs7Fjjc.js"></script>
+
+    <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NGHD6WD');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body class="path-frontpage page-node-type-landing-page">
+    <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGHD6WD"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+
+    <div class="page-wrapper">
+      <div class="views-element-container bootstrap-alerts-container"></div>
+
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="layout-container">
+
+        <header class="shadow" id="main-nav-header">
+  
+    <div class="w-100 bg-primary page-navigation">     <nav class="navbar navbar-expand-lg navbar-dark pt-lg-2">
+
+            <div class="d-flex justify-content-between align-items-center pl-3">
+
+                  <div id="block-csustan-branding" data-block-plugin-id="system_branding_block" class="block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-logo">
+      <img src="/themes/custom/csustan/logo.svg" alt="Home" />
+    </a>
+      </div>
+
+        
+        <button class="d-flex d-lg-none navbar-toggler align-items-center collapsed ml-auto justify-content-start btn btn-secondary bg-secondary text-dark unstyled focus-visible-only" type="button" data-toggle="collapse" data-target="#mobile__menu"
+                aria-controls="mobile__menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-text-open"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M19 9H5a1 1 0 100 2h14a1 1 0 000-2zM5 15h14a1 1 0 000-2H5a1 1 0 000 2z" fill="currentColor" fill-rule="nonzero"/></g></svg> Menu</span>
+          <span class="navbar-text-close"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M18.295 5.705a.997.997 0 00-1.41 0L12 10.59 7.115 5.705a.997.997 0 10-1.41 1.41L10.59 12l-4.885 4.885a.997.997 0 101.41 1.41L12 13.41l4.885 4.885a.997.997 0 001.41-1.41L13.41 12l4.885-4.885a.997.997 0 000-1.41z" fill="currentColor" fill-rule="nonzero"/></g></svg> Close</span>
+        </button>
+
+      </div>
+
+            <div class="collapse navbar-collapse pr-lg-8" id="mobile__menu" aria-hidden="false">
+        <div aria-hidden="false" class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-lg-end ml-lg-auto">
+
+                    <div aria-hidden="false" class="col-12 col-lg-auto mt-2 mb-0 my-lg-0">
+            <nav aria-hidden="false" role="navigation" aria-labelledby="block-primarynavigation-menu" id="block-primarynavigation" data-block-plugin-id="system_menu_block:primary-navigation" class="block block-menu navigation menu--primary-navigation">
+            
+  <h2 class="visually-hidden" id="block-primarynavigation-menu">Primary navigation</h2>
+  
+
+        
+
+  <ul aria-hidden="false" class="menu menu-level-0">
+      
+    <li class="menu-item" aria-hidden="false">
+      <a href="https://my.csustan.edu/" title="log into myStanState" aria-hidden="false">myStanState</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentprimary-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/2020-11/ico-login.png" width="32" height="32" alt="qwxqwx" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </article>
+</div>
+      
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item" aria-hidden="false">
+      <a href="https://library.csustan.edu/" title="Library" aria-hidden="false">Library</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentprimary-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/2020-11/ico-book.png" width="24" height="32" alt="" loading="lazy" typeof="foaf:Image" class="img-fluid" role="presentation" />
+
+</div>
+      
+  </article>
+</div>
+      
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item" aria-hidden="false">
+      <a href="/admissions-aid" title="Apply to Stan State" aria-hidden="false" data-drupal-link-system-path="node/25542">Apply</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentprimary-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/2020-11/ico-pencil.png" width="32" height="32" alt="pencil" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </article>
+</div>
+      
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+  </nav>
+
+          </div>
+          
+          <div class="col-12 col-lg-auto mb-2 pb-1 mb-lg-0 pb-lg-0">
+            <div class="block-views-exposed-filter-blocksearch-page">
+              <form action="/search" accept-charset="UTF-8">
+                <div class="form--inline">
+                  <div class="form-item js-form-item-keywords form-item-keywords">
+                    <label for="search-keywords-in-header" class="visually-hidden">Search</label>
+                    <input id="search-keywords-in-header" placeholder="Search Stan State" type="text" name="keywords" size="30" maxlength="128" class="form-control">
+                  </div>
+                  <div class="form-actions">
+                    <input class="unstyled button js-form-submit form-submit btn form-control" type="submit" value="Search">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <button class="d-none d-lg-flex navbar-toggler align-items-center collapsed ml-auto justify-content-start btn btn-secondary bg-secondary text-dark unstyled focus-visible-only" type="button" data-toggle="collapse" data-target="#mobile__menu"
+                  aria-controls="mobile__menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-text-open"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M19 9H5a1 1 0 100 2h14a1 1 0 000-2zM5 15h14a1 1 0 000-2H5a1 1 0 000 2z" fill="currentColor" fill-rule="nonzero"/></g></svg> Menu</span>
+            <span class="navbar-text-close"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M18.295 5.705a.997.997 0 00-1.41 0L12 10.59 7.115 5.705a.997.997 0 10-1.41 1.41L10.59 12l-4.885 4.885a.997.997 0 101.41 1.41L12 13.41l4.885 4.885a.997.997 0 001.41-1.41L13.41 12l4.885-4.885a.997.997 0 000-1.41z" fill="currentColor" fill-rule="nonzero"/></g></svg> Close</span>
+          </button>
+
+          <div class="col-12 megamenu">
+            <div class="d-flex flex-column flex-lg-row w-100">
+
+                              <div class="col-12 col-lg order-1 order-lg-2 header__main-menu mb-3 mb-lg-0 pl-lg-4 pl-xl-4">
+                  <nav aria-hidden="false" role="navigation" aria-labelledby="block-csustan-main-menu-menu" id="block-csustan-main-menu" data-block-plugin-id="system_menu_block:main" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-csustan-main-menu-menu">Main navigation</h2>
+  
+
+        
+        <ul block="csustan_main_menu" class="nav navbar-nav flex-column flex-wrap">
+  
+              
+      
+      <li class="nav-item dropdown-main d-flex flex-wrap align-items-start transition__ease-all">
+
+                        
+                
+                        <button type="button" class="text-link bg-transparent border-0 shadow-none d-flex align-items-center justify-content-start flex-grow-1 text-white px-0 ">
+          <div class="nav-link d-flex pl-lg-0 pr-3">Admissions &amp; Aid</div>
+                      <span class="btn-dropdown_plus"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" opacity=".7"><path d="M0 0h24v24H0z"/><path d="M18 13h-5v5a1 1 0 01-2 0v-5H6a1 1 0 010-2h5V6a1 1 0 012 0v5h5a1 1 0 010 2z" fill="currentColor" fill-rule="nonzero"/></g></svg></span>
+            <span class="btn-dropdown_minus"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" opacity=".7"><path d="M0 0h24v24H0z"/><path d="M18 13H6a1 1 0 010-2h12a1 1 0 010 2z" fill="currentColor" fill-rule="nonzero"/></g></svg></span>
+                    <span class="sr-only">Dropdown Toggle</span>
+        </button>
+        
+                <a class="nav-link px-0 d-none d-lg-flex flex-shrink-1 order-lg-1"  href="/admissions-aid" >
+                  <span class="d-none d-lg-flex align-items-center explore-link-text">Explore</span>
+          <span class="d-block d-lg-none">Admissions &amp; Aid</span>
+                </a>
+        
+                                      
+  <ul class="dropdown-menu bg-transparent position-static w-100 order-last border-0">
+    
+              
+                      <li class="nav-item d-lg-none">
+          <a class="nav-link px-0 explore-all">Overview </a>
+        </li>
+      
+      <li class="dropdown-sub transition__ease-all">
+
+                        
+                
+                        <button type="button" class="text-link bg-transparent border-0 shadow-none d-flex align-items-center justify-content-start flex-grow-1 text-white px-0  d-lg-none">
+          <div class="nav-link d-flex pl-lg-0 pr-3">Undergraduate Admissions</div>
+                      <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-8-6v24h24V-6z"/>
+        <path fill="currentColor" fill-rule="nonzero" d="M.59 1.41L5.17 6 .59 10.59 2 12l6-6-6-6z"/>
+    </g>
+</svg>                    <span class="sr-only">Dropdown Toggle</span>
+        </button>
+        
+                <a class="nav-link px-0 d-none d-lg-flex flex-lg-grow-1"  href="/undergrad" >
+                  Undergraduate Admissions
+                </a>
+        
+                                      
+  <ul class="dropdown-menu bg-transparent position-static w-100 order-last">
+    
+              
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/undergrad" >
+                  Overview
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/undergrad/apply-stan-state" >
+                  Apply to Stan State
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/undergrad/freshman-admission" >
+                  Freshman Admission
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/undergrad/transfer-admission" >
+                  Transfer Admission
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/undergrad/returning-admission" >
+                  Returning Admission
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/undergrad/dates-deadlines" >
+                  Dates &amp; Deadlines
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="pr-lg-0">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/undergrad/meet-team" >
+                  Contact Admissions Office
+                </a>
+        
+                
+      </li>
+      </ul>
+  
+  
+        
+      </li>
+          
+      
+      <li class="dropdown-sub transition__ease-all">
+
+                        
+                
+                        <button type="button" class="text-link bg-transparent border-0 shadow-none d-flex align-items-center justify-content-start flex-grow-1 text-white px-0  d-lg-none">
+          <div class="nav-link d-flex pl-lg-0 pr-3">Graduate Admissions</div>
+                      <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-8-6v24h24V-6z"/>
+        <path fill="currentColor" fill-rule="nonzero" d="M.59 1.41L5.17 6 .59 10.59 2 12l6-6-6-6z"/>
+    </g>
+</svg>                    <span class="sr-only">Dropdown Toggle</span>
+        </button>
+        
+                <a class="nav-link px-0 d-none d-lg-flex flex-lg-grow-1"  href="https://www.csustan.edu/graduate-studies-research/graduate-program-policies" >
+                  Graduate Admissions
+                </a>
+        
+                                      
+  <ul class="dropdown-menu bg-transparent position-static w-100 order-last">
+    
+              
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="https://www.csustan.edu/graduate-studies-research/graduate-program-policies" >
+                  Overview
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/graduate-studies-research/graduate-program-policies/explore-programs" >
+                  Explore the Programs
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/graduate-studies-research/graduate-program-policies/how-apply" >
+                  How to Apply
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/graduate-studies-research/admissions-aid/graduate-admissions/i-have-applied" >
+                  I Have Applied
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/graduate-studies-research/graduate-program-policies/thesisdissertation-information" >
+                  Thesis/Dissertation Information
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/graduate-studies-research/graduate-program-policies/current-graduate-students" >
+                  Current Graduate Students
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="pr-lg-0">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/graduate-studies-research/graduate-program-policies/contact-graduate-admissions" >
+                  Contact Graduate Admissions
+                </a>
+        
+                
+      </li>
+      </ul>
+  
+  
+        
+      </li>
+          
+      
+      <li class="dropdown-sub transition__ease-all">
+
+                        
+                
+                        <button type="button" class="text-link bg-transparent border-0 shadow-none d-flex align-items-center justify-content-start flex-grow-1 text-white px-0  d-lg-none">
+          <div class="nav-link d-flex pl-lg-0 pr-3">Financial Aid &amp; Scholarships</div>
+                      <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-8-6v24h24V-6z"/>
+        <path fill="currentColor" fill-rule="nonzero" d="M.59 1.41L5.17 6 .59 10.59 2 12l6-6-6-6z"/>
+    </g>
+</svg>                    <span class="sr-only">Dropdown Toggle</span>
+        </button>
+        
+                <a class="nav-link px-0 d-none d-lg-flex flex-lg-grow-1"  href="/financial-aid-scholarship" >
+                  Financial Aid &amp; Scholarships
+                </a>
+        
+                                      
+  <ul class="dropdown-menu bg-transparent position-static w-100 order-last">
+    
+              
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/financial-aid-scholarship" >
+                  Overview
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/financial-aid-scholarship/financial-aid-basics" >
+                  Financial Aid Basics
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/financial-aid-scholarship/applications-forms" >
+                  Applications &amp; Forms
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/financial-aid-scholarship/scholarship-information" >
+                  Scholarships
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="https://www.csustan.edu/financial-aid-scholarship/financial-wellness" >
+                  Financial Wellness
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/financial-aid-scholarship/satisfactory-academic-progress-sap" >
+                  Satisfactory Academic Progress
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="pr-lg-0">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/financial-aid-scholarship/contact-information" >
+                  Contact Financial Aid Office
+                </a>
+        
+                
+      </li>
+      </ul>
+  
+  
+        
+      </li>
+          
+      
+      <li class="dropdown-sub transition__ease-all pr-lg-0">
+
+                        
+                
+                        <button type="button" class="text-link bg-transparent border-0 shadow-none d-flex align-items-center justify-content-start flex-grow-1 text-white px-0  d-lg-none">
+          <div class="nav-link d-flex pl-lg-0 pr-3">Tuition &amp; Fees</div>
+                      <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-8-6v24h24V-6z"/>
+        <path fill="currentColor" fill-rule="nonzero" d="M.59 1.41L5.17 6 .59 10.59 2 12l6-6-6-6z"/>
+    </g>
+</svg>                    <span class="sr-only">Dropdown Toggle</span>
+        </button>
+        
+                <a class="nav-link px-0 d-none d-lg-flex flex-lg-grow-1"  href="/tuition-fees" >
+                  Tuition &amp; Fees
+                </a>
+        
+                                      
+  <ul class="dropdown-menu bg-transparent position-static w-100 order-last">
+    
+              
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/tuition-fees" >
+                  Overview
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/tuition-fees/fee-schedules-deadlines" >
+                  Fee Schedules &amp; Deadlines
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/tuition-fees/cashiers-payment-information" >
+                  Cashiers &amp; Payment Information
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/tuition-fees/direct-deposit-information" >
+                  Direct Deposit Information
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="pr-lg-0">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/tuition-fees/faqs" >
+                  General FAQs
+                </a>
+        
+                
+      </li>
+      </ul>
+  
+  
+        
+      </li>
+      </ul>
+  
+  
+        
+      </li>
+          
+      
+      <li class="nav-item">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/majors-programs" >
+                  Majors &amp; Programs
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="nav-item">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/campus-life" >
+                  Campus Life
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="nav-item dropdown-main d-flex flex-wrap align-items-start transition__ease-all">
+
+                        
+                
+                        <button type="button" class="text-link bg-transparent border-0 shadow-none d-flex align-items-center justify-content-start flex-grow-1 text-white px-0 ">
+          <div class="nav-link d-flex pl-lg-0 pr-3">About</div>
+                      <span class="btn-dropdown_plus"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" opacity=".7"><path d="M0 0h24v24H0z"/><path d="M18 13h-5v5a1 1 0 01-2 0v-5H6a1 1 0 010-2h5V6a1 1 0 012 0v5h5a1 1 0 010 2z" fill="currentColor" fill-rule="nonzero"/></g></svg></span>
+            <span class="btn-dropdown_minus"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" opacity=".7"><path d="M0 0h24v24H0z"/><path d="M18 13H6a1 1 0 010-2h12a1 1 0 010 2z" fill="currentColor" fill-rule="nonzero"/></g></svg></span>
+                    <span class="sr-only">Dropdown Toggle</span>
+        </button>
+        
+                <a class="nav-link px-0 d-none d-lg-flex flex-shrink-1 order-lg-1"  href="/about" >
+                  <span class="d-none d-lg-flex align-items-center explore-link-text">Explore</span>
+          <span class="d-block d-lg-none">About</span>
+                </a>
+        
+                                      
+  <ul class="dropdown-menu bg-transparent position-static w-100 order-last border-0">
+    
+              
+                      <li class="nav-item d-lg-none">
+          <a class="nav-link px-0 explore-all">Overview </a>
+        </li>
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/about-stan-state/accreditation-achievements" >
+                  Accreditation &amp; Achievements
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/about-stan-state/campus-history" >
+                  Campus History
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/about-stan-state/mission-vision-values" >
+                  Mission, Vision &amp; Values
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/about-stan-state/points-pride" >
+                  Points of Pride
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/about-stan-state/university-leadership" >
+                  University Leadership
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="pr-lg-0">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/about-stan-state/contact-information" >
+                  Contact Information
+                </a>
+        
+                
+      </li>
+      </ul>
+  
+  
+        
+      </li>
+          
+      
+      <li class="nav-item dropdown-main d-flex flex-wrap align-items-start transition__ease-all pr-lg-0">
+
+                        
+                
+                        <button type="button" class="text-link bg-transparent border-0 shadow-none d-flex align-items-center justify-content-start flex-grow-1 text-white px-0 ">
+          <div class="nav-link d-flex pl-lg-0 pr-3">Giving</div>
+                      <span class="btn-dropdown_plus"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" opacity=".7"><path d="M0 0h24v24H0z"/><path d="M18 13h-5v5a1 1 0 01-2 0v-5H6a1 1 0 010-2h5V6a1 1 0 012 0v5h5a1 1 0 010 2z" fill="currentColor" fill-rule="nonzero"/></g></svg></span>
+            <span class="btn-dropdown_minus"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" opacity=".7"><path d="M0 0h24v24H0z"/><path d="M18 13H6a1 1 0 010-2h12a1 1 0 010 2z" fill="currentColor" fill-rule="nonzero"/></g></svg></span>
+                    <span class="sr-only">Dropdown Toggle</span>
+        </button>
+        
+                <a class="nav-link px-0 d-none d-lg-flex flex-shrink-1 order-lg-1"  href="/giving" >
+                  <span class="d-none d-lg-flex align-items-center explore-link-text">Explore</span>
+          <span class="d-block d-lg-none">Giving</span>
+                </a>
+        
+                                      
+  <ul class="dropdown-menu bg-transparent position-static w-100 order-last border-0">
+    
+              
+                      <li class="nav-item d-lg-none">
+          <a class="nav-link px-0 explore-all">Overview </a>
+        </li>
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/giving/warriors-first-employee-giving" >
+                  Employee Giving
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/giving/ways-give" >
+                  Ways To Give
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/giving/plan-your-gift" >
+                  Plan Your Gift
+                </a>
+        
+                
+      </li>
+          
+      
+      <li>
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/giving/naming-opportunities" >
+                  Naming Opportunities
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="pr-lg-0">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/giving/meet-development-team" >
+                  Contact the Team
+                </a>
+        
+                
+      </li>
+      </ul>
+  
+  
+        
+      </li>
+      </ul>
+  
+  
+
+
+  </nav>
+
+                </div>
+              
+                              <div class="col-12 col-lg-3 order-2 order-lg-1 header__quick-links mr-lg-2 ml-lg-3 pl-lg-4">
+                  <nav role="navigation" aria-labelledby="block-quicklinks-menu" id="block-quicklinks" data-block-plugin-id="system_menu_block:quick-links" class="block block-menu navigation menu--quick-links pt-4 pt-lg-0">
+      
+  <h2  id="block-quicklinks-menu" class="display-6 block-title d-none d-lg-block text-uppercase text-white">Quick Links</h2>
+  
+
+        
+
+        <nav block="quicklinks" class="nav navbar-nav row flex-row flex-lg-column">
+                        <div class="nav-item col-6 col-lg-12">
+          <a href="/incoming-students" class="nav-link px-0" data-drupal-link-system-path="node/28087">Incoming Students</a>
+        </div>
+                              <div class="nav-item col-6 col-lg-12">
+          <a href="/academic-calendar" title="Academic Calendar" class="nav-link px-0" data-drupal-link-system-path="node/25543">Academic Calendar</a>
+        </div>
+                              <div class="nav-item col-6 col-lg-12">
+          <a href="http://catalog.csustan.edu/" title="Academic Catalog" class="nav-link px-0">Academic Catalog</a>
+        </div>
+                              <div class="nav-item col-6 col-lg-12">
+          <a href="https://www.csustan.edu/people-search" title="People Search" class="nav-link px-0">People Search</a>
+        </div>
+                              <div class="nav-item col-6 col-lg-12">
+          <a href="https://outlook.office.com/" title="Email" class="nav-link px-0">Email</a>
+        </div>
+                              <div class="nav-item col-6 col-lg-12">
+          <a href="http://www.warriorathletics.com/" title="Athletics" class="nav-link px-0">Athletics</a>
+        </div>
+                              <div class="nav-item col-6 col-lg-12">
+          <a href="/news" title="News" class="nav-link px-0" data-drupal-link-system-path="node/41">News</a>
+        </div>
+                              <div class="nav-item col-6 col-lg-12">
+          <a href="/events" title="Events" class="nav-link px-0" data-drupal-link-system-path="node/39">Events</a>
+        </div>
+              </nav>
+  
+
+
+  </nav>
+
+                </div>
+                          </div>
+          </div>
+        </div>
+
+        <div class="utility-menu px-3 pt-2 pb-1 py-lg-1 pl-lg-4 pr-lg-1 mt-3 mt-lg-0">
+          <div class="col-12 pl-lg-1 pr-lg-0 mr-lg-2">
+                          <nav aria-hidden="false" role="navigation" aria-labelledby="block-utility-menu" id="block-utility" data-block-plugin-id="system_menu_block:utility" class="block block-menu navigation menu--utility">
+            
+  <h2 class="visually-hidden" id="block-utility-menu">Utility</h2>
+  
+
+        
+
+              <ul block="utility" class="nav navbar-nav flex-row font-sm text-uppercase">
+                    <li class="list-inline-item">
+                          <a href="/current-students" title="Resources for Current Students" class="py-0 nav-link" data-drupal-link-system-path="node/25312">Students</a>
+              </li>
+                <li class="list-inline-item">
+                          <a href="/faculty" title="Resources for Faculty" class="py-0 nav-link" data-drupal-link-system-path="node/25453">Faculty</a>
+              </li>
+                <li class="list-inline-item">
+                          <a href="/staff" title="Resources for Staff" class="py-0 nav-link" data-drupal-link-system-path="node/74">Staff</a>
+              </li>
+                <li class="list-inline-item">
+                          <a href="https://www.csustan.edu/alumni" title="Alumni" class="py-0 text-white">Alumni</a>
+              </li>
+                <li class="list-inline-item">
+                          <a href="https://www.csustan.edu/stockton-campus" title="Stockton Campus" class="py-0 text-white">Stockton Campus</a>
+              </li>
+                <li class="list-inline-item nolink">
+                          <span class="text-white py-0">/</span>
+              </li>
+                <li class="list-inline-item">
+                          <a href="https://www.csustan.edu/directories" title="A-Z directory on the old site" class="py-0 text-white">A-Z</a>
+              </li>
+                <li class="list-inline-item">
+                          <a href="https://www.csustan.edu/campus-maps" title="Maps" class="py-0 text-white">Maps</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+                      </div>
+        </div>
+
+      </div>
+
+    </nav>
+  </div>
+  </header>
+<div class="header-shadow" id="main-nav-header-shadow"></div>
+    
+        
+          
+    <main role="main" class="bg-light">
+      <a id="main-content" tabindex="-1"></a>                          <div class="region region-content">
+    <div id="block-csustan-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
+  
+    
+      
+<article role="article" about="/home" class="node node--type-landing-page node--view-mode-full">
+  <div class="node__content">
+    <div  class="_none"><div  class="w-100">
+  <div  class="layout row no-gutters layout-builder__layout">
+    
+                        <div  class="col-lg-12 col-md-12 col-12">
+          
+
+
+<div class="_none block-content-large-hero-banner block-view-mode-full block block-block-content block-block-content84d8f454-a2c7-4ed6-bae3-b546fb4735a2" data-block-plugin-id="block_content:84d8f454-a2c7-4ed6-bae3-b546fb4735a2">
+      
+    <div class="d-block bg-primary">
+      
+<div class="field field--name-field-large-banner-slide field--type-entity-reference field--label-hidden field__items">
+      
+          <div  class="field__item odd">
+        <div data-block-plugin-id="block_content:f263d579-3a68-4096-b760-a09b6a9d1145" class="block-content-large-banner-slide block-view-mode-default block block-block-content block-block-contentf263d579-3a68-4096-b760-a09b6a9d1145">
+  
+  
+    <div class="hero-content">
+    <div class="hero--media">
+      
+            <div class="field field--name-field-background-media field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-large">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/styles/large_banner_slide/public/2022-11/hero-banner-nextgen-on-board.png?itok=DekAKzvh" width="1440" height="774" alt="NextGen on Board" loading="lazy" typeof="foaf:Image" class="img-fluid image-style-large-banner-slide" />
+
+
+</div>
+      
+  </article>
+</div>
+      
+    </div>
+    <div class="hero--content position-relative ">
+        <div class="container h-100">
+            <div class="row h-100 d-flex justify-content-start align-items-center">
+                <div class="col-12 column h-100">
+                                                                    <h1 class="hero--title mb-3 mb-lg-4   display-1 ">
+                            NextGen on Board
+                        </h1>
+                                        <div class="row inner-content d-flex align-items-end align-items-lg-start flex-wrap  justify-content-between ">
+                                                    
+                            <div class="col-subtitle col-12 col-md-6">
+                            <h2 class="display-5 hero--subtitle d-flex flex-wrap mb-lg-3">
+                                Twelve Stan State Warriors are getting hands-on experience in nonprofit organization leadership.
+                            </h2>
+                            </div>
+                                                                            <div class="col-cta col-12 col-md-6 text-right mt-lg-auto">
+                            
+            <div class="field field--name-field-cta field--type-link field--label-hidden field__item"><a href="https://www.csustan.edu/news/twelve-warriors-selected-nextgen-board">Read the story</a></div>
+      
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+                              </div>
+  </div>
+  </div>
+
+      </div>
+          
+          <div  class="field__item even">
+        <div data-block-plugin-id="block_content:393add14-e9ed-4a66-8b27-ca8d5152ac5e" class="block-content-large-banner-slide block-view-mode-default block block-block-content block-block-content393add14-e9ed-4a66-8b27-ca8d5152ac5e">
+  
+  
+    <div class="hero-content">
+    <div class="hero--media">
+      
+            <div class="field field--name-field-background-media field--type-entity-reference field--label-hidden field__item"><article class="media media--type-video media--view-mode-large">
+  
+      
+  <div class="field field--name-field-media-video-file field--type-file field--label-visually_hidden">
+    <div class="field__label visually-hidden">Video file</div>
+              <div class="field__item">
+<video  autoplay="autoplay" loop="loop" muted="muted" width="1440" height="774" playsinline>
+      <source  src="/sites/default/files/2022-11/warrior-expo-hero-banner.mp4" type="video/mp4" />
+  </video>
+</div>
+          </div>
+
+  </article>
+</div>
+      
+    </div>
+    <div class="hero--content position-relative overlay-black-3">
+        <div class="container h-100">
+            <div class="row h-100 d-flex justify-content-start align-items-center">
+                <div class="col-12 column h-100">
+                                                                    <h1 class="hero--title mb-3 mb-lg-4   display-1 ">
+                            Be A Warrior
+                        </h1>
+                                        <div class="row inner-content d-flex align-items-end align-items-lg-start flex-wrap  justify-content-between ">
+                                                    
+                            <div class="col-subtitle col-12 col-md-6">
+                            <h2 class="display-5 hero--subtitle d-flex flex-wrap mb-lg-3">
+                                Join us, in the heart of the Central Valley, and use your talents and determination to make a difference.
+                            </h2>
+                            </div>
+                                                                            <div class="col-cta col-12 col-md-6 text-right mt-lg-auto">
+                            
+            <div class="field field--name-field-cta field--type-link field--label-hidden field__item"><a href="https://www.csustan.edu/admissions-aid">Start Your Journey.</a></div>
+      
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+                              <div class="position-absolute slick-video-control-wrapper">
+              <div class="col-cta col-12 col-md-6 text-right mt-lg-auto">
+                <button class="btn-slick-video-control"><a aria-hidden="false" title="pause/play video" class="fa fa-pause-circle-o fa-2x"></a></button>
+              </div>
+            </div>
+                      </div>
+  </div>
+  </div>
+
+      </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div><div  class="_none"><div  class="container">
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-lg-12 col-md-12 col-12">
+          
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div><div  class="bg-gray-900 text-white text-center _none pt-4 pb-4"><div  class="container">
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          <div class="_none block-content-horizontal-link block-view-mode-full block block-layout-builder block-inline-blockhorizontal-link" data-block-plugin-id="inline_block:horizontal_link" data-inline-block-uuid="d9475e96-c098-40f4-b11c-60bc144bec01">
+  
+  
+      <div class="border-bottom border-gray-450 mb-3 pb-3 text-center">
+      <h2 class="display-6 mb-0">
+                  COVID-19 Response
+              </h2>
+    </div>
+            <div class="row pt-1">
+                      <div class="column col-6 col-lg-4 mb-3 pb-1 odd">
+                      <div class="d-block">
+                                            <a href="https://cm.maxient.com/reportingform.php?CSUStanislaus&amp;layout_id=14" class="btn btn-link text-primary btn-inherit text-left">COVID-19 Reporting</a>
+                          </div>
+                  </div>
+                      <div class="column col-6 col-lg-4 mb-3 pb-1 even">
+                      <div class="d-block">
+                                            <a href="/covid-19" class="btn btn-link text-primary btn-inherit text-left">COVID-19 &amp; Campus Updates</a>
+                          </div>
+                  </div>
+                      <div class="column col-6 col-lg-4 mb-3 pb-1 odd">
+                      <div class="d-block">
+                                            <a href="https://apps.powerapps.com/play/3d0eb50b-5843-4a76-a399-df48471367de?tenantId=bee56907-13df-4af2-a4bf-d7ef0debc01c" class="btn btn-link text-primary btn-inherit text-left">Faculty Screening Form</a>
+                          </div>
+                  </div>
+                      <div class="column col-6 col-lg-4 mb-3 pb-1 even">
+                      <div class="d-block">
+                                            <a href="https://apps.powerapps.com/play/7c562b1b-9c67-4629-804c-de6ca34b6392?tenantId=bee56907-13df-4af2-a4bf-d7ef0debc01c" class="btn btn-link text-primary btn-inherit text-left">Staff/Student-Employee Screening Form</a>
+                          </div>
+                  </div>
+                      <div class="column col-6 col-lg-4 mb-3 pb-1 odd">
+                      <div class="d-block">
+                                            <a href="https://apps.powerapps.com/play/4d4c2015-7933-4e9e-af01-6749d3dd3a66?tenantId=bee56907-13df-4af2-a4bf-d7ef0debc01c" class="btn btn-link text-primary btn-inherit text-left">Student Screening Form</a>
+                          </div>
+                  </div>
+                      <div class="column col-6 col-lg-4 mb-3 pb-1 even">
+                      <div class="d-block">
+                                            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=B2nlvt8T8kqkv9fvDevAHATTSdbyXFhJmh-_H5Ulkm9UMlRIMTRXUEdHNFRaVlcxQ1czM0JXQVRXSyQlQCN0PWcu" class="btn btn-link text-primary btn-inherit text-left">Guest Screening Form</a>
+                          </div>
+                  </div>
+          </div>
+  </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div><div  class="pt-4 pt-lg-8 pb-lg-7 mb-9 mb-lg-11 bg-wavy-gold-100 _none"><div  class="container">
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-lg-12 col-md-12 col-12 pt-2 pt-lg-0">
+          <div class="_none block-content-large-news-events block-view-mode-full block block-block-content block-block-contentdcb23bf7-b8cc-416e-a905-28825c6c8914" data-block-plugin-id="block_content:dcb23bf7-b8cc-416e-a905-28825c6c8914">
+  
+  
+
+  <div class="row mb-4 mb-lg-5">
+    <div class="col-12 col-lg-7">
+      <h2 class="display-2">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">What’s going on</div>
+      <span class="d-block">
+            <div class="field field--name-field-subtext field--type-string field--label-hidden field__item">at Stan State</div>
+      </span></h2>
+    </div>
+    <div class="col-12 col-lg-5">
+              <div class="mb-3 mb-lg-4">
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="p4">Even during a pandemic, there are lots of ways to connect to fellow Warriors! Check out our upcoming events and recent news about your Stan State community.</p></div>
+      
+        </div>
+            <div class="d-flex flex-row mx-n2 mx-lg-n3 pl-lg-2">
+                  <div class="px-2 px-lg-3">
+            <a class="btn btn-primary" href="/news">Browse News</a>
+          </div>
+                          <div class="px-2 px-lg-3">
+            <a class="btn btn-white" href="/events">View Events</a>
+          </div>
+              </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-lg-6 mb-3 pb-1 mb-lg-0 pb-lg-0">
+      <div class="views-element-container"><div class="view view-featured-news view-id-featured_news view-display-id-featured_news_block js-view-dom-id-fbef485df2888d745e3bb0109645b1d034ff19242d42d662fc7d8a0dbec26f37">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+<article role="article" about="/news/dec-1-deadline-nears-diversity-equity-inclusion-and-social-justice-award-nominations" class="node node--type-article node--promoted node--view-mode-featured card b-0 rounded overflow-hidden">
+  
+  
+  <div class="node__content">
+    <a href="/news/dec-1-deadline-nears-diversity-equity-inclusion-and-social-justice-award-nominations" class="focus-visible-only">
+      <div class="featured-tag">
+        <span class="m-0">Featured News</span>
+      </div>
+                      <picture class="field--name-field-banner-image">
+          <source media="(max-width:992px)" srcset="/sites/default/files/styles/media_690x700/public/2022-11/pcdi-grant_card.png?itok=Qu9eI7tO">
+          <img src="/sites/default/files/styles/media_546x608/public/2022-11/pcdi-grant_card.png?itok=ANkf2eBg" width="546" height="608" alt="Scenic outdoor shot with Warrior Strong banner in the background.">
+        </picture>
+            <span class="field field--name-title field--type-string field--label-hidden">Dec. 1 Deadline Nears for Diversity, Equity, Inclusion and Social Justice Award Nominations </span>
+
+    </a>
+  </div>
+</article>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+    <div class="col-12 col-lg-6">
+      <h2 class="display-5 mt-2 mb-3 pb-1 mb-lg-4 pb-lg-2">Upcoming Events</h2>
+      <div class="views-element-container"><div class="view view-upcoming-virtual-events view-id-upcoming_virtual_events view-display-id-upcoming_virtual_events_block js-view-dom-id-589a5b0b11808ea16187c37407dcf926eaa4a457bae6f6b629df4f841cd9dc95">
+  
+    
+      
+      <div class="view-content">
+      
+            
+        
+    <div class="views-row event-wrapper" data-order-date="2022-11-28 12:00:00">
+
+
+
+<article role="article" about="/events/dr-tammy-wu-womens-campus-connection-speaker-series" class="node node--type-event node--promoted node--view-mode-upcoming-teaser mb-4 pb-1 mb-lg-4 pb-lg-3">
+  
+  
+  <div class="node__content row flex-nowrap align-items-start">
+    <div class="col-auto col-date ml-1 ml-lg-0">
+      <div class="d-flex flex-column align-items-center justify-content-center">
+                  <h3 class="display-5 month mb-0">Nov</h3>
+          <h4 class="display-2 day">28</h4>
+              </div>
+    </div>
+    <div class="col col-content ml-lg-1">
+      <h2 class="display-6 title mb-lg-3"><a class="text-gray-900" href="/events/dr-tammy-wu-womens-campus-connection-speaker-series">Dr. Tammy Wu: Women&#039;s Campus Connection Speaker Series</a></h2>
+      <div class="event-date mb-1">
+                                          <span>Mon., Nov. 28.</span>
+                                <span>12 - 1 p.m.</span>
+            PST
+                        </div>
+      <div class="d-block">
+                  <a class="link" href="/events/dr-tammy-wu-womens-campus-connection-speaker-series" aria-label="See event Dr. Tammy Wu: Women&#039;s Campus Connection Speaker Series">See event </a>
+              </div>
+    </div>
+  </div>
+</article>
+</div>
+
+            
+        
+    <div class="views-row event-wrapper" data-order-date="2022-11-30 16:00:00">
+
+
+
+<article role="article" about="/events/black-jewish-voices-exploring-kanye-kyrie-controversy" class="node node--type-event node--promoted node--view-mode-upcoming-teaser mb-4 pb-1 mb-lg-4 pb-lg-3">
+  
+  
+  <div class="node__content row flex-nowrap align-items-start">
+    <div class="col-auto col-date ml-1 ml-lg-0">
+      <div class="d-flex flex-column align-items-center justify-content-center">
+                  <h3 class="display-5 month mb-0">Nov</h3>
+          <h4 class="display-2 day">30</h4>
+              </div>
+    </div>
+    <div class="col col-content ml-lg-1">
+      <h2 class="display-6 title mb-lg-3"><a class="text-gray-900" href="/events/black-jewish-voices-exploring-kanye-kyrie-controversy">Black &amp; Jewish Voices: Exploring the Kanye &amp; Kyrie Controversy</a></h2>
+      <div class="event-date mb-1">
+                                                      <span>Wed., Nov. 30 - Fri., Dec. 02.</span>
+                                <span>4 - 5 p.m.</span>
+            PST
+                        </div>
+      <div class="d-block">
+                  <a class="link" href="/events/black-jewish-voices-exploring-kanye-kyrie-controversy" aria-label="See event Black &amp; Jewish Voices: Exploring the Kanye &amp; Kyrie Controversy">See event </a>
+              </div>
+    </div>
+  </div>
+</article>
+</div>
+
+            
+        
+    <div class="views-row event-wrapper" data-order-date="2022-11-30 12:00:00">
+
+
+
+<article role="article" about="/events/presidents-virtual-office-hour-nov-30" class="node node--type-event node--promoted node--view-mode-upcoming-teaser mb-4 pb-1 mb-lg-4 pb-lg-3">
+  
+  
+  <div class="node__content row flex-nowrap align-items-start">
+    <div class="col-auto col-date ml-1 ml-lg-0">
+      <div class="d-flex flex-column align-items-center justify-content-center">
+                  <h3 class="display-5 month mb-0">Nov</h3>
+          <h4 class="display-2 day">30</h4>
+              </div>
+    </div>
+    <div class="col col-content ml-lg-1">
+      <h2 class="display-6 title mb-lg-3"><a class="text-gray-900" href="/events/presidents-virtual-office-hour-nov-30">President&#039;s Virtual Office Hour on Nov. 30</a></h2>
+      <div class="event-date mb-1">
+                                          <span>Wed., Nov. 30.</span>
+                                <span>12 - 1 p.m.</span>
+            PST
+                        </div>
+      <div class="d-block">
+                  <a class="link" href="/events/presidents-virtual-office-hour-nov-30" aria-label="See event President&#039;s Virtual Office Hour on Nov. 30">See event </a>
+              </div>
+    </div>
+  </div>
+</article>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div><div  class="overlay-black-5 mb-8 mb-lg-7 _none" style="background-image: url(/sites/default/files/2021-06/at-a-glance-homepage_1.png); background-position: center; background-repeat: no-repeat; background-size: cover;"><div  class="container">
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-lg-12 col-md-12 col-12">
+          
+
+<div class="_none block-content-stats block-view-mode-full block block-layout-builder block-inline-blockstats py-4 py-lg-7 mt-2" data-block-plugin-id="inline_block:stats" data-inline-block-uuid="702121e1-1e4b-4a3f-b8d7-7ccc818f1af6">
+  
+  
+
+  <div class="block-content">
+    <div class="row mb-3 mb-lg-5 block-text">
+      <div class="col-12 col-lg-7">
+                  <h2  class="block-title display-2">At A Glance</h2>
+              </div>
+      <div class="col-12 col-lg-5">
+        <div class="pb-0 pb-lg-2">
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="p4">Our small class sizes, breadth of programs and vibrant campus life mean that at Stan State you’ll find opportunities, connections and the best path forward for you.</p></div>
+      
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-stretch pb-2 pb-lg-3">
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <span class="btn-inherit">22:1<span/>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">Student-to-Faculty ratio</div>
+      
+        </div>
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <span class="btn-inherit">45<span/>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">Undergraduate Programs</div>
+      
+        </div>
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <span class="btn-inherit">14<span/>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">Graduate Programs</div>
+      
+        </div>
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <span class="btn-inherit">80+<span/>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">Student Clubs &amp; Organizations</div>
+      
+        </div>
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <a href="https://www.csustan.edu/news/stan-state-earns-two-top-10-spots-washington-monthlys-2022-rankings" class="btn-inherit text-white text-decoration-underline">No. 5</a>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">In the West on &#039;Best Bang for the Buck&#039; Ranking</div>
+      
+        </div>
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <a href="https://www.csustan.edu/news/stanislaus-state-among-princeton-reviews-best-colleges" class="btn-inherit text-white text-decoration-underline">17th</a>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">Straight Year on The Princeton Review&#039;s &#039;Best 388&#039; List</div>
+      
+        </div>
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <a href="/news/no-5-most-transformative-2020" class="btn-inherit text-white text-decoration-underline">No. 5</a>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">&#039;Most Transformative&#039; by Money Magazine</div>
+      
+        </div>
+              <div class="col-6 col-lg-3 mb-4 mb-lg-6">
+                      <div class="field--name-field-big-text">
+                                            <a href="https://www.csustan.edu/news/stanislaus-state-moves-us-news-world-report-rankings" class="btn-inherit text-white text-decoration-underline">No. 4</a>
+                          </div>
+                    
+            <div class="field field--name-field-stat-item-text field--type-string field--label-hidden field__item">For Social Mobility in the West</div>
+      
+        </div>
+          </div>
+
+          <div class="block-explore-cta">
+                  <h3 class="display-5 text-center mb-4 pb-1 pb-lg-3">Explore Stan State</h3>
+                <div class="row item-list">
+                      <div class="col-12 col-lg-3  mb-4 pb-2 mb-lg-0 pb-lg-0 ">
+              <div class="item-content d-flex flex-wrap flex-row align-items-center justify-content-start flex-lg-column align-items-lg-center justify-content-lg-center">
+                <div class="mb-lg-3">
+                  
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/2021-07/icon-360.png" width="453" height="445" alt="schedule a tour icon" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </article>
+</div>
+      
+                </div>
+                                  <a class="btn btn-link text-white ml-4 mx-lg-2" href="/undergrad/campus-tours">
+                    Schedule a Tour
+                  </a>
+                              </div>
+            </div>
+                      <div class="col-12 col-lg-3  mb-4 pb-2 mb-lg-0 pb-lg-0 ">
+              <div class="item-content d-flex flex-wrap flex-row align-items-center justify-content-start flex-lg-column align-items-lg-center justify-content-lg-center">
+                <div class="mb-lg-3">
+                  
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/2020-12/icon-place.svg" alt="Location pin on map icon" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </article>
+</div>
+      
+                </div>
+                                  <a class="btn btn-link text-white ml-4 mx-lg-2" href="/majors-programs">
+                    Majors &amp; Programs
+                  </a>
+                              </div>
+            </div>
+                      <div class="col-12 col-lg-3  mb-4 pb-2 mb-lg-0 pb-lg-0 ">
+              <div class="item-content d-flex flex-wrap flex-row align-items-center justify-content-start flex-lg-column align-items-lg-center justify-content-lg-center">
+                <div class="mb-lg-3">
+                  
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/2021-07/icon-Cost%20Aid.png" width="226" height="226" alt="cost and aid icon" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </article>
+</div>
+      
+                </div>
+                                  <a class="btn btn-link text-white ml-4 mx-lg-2" href="/admissions-aid">
+                    Cost &amp; Aid
+                  </a>
+                              </div>
+            </div>
+                      <div class="col-12 col-lg-3 ">
+              <div class="item-content d-flex flex-wrap flex-row align-items-center justify-content-start flex-lg-column align-items-lg-center justify-content-lg-center">
+                <div class="mb-lg-3">
+                  
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  
+  <img src="/sites/default/files/2021-07/icon-Career%20Opportunities.png" width="511" height="475" alt="career opportunities icon" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+</div>
+      
+  </article>
+</div>
+      
+                </div>
+                                  <a class="btn btn-link text-white ml-4 mx-lg-2" href="https://www.csustan.edu/hr/career-opportunities">
+                    Career Opportunities
+                  </a>
+                              </div>
+            </div>
+                  </div>
+      </div>
+      </div>
+</div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div><div  class="mb-9 mb-lg-14 pb-lg-4 _none"><div  class="w-100">
+  <div  class="layout row no-gutters layout-builder__layout">
+    
+                        <div  class="col-lg-12 col-md-12 col-12">
+          
+
+<div class="_none block-content-warrior-spotlight block-view-mode-full block block-layout-builder block-inline-blockwarrior-spotlight" data-block-plugin-id="inline_block:warrior_spotlight" data-inline-block-uuid="8d84a03a-31b0-4818-84bc-aeeab7d3c830">
+  
+  
+  <div class="container">
+    <div class="row align-items-center flex-lg-nowrap">
+      <div class="col-12 col-lg-4 block-text">
+        <div class="section-content">
+                      <div class="field-body-wrapper pr-lg-3 pb-2 mb-2 mb-lg-10 mr-auto">
+              
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="p4">Warriors are strong. Warriors are proud. Warriors are committed to having a positive impact on the world. Check out what some of the students, faculty, staff and alumni are doing to make a difference in the region and beyond.</p></div>
+      
+            </div>
+                                <h2 class="block-title display-2">Warrior Spotlight</h2>
+                  </div>
+      </div>
+      <div class=" col-12 col-lg-9 col-xl-12 block-slider">
+        <div class="section-content py-5 mt-2 mt-lg-5 pl-lg-6 pr-lg-5 ">
+                      <div class="views-element-container">
+
+
+<div class="view view-spotlight-news view-id-spotlight_news view-display-id-spotlight_news_block js-view-dom-id-ffae2fa1a31468e9456bd096372aaf98695d334f7500dd99868f4bfc0a598eec">
+  
+    
+      
+      <div class="view-content mb-4 pb-2 mb-lg-5 pb-lg-4 row-matcheight-byrow">
+          <div class="views-row"><article role="article" about="/news/organization-devoted-student-affairs-higher-ed-names-miguel-jimenez-best-region" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Miguel Jimenez
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/organization-devoted-student-affairs-higher-ed-names-miguel-jimenez-best-region">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="Miguel Jimenez" title="miguel-card.png" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-10/miguel-card.png?itok=8g7yQTmA" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/organization-devoted-student-affairs-higher-ed-names-miguel-jimenez-best-region">Organization Devoted to Student Affairs in Higher Ed Names Miguel Jimenez &#039;Best in the Region&#039;</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">Coordinator of Stan State&#039;s Male Success Initiative to be Honored Nov. 14 During Virtual Award Ceremony</div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+    <div class="views-row"><article role="article" about="/news/hispanic-heritage-foundation-award-presented-warrior-ruben-marquez-jimenez" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Ruben Marquez Jimenez
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/hispanic-heritage-foundation-award-presented-warrior-ruben-marquez-jimenez">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="Ruben Marquez Jimenez" title="ruben-marquez-jimenez_card.gif" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-10/ruben-marquez-jimenez_card.gif?itok=8kaAExEC" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/hispanic-heritage-foundation-award-presented-warrior-ruben-marquez-jimenez">Hispanic Heritage Foundation Award Presented to Warrior Ruben Marquez Jimenez</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">The Third-Year Student Traveled to Washington D.C. Last Month and Participated in Two Days of Activities that Included a Q&amp;A Forum at the White House </div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+    <div class="views-row"><article role="article" about="/news/recipient-byrd-memorial-scholarship-moises-nunez-aspires-medical-school" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Moises Nuñez
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/recipient-byrd-memorial-scholarship-moises-nunez-aspires-medical-school">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="James Byrd Memorial Scholarship Winner Moises Nunez" title="moises-nunes-resized-3.jpg" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-05/moises-nunes-resized-3.jpg?itok=4Z5o8blL" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/recipient-byrd-memorial-scholarship-moises-nunez-aspires-medical-school">Recipient of Byrd Memorial Scholarship Moises Nuñez Aspires to Medical School</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">High School Sports Injury Set Him on Course to Become a Surgeon</div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+    <div class="views-row"><article role="article" about="/news/presidents-central-valley-first-generation-scholar-rosa-valencia-sanchez" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Rosa Valencia Sanchez
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/presidents-central-valley-first-generation-scholar-rosa-valencia-sanchez">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="First-Generation Scholarship Recipient Rosa Valencia Sanchez" title="valencia-sanchez.png" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-05/valencia-sanchez.png?itok=W4wx7JOw" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/presidents-central-valley-first-generation-scholar-rosa-valencia-sanchez">President’s Central Valley First-Generation Scholar Rosa Valencia Sanchez</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">Mom’s Example Inspired Communications and Psychology Major to Pursue Her Dreams</div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+    <div class="views-row"><article role="article" about="/news/making-difference-teaching-future-teachers" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Arturo Nevárez
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/making-difference-teaching-future-teachers">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="Assistant Professor Arturo Nevarez" title="arturo-nevarez-rszd.png" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-05/arturo-nevarez-rszd.png?itok=VbJE2NRQ" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/making-difference-teaching-future-teachers">Making a Difference by Teaching Future Teachers</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">Assistant Professor Arturo Nevárez Receives National Honor for Racial Literacy Research </div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+    <div class="views-row"><article role="article" about="/news/presidents-central-valley-first-generation-scholar-jimena-mojica-camarena" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Jimena Mojica-Camarena
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/presidents-central-valley-first-generation-scholar-jimena-mojica-camarena">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="Jimena Mojica-Camarena" title="jimena-mojica-camarena_card.jpg" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-05/jimena-mojica-camarena_card.jpg?itok=P8EwdABf" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/presidents-central-valley-first-generation-scholar-jimena-mojica-camarena">President’s Central Valley First-Generation Scholar Jimena Mojica-Camarena</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">Future Educator Inherits Her Drive from Hard-Working Parents</div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+    <div class="views-row"><article role="article" about="/news/warriors-work-geng-liu" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Geng Liu
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/warriors-work-geng-liu">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="Geng Liu" title="20220323-geng-liu-card.png" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-04/20220323-geng-liu-card.png?itok=ycHVagGy" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/warriors-work-geng-liu">Warriors at Work: Geng Liu</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">From China to Stan Stan, Geng Liu Landed in a Job He Loves</div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+    <div class="views-row"><article role="article" about="/news/stan-state-hires-new-director-psychological-counseling-services" class="node node--type-article node--promoted node--view-mode-spotlight-card bg-primary">
+  <div class="node__content text-center">
+    <div class="card-title p-0 bg-transparent mb-3 mb-lg-4">
+      <h3 class="display-3 text-secondary font-weight-bold">
+            Cynthia Borges-O’Dell
+      </h3>
+    </div>
+    <div class="card-img-top mb-3 mb-lg-4">
+              <a href="/news/stan-state-hires-new-director-psychological-counseling-services">
+            <div data-blazy="" class="blazy blazy--field blazy--field-card-image blazy--field-card-image---custom field field--name-field-card-image field--type-entity-reference field--label-hidden field__item">
+
+
+
+
+                  <div class="media media--blazy media--bundle--image media--loading is-b-loading media--image">
+  <img alt="Cynthia Borges-O&#039;Dell" title="cynthia-borges-odell.png" class="media__image media__element b-lazy img-fluid" data-src="/sites/default/files/styles/media_380x570/public/2022-02/cynthia-borges-odell.png?itok=Qu-0Nq_c" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%20380%20570&#039;%2F%3E" width="380" height="570" loading="lazy" typeof="foaf:Image" />
+        </div>
+        
+  
+</div>
+      </a>
+          </div>
+    <div class="d-block stan-logo mb-1"></div>
+    <div class="card-footer p-0 m-0 bg-transparent border-0">
+      <div class="d-block field--name-title mb-1 mb-lg-0">
+        <a href="/news/stan-state-hires-new-director-psychological-counseling-services">Stan State Hires New Director for Psychological Counseling Services</a>
+      </div>
+      
+            <div class="field field--name-field-subtitle field--type-string field--label-hidden field__item">Cynthia Borges-O’Dell Relishes Opportunity to Give Back to Her Alma Mater </div>
+      
+    </div>
+  </div>
+</article>
+
+</div>
+
+    </div>
+  
+          
+  <div class="slider-controls"></div>
+</div>
+</div>
+
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div><div  class="mb-10 mb-lg-11 text-white _none pt-3 pb-3" style="background-image: url(/sites/default/files/2021-02/PingPongBG_Green.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"><div  class="container">
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-lg-12 col-md-12 col-12">
+          <div class="_none block-content-ping-pong block-view-mode-full block block-layout-builder block-inline-blockping-pong row align-items-center" data-block-plugin-id="inline_block:ping_pong" data-inline-block-uuid="4d997010-5cfb-411e-91d1-dc54fe92b914">
+  
+  
+  <div class="col-12 col-lg-6 order-lg-2">
+
+          <h2 class="display-3 mb-lg-3">Go Warriors!</h2>
+    
+        <div class="text-left mt-3">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Stanislaus State is a member of the NCAA Division II and fields 14 men’s and women’s athletics teams in the California Collegiate Athletic Association (CCAA) and the Pacific West Conference. Our teams consistently compete for conference and national championships while maintaining high academic standards for our student-athletes.</p></div>
+      
+    </div>
+    
+        <div class="my-4">
+      
+            <div class="field field--name-field-cta field--type-link field--label-hidden field__item"><a href="http://www.warriorathletics.com/" class="btn btn-secondary">Explore Athletics</a></div>
+      
+    </div>
+    
+    
+      <div class="field field--name-field-additional-links field--type-link field--label-hidden field__items">
+              <div class="field__item"><a href="https://warriorathletics.com/news/2020/3/23/general-athletics-coronavirus-covid-19-news-and-information.aspx" class="btn btn-link text-white btn-inherit">COVID-19 Information for Athletes</a></div>
+          </div>
+  
+  </div>
+  <div class="col-12 col-lg-6 order-lg-1">
+    
+            <div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item">  
+  <img src="/sites/default/files/styles/media_540x520/public/2021-06/valley%20tough.png?itok=J95TbVWe" width="540" height="520" alt="Valley Tough" loading="lazy" typeof="foaf:Image" class="img-fluid image-style-media-540x520" />
+
+
+</div>
+      
+  </div>
+</div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div><div  class="pb-7 pb-lg-9 scol1-mb-6 scol1-mb-lg-10 bg-black _none" style="background-image: url(/sites/default/files/2021-02/LakeBG_Red%402x.jpg); background-position: right bottom; background-repeat: repeat-x; background-size: cover;"><div  class="container">
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-lg-12 col-md-12 col-12">
+          
+
+<div class="_none mb-4 block-content-social block-view-mode-full block block-block-content block-block-content33a92100-4c74-48ee-803b-f77c7da8830e" data-block-plugin-id="block_content:33a92100-4c74-48ee-803b-f77c7da8830e">
+  
+  
+  <div class="underlay"></div>
+  <div class="block-content">
+    <div class="row mb-4 pb-2 mb-lg-5 pb-lg-0 block-text">
+      <div class="col-12 col-lg-7">
+                  <h2  class="block-title display-2">Connect with Stan State</h2>
+              </div>
+      <div class="col-12 col-lg-5">
+        <div class="pb-0 pb-lg-2">
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="p4">Follow us on social and be a part of the conversation — and be in the know about all upcoming events and opportunities for Warriors, on campus and off.</p></div>
+      
+        </div>
+              </div>
+    </div>
+    <div class="block-slider">
+      <div data-blazy="" class="slick blazy slick--field slick--field-social-cards slick--field-social-cards--default slick--optionset--social-cards slick--multiple-view" id="slick-block-content-social-social-cards-default-446-1"><div id="slick-block-content-social-social-cards-default-446-1-slider" data-slick="{&quot;mobileFirst&quot;:true,&quot;accessibility&quot;:false,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:7000,&quot;arrows&quot;:false,&quot;centerMode&quot;:true,&quot;draggable&quot;:false,&quot;infinite&quot;:false,&quot;lazyLoad&quot;:&quot;blazy&quot;,&quot;slidesToShow&quot;:1.23,&quot;speed&quot;:1000,&quot;touchMove&quot;:false,&quot;responsive&quot;:[{&quot;breakpoint&quot;:768,&quot;settings&quot;:&quot;unslick&quot;}]}" class="slick__slider"><div class="slick__slide slide slide--0 slide--text"><div class="card bg-transparent border-0"><a  href="https://twitter.com/stan_state/status/1589709708939923456?cxt=HHwWgMDUldij5I8sAAAA" title="@stan_state"><div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><img src="/sites/default/files/styles/media_350x350/public/2022-11/four-seasons-on-campus.png?itok=-GA5bMOT" width="350" height="350" alt="four seasons on campus" loading="lazy" typeof="foaf:Image" class="img-fluid image-style-media-350x350" /></div></a><div class="social-icon"><a href="https://twitter.com/stan_state" title=""><div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default"><div class="field field--name-field-media-image field--type-image field--label-hidden field__item"><img src="/sites/default/files/2021-01/twitter%20%281%29.png" width="40" height="40" alt="twitter icon" loading="lazy" typeof="foaf:Image" class="img-fluid" /></div></article></div></a></div><div class="card-body px-0 pt-1"><h2 class="display-6 card-title mb-0 mb-lg-1"><div class="field field--name-field-social-media-handle field--type-link field--label-hidden field__item"><a href="https://twitter.com/stan_state">@stan_state</a></div></h2><p class="field--name-field-snippet mb-0">
+                #StanState is beautiful no matter the season! ❤️💛 But we want to know, wh...
+      </p></div></div></div><div class="slick__slide slide slide--1 slide--text"><div class="card bg-transparent border-0"><a  href="https://www.instagram.com/p/CkwE8E_LpNX/" title="@stanstate"><div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><img src="/sites/default/files/styles/media_350x350/public/2022-10/denise-wickham_classroom_card.png?itok=CRLUReSH" width="350" height="350" alt="Denise Wickham" loading="lazy" typeof="foaf:Image" class="img-fluid image-style-media-350x350" /></div></a><div class="social-icon"><a href="https://www.instagram.com/stanstate" title=""><div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default"><div class="field field--name-field-media-image field--type-image field--label-hidden field__item"><img src="/sites/default/files/2021-01/Instagram%20Copy.png" width="40" height="40" alt="instagram icon" loading="lazy" typeof="foaf:Image" class="img-fluid" /></div></article></div></a></div><div class="card-body px-0 pt-1"><h2 class="display-6 card-title mb-0 mb-lg-1"><div class="field field--name-field-social-media-handle field--type-link field--label-hidden field__item"><a href="https://www.instagram.com/stanstate">@stanstate</a></div></h2><p class="field--name-field-snippet mb-0">
+                #StanState alumna and Ceres Unified School District Superintendent Denise...
+      </p></div></div></div><div class="slick__slide slide slide--2 slide--text"><div class="card bg-transparent border-0"><a  href="https://www.facebook.com/stanstate/photos/a.407218309212/10159665409594213/" title="@stanstate"><div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"><img src="/sites/default/files/styles/media_350x350/public/2022-11/veterans-day-flag.png?itok=YYZiNzs6" width="350" height="350" alt="American flag" loading="lazy" typeof="foaf:Image" class="img-fluid image-style-media-350x350" /></div></a><div class="social-icon"><a href="https://www.facebook.com/stanstate" title=""><div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default"><div class="field field--name-field-media-image field--type-image field--label-hidden field__item"><img src="/sites/default/files/2021-01/Facebook%20Copy.png" width="40" height="40" alt="facebook icon" loading="lazy" typeof="foaf:Image" class="img-fluid" /></div></article></div></a></div><div class="card-body px-0 pt-1"><h2 class="display-6 card-title mb-0 mb-lg-1"><div class="field field--name-field-social-media-handle field--type-link field--label-hidden field__item"><a href="https://www.facebook.com/stanstate">@stanstate</a></div></h2><p class="field--name-field-snippet mb-0">
+                On this #VeteransDay, we honor and thank our veterans from all branches o...
+      </p></div></div></div></div><nav role="navigation" class="slick__arrow"><button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0">Previous</button><button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0">Next</button></nav></div>
+    </div>
+  </div>
+</div>
+<div class="text-white _none pt-3 block-content-campus-and-college block-view-mode-full block block-layout-builder block-inline-blockcampus-and-college" data-block-plugin-id="inline_block:campus_and_college" data-inline-block-uuid="b174a7b0-4c5b-4db8-a43f-ff461865bc4c">
+  
+  
+      <div class="row">
+      <div class="col-12 col-lg-6 mb-5 pb-1 mb-lg-0 pb-lg-0">
+        
+<h3 class="display-3 mb-3 pb-1 mb-lg-4 pb-lg-3">2 Campuses</h3>
+<div class="field field--name-field-campus-links field--type-entity-reference field--label-above field__items">
+      
+          <div  class="field__item odd mb-4 pb-lg-3">
+        <div data-block-plugin-id="block_content:826e2afc-b1a2-4539-902e-424de296b00d" class="block-content-campus-link block-view-mode-full block block-block-content block-block-content826e2afc-b1a2-4539-902e-424de296b00d">
+  
+  
+      <h2 class="display-4 item-title">
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><span>Turlock</span></div>
+      </h2>
+        <a class="link-item external text-white btn-inherit" href="https://maps.google.com/?q=1 University Circle, Turlock, CA 95382" target="_blank" rel="nofollow">1 University Circle, Turlock, CA 95382</a>
+  </div>
+
+      </div>
+          
+          <div  class="field__item even mb-4 pb-lg-3">
+        <div data-block-plugin-id="block_content:92dd6e37-c595-4bd1-b8a5-c6ed6983e67b" class="block-content-campus-link block-view-mode-full block block-block-content block-block-content92dd6e37-c595-4bd1-b8a5-c6ed6983e67b">
+  
+  
+      <h2 class="display-4 item-title">
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="https://www.csustan.edu/stockton-campus">Stockton</a></div>
+      </h2>
+        <a class="link-item external text-white btn-inherit" href="https://maps.google.com/?q=612 E Magnolia Street, Stockton, CA 95202" target="_blank" rel="nofollow">612 E Magnolia Street, Stockton, CA 95202</a>
+  </div>
+
+      </div>
+      </div>
+
+      </div>
+      <div class="col-12 col-lg-6">
+        
+<h3 class="display-3 mb-3 pb-2 mb-lg-4 pb-lg-3">4 Colleges</h3>
+<div class="field field--name-field-college-links field--type-link field--label-above">
+      <div class="field__items row">
+        <div class="field__item col-12 col-lg-6 mb-4 pb-2 pb-lg-3">
+      <a class="link-item btn-link text-white btn-inherit d-block mr-2" href="https://www.csustan.edu/cba">
+        <span class="d-block font-weight-normal mb-2">College of</span>
+        Business Administration
+      </a>
+    </div>
+      <div class="field__item col-12 col-lg-6 mb-4 pb-2 pb-lg-3">
+      <a class="link-item btn-link text-white btn-inherit d-block mr-2" href="https://www.csustan.edu/cahss">
+        <span class="d-block font-weight-normal mb-2">College of</span>
+        Arts, Humanities &amp; Social Sciences
+      </a>
+    </div>
+      <div class="field__item col-12 col-lg-6 mb-4 pb-2 pb-lg-3">
+      <a class="link-item btn-link text-white btn-inherit d-block mr-2" href="https://www.csustan.edu/coeksw">
+        <span class="d-block font-weight-normal mb-2">College of</span>
+        Education, Kinesiology &amp; Social Work
+      </a>
+    </div>
+      <div class="field__item col-12 col-lg-6 mb-4 pb-2 pb-lg-3">
+      <a class="link-item btn-link text-white btn-inherit d-block mr-2" href="https://www.csustan.edu/cos">
+        <span class="d-block font-weight-normal mb-2">College of</span>
+        Science
+      </a>
+    </div>
+        </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div></div>
+  </div>
+</article>
+
+  </div>
+
+  </div>
+
+                  </main>
+  
+
+  
+    <footer class="main-footer">
+  <div class="bg-primary text-light pt-4 pt-lg-5 pb-3">
+    <div class=" mt-2 mt-lg-0 container">
+      <div class="row mb-lg-4 pb-lg-2">
+
+                <div class="col-12 col-xl-4 text-link-light mb-lg-5 mb-xl-0">
+          <div class="block-views-exposed-filter-blocksearch-page">
+            <form action="/search" accept-charset="UTF-8">
+              <div class="form--inline">
+                <div class="form-item js-form-item-keywords form-item-keywords">
+                  <label for="search-keywords" class="visually-hidden">Search</label>
+                  <input id="search-keywords" placeholder="Search Stan State" type="text" name="keywords" size="30" maxlength="128" class="form-control">
+                </div>
+                <div class="form-actions">
+                  <input class="unstyled button js-form-submit form-submit btn form-control" type="submit" value="Search">
+                </div>
+              </div>
+            </form>
+          </div>
+          <nav aria-hidden="false" role="navigation" aria-labelledby="block-footer-short-nav-menu" id="block-footer-short-nav" data-block-plugin-id="system_menu_block:footer-short-nav" class="block block-menu navigation menu--footer-short-nav">
+            
+  <h2 class="visually-hidden" id="block-footer-short-nav-menu">Footer Short Nav</h2>
+  
+
+        
+
+              <ul block="footer_short_nav" class="nav navbar-nav">
+                    <li class="nav-item">
+                          <a href="/a-z" class="nav-link" data-drupal-link-system-path="node/1522">A-Z Directory</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/people" class="nav-link" data-drupal-link-system-path="node/51">People Search</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+          <div id="block-social-media-links" data-block-plugin-id="social_media_links_block" class="block-social-media-links block block-social-media-links-block">
+  
+    
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/stan_state"  target="_blank" rel="nofollow" aria-label="Twitter" title="Twitter" >
+        <span class='fa fa-twitter fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/stanstate"  target="_blank" rel="nofollow" aria-label="Facebook" title="Facebook" >
+        <span class='fa fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--youtube" href="https://www.youtube.com/user/CSUStanNews/videos"  target="_blank" rel="nofollow" aria-label="Youtube" title="Youtube" >
+        <span class='fa fa-youtube fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/stanstate"  target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram" >
+        <span class='fa fa-instagram fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--linkedin" href="https://www.linkedin.com/school/stanislaus-state"  target="_blank" rel="nofollow" aria-label="LinkedIn" title="LinkedIn" >
+        <span class='fa fa-linkedin fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+  </div>
+
+          
+        </div>
+        
+                <div class="col-12 col-xl-8 text-link-light mb-4 pb-3 mb-lg-0 pb-lg-3 mt-lg-n2">
+            <div class="region region-footer-two">
+    <nav aria-hidden="false" role="navigation" aria-labelledby="block-footer-main-menu-menu" id="block-footer-main-menu" data-block-plugin-id="system_menu_block:main" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-footer-main-menu-menu">Main navigation</h2>
+  
+
+        
+        <ul block="footer_main_menu" class="nav navbar-nav flex-column flex-wrap">
+  
+              
+      
+      <li class="nav-item">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/admissions-aid" >
+                  Admissions &amp; Aid
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="nav-item">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/majors-programs" >
+                  Majors &amp; Programs
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="nav-item">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/campus-life" >
+                  Campus Life
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="nav-item">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/about" >
+                  About
+                </a>
+        
+                
+      </li>
+          
+      
+      <li class="nav-item pr-lg-0">
+
+                        
+                
+                
+                <a class="nav-link px-0"  href="/giving" >
+                  Giving
+                </a>
+        
+                
+      </li>
+      </ul>
+  
+  
+
+
+  </nav>
+<nav aria-hidden="false" role="navigation" aria-labelledby="block-csustan-footer-menu" id="block-csustan-footer" data-block-plugin-id="system_menu_block:footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-csustan-footer-menu">Footer menu</h2>
+  
+
+        
+
+              <ul block="csustan_footer" class="nav navbar-nav">
+                    <li class="nav-item">
+                          <a href="https://www.csustan.edu/accessible-technology-initiative" class="nav-link">Accessibility</a>
+              </li>
+                <li class="nav-item">
+                          <a href="https://www.csustan.edu/compliance/annual-security-report" class="nav-link">Annual Security Report</a>
+              </li>
+                <li class="nav-item">
+                          <a href="https://www.csustan.edu/hr/career-opportunities" class="nav-link">Career Opportunities</a>
+              </li>
+                <li class="nav-item">
+                          <a href="https://www.csustan.edu/about/contact-information" title="Contacts at Stan State" class="nav-link">Contact Us</a>
+              </li>
+                <li class="nav-item">
+                          <a href="https://www.csustan.edu/emergency" class="nav-link">Emergency Information</a>
+              </li>
+                <li class="nav-item">
+                          <a href="https://www.csustan.edu/epc" class="nav-link">Equity Programs/Title IX</a>
+              </li>
+                <li class="nav-item">
+                          <a href="https://www.csustan.edu/maps-directions" class="nav-link">Maps &amp; Directions</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+        
+                <div class="col-12 mb-2 mt-lg-4 pt-lg-5">
+            <div class="region region-footer-three">
+    <div id="block-footer-static-statement" data-block-plugin-id="block_content:f9fa840f-a365-4ab0-8943-6e0ac3dbaacf" class="block-content-text block-view-mode-full block block-block-content block-block-contentf9fa840f-a365-4ab0-8943-6e0ac3dbaacf">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>Proud member of the 23-campus <a href="https://www2.calstate.edu/">California State University</a></span></p></div>
+      
+  </div>
+
+  </div>
+
+        </div>
+              </div>
+
+              <div class="footer-copyright text-center pt-3 pb-2 pb-lg-0">
+            <div class="region region-footer-bottom">
+    <div id="block-copyright-text" data-block-plugin-id="block_content:6d20cc1e-a336-45be-9dfc-b7639cb30584" class="block-content-text block-view-mode-full block block-block-content block-block-content6d20cc1e-a336-45be-9dfc-b7639cb30584">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>© 2021 California State University, Stanislaus | <a href="/copyrightdmca-notice-and-procedure">Website Copyright/DMCA Policy</a></span></p></div>
+      
+  </div>
+
+  </div>
+
+        </div>
+          </div>
+  </div>
+</footer>
+  
+</div>
+
+  </div>
+
+      
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalHandler" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="modal-title display-5" class="modal-title"><span class="sr-only">Modal Title</span></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / Modal -->
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/9","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":""},"blazyIo":{"enabled":false,"disconnect":false,"rootMargin":"0px","threshold":[0]},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"pauseOnHover":true,"pauseOnDotsHover":false,"pauseOnFocus":true,"autoplaySpeed":3000,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"ajax":[],"user":{"uid":0,"permissionsHash":"3fa01227a5bf39c867d79c3cd3904b2fcf1b5f2d7feff8d50a284150833c396f"}}</script>
+<script src="/sites/default/files/js/js_adMWIMbn7UQ2X5IhHgubUxdEFsU7gMCDEdDWDo6RMLM.js"></script>
+<script src="//unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/sites/default/files/js/js_1QT6SSGI93g4ik6G4lWdrNrd_XLQxKaZneq3IEsHfP8.js"></script>
+<script src="//static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/default/files/js/js_WmobCxVUhpAqzpZgIWDbyUtr7bcDMXxsGF60Z7mvkPM.js"></script>
+<script src="//api.meritpages.com/merit.js"></script>
+<script src="/sites/default/files/js/js_oMxAuB_NyZ29LZhH5JCAOwemSYeHOFVivu6VytzVM3s.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-bc48a7a137af2c1cf5c","applicationID":"1152932465","transactionName":"MgdRZEdRXBIHUkJbDQtNclNBWV0PSXVERxIEDm9eWlRXPSVeWEYQCg5fVUdsfA4CVGBbBxIhXF5BQl0NClREH1wTC1ZH","queueTime":0,"applicationTime":1405,"atts":"HkBSEg9LTxw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

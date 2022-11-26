@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script src="/_skin/kor/layout/js/webfont.js"></script>
+  <script src="/js/netfunnel.js?ver=2021-09-07"></script>
+  <script>
+  WebFont.load({
+    // google: {
+    //   families: ['Lato:400,700']
+    // },
+    custom: {
+      families: ['Roboto', 'Noto Serif KR', 'Noto Sans KR'],
+      urls: ['/_skin/kor/layout/css/font.css']
+    }
+  });
+
+  function goComplete()
+  {
+    NetFunnel_Complete({});
+  }
+
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta name="format-detection" content="telephone=no">
+  <title>서울대학교 2023학년도 입학전형 일정 안내</title>
+<!-- icon -->
+  <link rel="icon" href="/_skin/kor/layout/ico/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/_skin/kor/layout/ico/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="/_skin/kor/layout/image/mobileicon.png">
+  <!-- CANONICAL LINK -->
+  <link rel="canonical" href="https://www.snu.ac.kr/">
+  <!-- BEGIN OPENGRAPH -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" id="ogurl" content="https://www.snu.ac.kr/">
+  <meta property="og:site_name" content="서울대학교">
+  <meta property="og:title" id="ogtitle" content="서울대학교">
+  <meta property="og:description" content="서울대학교">
+  <meta property="og:image" content="https://www.snu.ac.kr/webdata/site/kor/config/840z2e9zd32zfccz0b8zc25z9c2z58cz84dz2a8z63.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="490">
+  <!-- END OPENGRAPH -->
+  <!-- BEGIN TWITTERCARD -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="서울대학교">
+  <meta name="twitter:description" content="서울대학교">
+  <meta name="twitter:image" content="https://www.snu.ac.kr/webdata/site/kor/config/840z2e9zd32zfccz0b8zc25z9c2z58cz84dz2a8z63.png">
+  <!-- END TWITTERCARD -->
+<!--layout-->
+<link rel="stylesheet" href="/_skin/kor/layout/css/bootstrap/bootstrap.min.css">
+</head>
+<style>
+  html, body {font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'sans-serif' !important;  height: 100%;  margin: 0;}
+  body {background:#1b3b86 url('/webdata/boardimages/kofiles/adm-80.jpg') no-repeat center fixed;background-size:cover;}
+  .logo {margin-top:10px}
+  h1.mtit {font-size:26px;font-weight:700;color:#f0f0f0;text-align:center;margin:0;padding:0;margin-top:20px;}
+  .adm-link { font-size:30px; }
+  .adm-link .go-txt{color:#dff9fb;font-weight:500; line-height:160%;}
+  /*.adm-link a.link:hover{color:#82ccdd;text-decoration:none}*/
+  .adm-link {padding:60px 60px;border:1px solid #fff;border-radius:0.2rem;margin:40px 0 30px 0;text-align:center;line-height:40px }
+  .linkbox { margin-top:20px;}
+  .adm-link a.link {font-size:20px;line-height:28px;display:inline-block;margin-left:10px;background:#fff;padding:20px 16px;color:#000;border-radius:30px;min-width:265px; text-align:left;}
+  .adm-link a.link:hover {text-decoration:none; background:#82ccdd;color:#fff}
+  .wrap {
+    min-height:500px;
+    padding-top:100px;
+    /*
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+  }
+  .mobile-only { display:none; }
+
+  @media (max-width: 768px) {
+    .adm-link a.link {font-size:20px;line-height:28px;display:inline-block;margin-left:10px;background:#fff;padding:3px 16px;color:#000;border-radius:16px;}
+    .wrap { padding-top:30px; }
+  }
+  @media (max-width: 600px) {
+    .mtit {font-size:20px;margin-top:12px;}
+    .adm-link { text-align:center; font-size:25px;padding:22px;margin:26px 0 ;}
+    .adm-link .go-txt { line-height:24px;}
+    .btn-info { font-size:18px; }
+    .wrap { padding-top:30px; }
+  }
+  @media (max-width: 420px) {
+    .mobile-only { display:block; }
+  }
+
+</style>
+<body onload="goComplete()">
+  <div class="wrap">
+    <div class="container" style="margin:0 auto;">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="logo"><img src="/_skin/kor/layout/image/snu-logo_lg.png" alt="서울대학교"></div>
+          <h1 class="mtit">2023학년도 입학전형<br class="mobile-only"> 일정 안내</h2>
+        </div>
+        <div class="col-md-12 mx-auto text-center">
+          <div class="adm-link">
+            <span class="go-txt">2023학년도 대학 수시모집 일반전형 및 기회균형선발특별전형Ⅰ 1단계 합격자 발표</span>
+            <div class="linkbox">
+              <a href="https://snuipsi.snu.ac.kr/world/admission/announce/login.action?examBussFg%3DU020100023%26examYy%3D2023%26locale%3D" class="link" target="_blank" title="새창으로 열림" rel="noopener noreferrer">→ 합격자 발표 바로가기</a>
+
+<!--
+              <a href="https://apply.jinhakapply.com/Notice/1083024/A" class="link" target="_blank" title="새창으로 열림" rel="noopener noreferrer">→ 진학어플라이 바로가기</a>
+              <a href="https://ipsi1.uwayapply.com/susi2/snu/?CHA=1" class="link" target="_blank" title="새창으로 열림" rel="noopener noreferrer">→ 유웨이어플라이 바로가기</a>
+-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 pb-2"><a href="/index.html" class="btn btn-info btn-block btn-lg">→ 서울대학교 홈페이지 바로가기</a></div>
+        <div class="col-sm-6 pb-5"><a href="https://en.snu.ac.kr/index.html" class="btn btn-success btn-block btn-lg">→ Go to English Website</a></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
+

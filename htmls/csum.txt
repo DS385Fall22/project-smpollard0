@@ -1,0 +1,776 @@
+
+<!DOCTYPE HTML><html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Cal Maritime Home</title>
+      <link rel="canonical" href="https://www.csum.edu/index.html">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="icon" href="/_resources/images/favicon.ico"><script type="text/javascript">
+            var OUC = OUC || {};
+            OUC.globalProps = OUC.globalProps || {};
+            OUC.pageProps = OUC.pageProps || {};
+            OUC.props = OUC.props || {};
+            
+            
+                OUC.globalProps['path'] = "/index.html";
+                OUC.globalProps['domain'] = "https://www.csum.edu";
+                OUC.globalProps['index-file'] = "index";
+                OUC.globalProps['extension'] = "html";
+                OUC.pageProps['banner-content'] = "video";
+                OUC.pageProps['override-og-type'] = "OG Type";
+                OUC.pageProps['override-og-image'] = "/_resources/images/2020-08-12-campus.jpg";
+                OUC.pageProps['override-og-image-alt'] = "Cal Maritime";
+                OUC.pageProps['override-og-description'] = "Located on a compact but scenic waterfront campus in Vallejo, California, California State University Maritime Academy (Cal Maritime) is a unique and specialized campus of the 23-campus California State University system. Serving nearly 1,000 students, we are one of only seven degree-granting maritime academies in the United States — and the only one on the West Coast.";
+                OUC.pageProps['override-twitter-card-description'] = "Located on a compact but scenic waterfront campus in Vallejo, California, California State University Maritime Academy (Cal Maritime) is a unique and specialized campus of the 23-campus California State University system.";
+                OUC.pageProps['override-twitter-card-image'] = "/_resources/images/2020-08-12-campus.jpg";
+                OUC.pageProps['override-twitter-card-image-alt'] = "Cal Maritime";
+                OUC.pageProps['override-twitter-card-type'] = "summary_large_image";
+            
+            var key;
+            for (key in OUC.globalProps) {
+            OUC.props[key] = OUC.globalProps[key];
+            }
+            for (key in OUC.pageProps) {
+            OUC.props[key] = OUC.pageProps[key];
+            }
+        </script><meta name="Description" content="Located&nbsp;on a compact but scenic waterfront campus&nbsp;in Vallejo, California, California State University Maritime Academy (Cal Maritime) is a unique and specialized campus of the 23-campus California State University system. Serving nearly 1,000 students, we are one of only seven degree-granting maritime academies in the United States — and the only one on the West Coast.">
+      <meta name="Keywords" content="Cal Maritime, CSU Maritime Academy, Maritime academies, logistics, global studies, oceanography, marine transportation, mechanical engineering, engineering technology, international business, business administration, bay area university">
+      <!-- OU Search Ignore Start Here --><!-- Bootstrap CSS -->
+<link rel="stylesheet" href="/_resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="/_resources/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="/_resources/css/bootstrap-reboot.min.css">
+
+<!-- Cal Maritime College CSS -->
+<link rel="stylesheet" href="/_resources/css/styles.css">
+<link rel="stylesheet" href="/_resources/css/print.css">
+<link rel="stylesheet" href="/_resources/css/totopstyle.css">
+<link rel="stylesheet" href="/_resources/css/slick.css"/>
+<link rel="stylesheet" href="/_resources/css/slick-theme.css"/>
+<link rel="stylesheet" href="/_resources/css/slick-lightbox.css">
+<link rel="stylesheet" href="/_resources/css/animate.css">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- Font Awescome CDN -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+<link rel="stylesheet" href="/_resources/css/oustyles.css">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+<!-- OU Search Ignore End Here --><link href="https://templates.csum.edu/ou-alerts/alerts-config.alerts.css?v=2.0-20210217145134" rel="stylesheet">      <meta property="og:image" content="/_resources/images/2020-08-12-campus.jpg">
+      <meta property="og:image:alt" content="Cal Maritime">
+      <meta property="og:title" content="Cal Maritime Home">
+      <meta property="og:url" content="https://www.csum.edu/index.html">
+      <meta property="og:description" content="Located&nbsp;on a compact but scenic waterfront campus&nbsp;in Vallejo, California, California State University Maritime Academy (Cal Maritime) is a unique and specialized campus of the 23-campus California State University system. Serving nearly 1,000 students, we are one of only seven degree-granting maritime academies in the United States — and the only one on the West Coast.">
+      <meta property="og:type" content="OG Type">
+      <meta property="og:updated_time" content="2022-10-31T09:23:00.553282-07:00">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:url" content="https://www.csum.edu/index.html">
+      <meta name="twitter:title" content="Cal Maritime Home">
+      <meta name="twitter:description" content="Located&nbsp;on a compact but scenic waterfront campus&nbsp;in Vallejo, California, California State University Maritime Academy (Cal Maritime) is a unique and specialized campus of the 23-campus California Sta">
+      <meta name="twitter:image" content="/_resources/images/2020-08-12-campus.jpg">
+      <meta name="twitter:image:alt" content="Cal Maritime">
+      <link rel="stylesheet" type="text/css" media="screen" href="//cdn.omniupdate.com/ldp-galleries/v2/fancybox/bootstrap-thumbnails.min.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="//cdn.omniupdate.com/ldp-galleries/v2/fancybox/jquery.fancybox.min.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="//cdn.omniupdate.com/ldp-galleries/v2/fancybox/ou.fancybox.accessibility.min.css"><script type="text/javascript"> 
+					var COMMENT_PAGE_URL ="https://www.csum.edu/index.html";
+					var COMMENT_PAGE_IDENTIFIER ="cd9c7404-74a4-4158-a4dc-6f94b1e56b6a";
+				</script></head>
+   <body><!-- OU Search Ignore Start Here --><header class="siteHeader sticky-wrapper">
+   <div class="container-fluid mobile-header">
+      <div class="row">
+         <div class="col-9">
+            <div class="mobile-logo"><a href="/index.html"><span class="sr-only">California State University Maritime Academy</span></a></div>
+         </div>
+         <div class="col-3">
+            <div class="mobile-buttons-wrapper"><button type="button" data-toggle="modal" data-target="#site-navigation" class="menuToggle"><span class="sr-only">Menu</span><span class="fas fa-bars"></span></button></div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade site-navigation" id="site-navigation" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-body"><button type="button" class="btn menuClose" data-dismiss="modal"><span class="far fa-times-circle"></span><span class="sr-only">Close Menu</span></button><nav class="main-navigation" aria-label="Primary navigation">
+                  <div class="top-row">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-xl-6">
+                              <nav class="audience">
+                                 <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" href="/campus-life/">Cadets</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/faculty-and-staff/">Faculty &amp; Staff</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/alumni/">Alumni &amp; Friends</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/keelhauler-family/">Keelhauler Fam (KFam)</a></li>
+                                    <li class="nav-item"><a class="nav-link" title="Prospective Cadets" href="https://forward.csum.edu/inquiryform">Prospective Cadets</a></li>
+                                 </ul>
+                              </nav>
+                           </div>
+                           <div class="col-xl-6">
+                              <nav class="audience">
+                                 <ul class="nav justify-content-end">
+                                    <li class="nav-item"><a class="nav-link" href="/admissions/requirements/index.html">Apply</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/intranet/">Login</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/support/ways-to-give.html">Give</a></li>
+                                    <li>
+                                       <div class="header-search hidden-xs">
+                                          <form id="searchForm" action="/search.html" method="get" role="search" novalidate>
+                                             <div class="input-group"><label class="search-label sr-only" for="searchbox">Search the Site</label><input type="text" name="q" size="25" id="searchbox" class="form-control" title="searchbox" placeholder="Search..."><input type="hidden" name="cx" value="000437159127504564159:pyv622ngzxw" id="googleSearchEngine" aria-label="googleSearchEngine"><input type="hidden" name="ie" value="UTF-8"><span class="input-group-btn"><button class="btn btn-default" type="submit"><span class="fas fa-search"></span><span class="sr-only">Search</span></button></span></div>
+                                          </form>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </nav>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="bottom-row">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-xl-4">
+                              <div class="logo"><a href="/index.html"><span class="sr-only">California State University Maritime Academy</span></a></div>
+                           </div>
+                           <div class="col">
+                              <ul class="nav justify-content-end nav-fill">
+                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="admissions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a><ul class="dropdown-menu" aria-labelledby="admissions">
+                                       <li>
+                                          <div class="sub-menu">
+                                             <div class="container">
+                                                <div class="row">
+                                                   <div class="col menu-image"><img class="pt-2 pb-2" src="/_resources/images/campus-life-nav-image.jpg" alt="Library and water with student walking in background"></div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/admissions/index.html">Undergraduate Admissions</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/industry/graduate-studies/">Graduate Admissions</a></li>
+                                                      </ul>
+                                                   </div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/financial-aid/index.html">Costs &amp; Financial Aid</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="https://forward.csum.edu/inquiryform" title="Request Information">Request Information</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/admissions/visit-campus/">Visit Campus</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="academics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a><ul class="dropdown-menu" aria-labelledby="academics">
+                                       <li>
+                                          <div class="sub-menu">
+                                             <div class="container">
+                                                <div class="row">
+                                                   <div class="col menu-image"><img class="pt-2 pb-2" src="/_resources/images/admissions-nav-image.jpg" alt="Two students walking with TSGB in background"></div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/academics/majors.html">Undergraduate Programs</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/industry/graduate-studies/index.html">Graduate Programs</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/research-and-innovation-office/index.html" title="Research &amp; Innovation Office (RIO)" target="_blank">Research &amp; Innovation Office (RIO)</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/industry/extended-learning/" title="Professional &amp; Extended Learning" target="_blank">Professional &amp; Extended Learning</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/marine-programs/index.html">Marine Programs</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href=""></a></li>
+                                                      </ul>
+                                                   </div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/academics/departments-schools.html">Schools &amp; Departments</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/academics/academic-support.html">Academic Support</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/registrar/catalog/">Academic Catalog</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="https://library.csum.edu">Library</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="campuslife" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Campus Life</a><ul class="dropdown-menu" aria-labelledby="campuslife">
+                                       <li>
+                                          <div class="sub-menu">
+                                             <div class="container">
+                                                <div class="row">
+                                                   <div class="col menu-image"><img class="pt-2 pb-2" src="/_resources/images/2022-11-14-mbball-smiles.png" alt="Men's Basketball Cadet Athletes Miles Pennington &amp; Braxton Adderly with Assistant Coach Chauncey Orr"></div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/associated-students/">Associated Students</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/campus-life/index.html">Campus Life</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/police-department/index.html">Campus Safety</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/student-health-center/index.html">Student Health Center</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="https://calmaritime.sodexomyway.com/dining-near-me/resident-dining" title="Cal Maritime Marketplace">The Marketplace</a></li>
+                                                      </ul>
+                                                   </div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/corps-of-cadets/">Corps of Cadets</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/calendar/">Events Calendar</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/housing/index.html">Housing &amp; Res Life</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="https://gokeelhaulers.com">Athletics</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="https://keelhaulershops.com" title="Bookstore &amp; Keelhauler Shops">Bookstore &amp; Keelhauler Shops</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a><ul class="dropdown-menu" aria-labelledby="about">
+                                       <li>
+                                          <div class="sub-menu">
+                                             <div class="container">
+                                                <div class="row">
+                                                   <div class="col menu-image"><img class="pt-2 pb-2" src="/_resources/images/about-nav-image.jpg" alt="View of campus from drone"></div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/about/explore.html">Explore</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/strategic-plan/">Strategic Plan</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/about/staff-directory.html">Faculty &amp; Staff Directory</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/inclusion-initiatives/index.html">Inclusion Initiatives</a></li>
+                                                      </ul>
+                                                   </div>
+                                                   <div class="col-12 col-xl-4">
+                                                      <ul class="list-unstyled">
+                                                         <li class="nav-item"><a class="dropdown-item" href="/president/leadership.html" title="Administration">Administration</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/hr/careers/">Employment Opportunities</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/campus-news/">Campus News &amp; Events</a></li>
+                                                         <li class="nav-item"><a class="dropdown-item" href="/support/leading-the-way/index.html" title="Support Cal Maritime">Support Cal Maritime</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <p>&nbsp;</p>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </div>
+</header><!-- OU Search Ignore End Here -->
+      <div class="slider-wrapper">
+         <div class="slider-wrapper">
+            <div class="video-feature" style="background-image: url('/_resources/images/2020-11-03-homepage-video-screenshot.jpg');"><button type="button" class="play-pause" title="play/pause"><span class="fa fa-pause"></span><span class="sr-only">Pause Video</span></button><div data-video="/_resources/images/20201010-website_home_page_master_h264_hi_qual_1080p-handbrake.mp4" data-type="video/mp4" data-image="/_resources/images/2020-11-03-homepage-video-screenshot.jpg"><video id="myVideo" autoplay="true" muted="true" loop="true" playsinline="true">
+                     <source src="/_resources/images/20201010-website_home_page_master_h264_hi_qual_1080p-handbrake.mp4" type="video/mp4"></video></div>
+               <div class="overlay"></div>
+            </div>
+         </div>
+      </div>
+      <div class="content" id="main-content">
+         <p style="text-align: center;">&nbsp; &nbsp;<a href="/police-department/index.html"><span class="btn btn-default btn-light-blue">CAMPUS SAFETY</span></a> &nbsp;<a class="btn btn-default" href="/alert/covid-19/">COVID-19 Updates</a>&nbsp; <a title="Monkeypox (mpv)" href="/student-health-center/monkeypox.html" target="_blank"><span class="btn btn-default btn-light-blue">Monkeypox (mpv)</span></a>&nbsp; <a href="/inclusion-initiatives/index.html"><span class="btn btn-default">TITLE IX &amp; INCLUSION</span></a></p>
+         
+         <div class="section bg-light-blue">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 col-xl-10">
+                     <div class="font-size-md title-decorative"><strong>Want to be a future Cal Maritime Student?</strong></div>
+                     <h2 class="m-0 text-blue">Apply now at Cal State Apply!&nbsp;<span class="font-weight-normal">&nbsp;We are currently accepting applications for the Fall 2023 semester.</span></h2>
+                  </div>
+                  <div class="col-md-4 col-xl-2"><a class="btn btn-default" href="https://calstate.liaisoncas.com/applicant-ux/#/login">Apply now!</a></div>
+               </div>
+            </div>
+         </div>
+         
+         <p style="text-align: center;">&nbsp;</p>
+         
+         <div class="section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="news-events-header">
+                        <h2>News</h2><a class="news" href="/campus-news/"><span class="far fa-newspaper"></span>View All News</a></div>
+                     <div class="row">
+                        <div class="col-lg-6"><div class="card"><a href="https://www.csum.edu/campus-news/2022/sailing-kennedy-cup.html"><div class="image-overlay"><div class="card-img-top" style="background-image: url(&apos;https://www.csum.edu/campus-news/media/2022-11-07-kcup-sailing-team-01.jpeg&apos;);"></div></div><div class="card-body"><h3>Cal Maritime Successfully Defends Kennedy Cup Championship</h3><p>Sailors from the nation’s top college programs were back on the water for the Kennedy Cup as the Keelhaulers prevailed.
+...</p></div></a></div></div><div class="col-lg-6"><div class="card"><a href="https://www.csum.edu/campus-news/2022/cadet-tours-oct.html"><div class="image-overlay"><div class="card-img-top" style="background-image: url(&apos;https://www.csum.edu/campus-news/media/2022-10-25-mt-01.jpg&apos;);"></div></div><div class="card-body"><h3>Cadets Get Hands-on Experience this Fall at Mare Island Dry Dock</h3><p>Through a partnership between Cal Maritime faculty, staff, and industry leaders, the M/V WILD PEONY and USNS PECOS opened specifically for our deck and engine cadets who were able to participate in several small tours with each vessel’s respective senior officers....</p></div></a></div></div>                        
+                        </div>
+                  </div>
+                  <div class="col-lg-5 offset-lg-1 events">
+                     <div class="news-events-header">
+                        <h2>Events</h2><a class="events" href="/calendar/whats-happening.html"><span class="far fa-calendar-alt"></span> View All Events</a></div>
+                     	<div class="event-item">	<div class="event-date">		<div class="event-date-bg"><span class="event-month">Nov</span> <span class="event-day">24</span> <span class="year">2022</span></div>		</div>		<div class="event-text">	<div class="event-item-time-location"><span class="time">6:00 PM</span> <span class="location">PE101</span></div><div class="event-item-header"><h3><a href="https://www.csum.edu/web/calendar/whats-happening.html?trumbaEmbed=view%3devent%26eventid%3d708175185" class="event-title">Spin Class</a></h3></div><div class="event-item-copy"><p>Recreation spin classes...</p></div></div></div>	<div class="event-item">	<div class="event-date">		<div class="event-date-bg"><span class="event-month">Nov</span> <span class="event-day">24</span> <span class="year">2022</span></div>		</div>		<div class="event-text">	<div class="event-item-time-location"><span class="time">7:00 PM</span> <span class="location">Inclusion Center</span></div><div class="event-item-header"><h3><a href="https://www.csum.edu/web/calendar/whats-happening.html?trumbaEmbed=view%3devent%26eventid%3d750613871" class="event-title">Queer Study Night</a></h3></div><div class="event-item-copy"><p>Queer Study Night is a dedicated time for LGBTQ+ students to study together with a tutor present to answer questions tha...</p></div></div></div>	<div class="event-item">	<div class="event-date">		<div class="event-date-bg"><span class="event-month">Nov</span> <span class="event-day">24</span> <span class="year">2022</span></div>		</div>		<div class="event-text">	<div class="event-item-time-location"><span class="time">7:00 PM</span> <span class="location"></span></div><div class="event-item-header"><h3><a href="https://www.csum.edu/web/calendar/whats-happening.html?trumbaEmbed=view%3devent%26eventid%3d708775075" class="event-title">Co-ed Open Volleyball</a></h3></div><div class="event-item-copy"><p>Co-ed Club volleyball in small gym...</p></div></div></div></div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="section bg-blue">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="icon"><span class="fas fa-award"></span><span>90 Years</span><span>of Academic Excellence
+                           							<br>
+                           							</span></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="icon"><span class="fas fa-users"></span><span>20</span><span>Average On-Campus Class Size
+                           							<br>
+                           							</span></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="icon"><span class="fas fa-hand-holding-usd"></span><span>92%</span><span>Employment within 3 Months of Commencement
+                           							<br>
+                           							</span></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <section class="bg-gray fullwidth-split">
+            <div class="container-fluid">
+               <div class="row no-gutters">
+                  <div class="col-md-6 fullwidth-split-image"><img class="bg-image" src="/_resources/images/intellectual-learning-homepage-image.jpg" alt="Volunteers"></div>
+                  <div class="col-md-6 fullwidth-split-text">
+                     <div class="text-wrapper">
+                        <h2>Intellectual Learning</h2>
+                        <h3>Analysis, Synthesis, Evaluation</h3><span class="lead pb-3">Cadets learn to think critically and independently, allowing them to acquire insights
+                           and make significant achievements throughout life.</span><p><a class="btn btn-default" href="/academics/index.html">Read More about Intellectual Learning</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+         <section class="bg-gray fullwidth-split">
+            <div class="container-fluid">
+               <div class="row no-gutters">
+                  <div class="col-md-6 fullwidth-split-image order-md-2"><img class="bg-image" src="/_resources/images/applied-technology-homepage-image.jpg" alt="Student welding"></div>
+                  <div class="col-md-6 fullwidth-split-text order-md-1">
+                     <div class="text-wrapper text-right">
+                        <h2>Applied Technology</h2>
+                        <h3>Experiential, Immersive, Practical</h3><span class="lead pb-3">Relying on state-of-the-art resources and hands-on experience, cadets learn skills
+                           and techniques beyond traditional classroom coursework.</span><p><a class="btn btn-default" href="/about/mission.html">Read More about Applied Technology</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+         <section class="bg-gray fullwidth-split">
+            <div class="container-fluid">
+               <div class="row no-gutters">
+                  <div class="col-md-6 fullwidth-split-image"><img class="bg-image" src="/_resources/images/leadership-development-homepage.jpg" alt="Drone shot of cadets in formation"></div>
+                  <div class="col-md-6 fullwidth-split-text">
+                     <div class="text-wrapper">
+                        <h2>Leadership Development</h2>
+                        <h3>
+                            Ethical, Responsive, Goal-oriented 
+                           </h3><span class="lead pb-3">The maritime leader is a “loyal shipmate” who strives for excellence, demonstrates
+                           integrity, and is confident, ever-learning, and adaptive.</span><p><a class="btn btn-default" href="/edwards-leadership/index.html">Read More about Leadership Development</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+         <section class="bg-gray fullwidth-split">
+            <div class="container-fluid">
+               <div class="row no-gutters">
+                  <div class="col-md-6 fullwidth-split-image order-md-2"><img class="bg-image" src="/_resources/images/2021-global-learning.jpg" alt="Training Ship Golden Bear out on the water"></div>
+                  <div class="col-md-6 fullwidth-split-text order-md-1">
+                     <div class="text-wrapper text-right">
+                        <h2>Global Awareness</h2>
+                        <h3>Culture, Perspective, Community</h3><span class="lead pb-3">
+                            Through travel or shipboard opportunities, undergraduates experience new worlds and
+                           make connections beyond our shores. 
+                           </span><p><a class="btn btn-default" href="/tsgb-cruise/follow-the-voyages.html">Read More about Global Awareness</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="section">
+            <div class="container">
+               <div class="row">
+                  <div class="col">
+                     <h2 class="text-center">&nbsp;
+                         Life at Cal Maritime 
+                        </h2>
+                     <p class="text-center lead">Help us tell the story. Share what's great about Cal Maritime using #CalMaritime on
+                        Twitter and Instagram for a chance to get your own pictures and posts featured on
+                        csum.edu</p>
+                  </div>
+               </div>
+            </div>
+            <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+            
+            <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css">
+            
+            <ul class="juicer-feed" data-feed-id="calmaritime-7c09d90d-5878-4d7a-beeb-c9ca7a67d2a9" data-origin="embed-code">
+               <h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer.io</a></h1>
+            </ul>
+         </div>
+      </div>
+      <!-- OU Search Ignore Start Here --><footer id="footer">
+   <div class="compass"><a href="https://www.csum.edu"><span class="sr-only">California State University Maritime Academy</span></a></div>
+   <div class="container">
+      <div class="row">
+         <div class="col-12">
+            <ul class="footer-social nav justify-content-center">
+               <li class="nav-item"><a href="https://www.facebook.com/csumaritimeacademy" class="facebook"><span class="sr-only">Facebook</span></a></li>
+               <li class="nav-item"><a href="https://twitter.com/cal_maritime" class="twitter"><span class="sr-only">Twitter</span></a></li>
+               <li class="nav-item"><a href="http://www.linkedin.com/company/california-maritime-academy" class="linkedin"><span class="sr-only">LinkedIn</span></a></li>
+               <li class="nav-item"><a href="http://www.youtube.com/calmaritimevideos" class="youtube"><span class="sr-only">YouTube</span></a></li>
+               <li class="nav-item"><a href="http://instagram.com/calmaritime" class="instagram"><span class="sr-only">Instagram</span></a></li>
+            </ul>
+         </div>
+         <div class="col-lg-3 col-xl-3"><img src="/_resources/images/cal-maritime-logo-white.png" alt="Cal Maritime"><h2><a href="https://www.csum.edu">California State University Maritime Academy</a></h2>
+            <ul class="footer-address">
+               <li class="location"><a href="">200 Maritime Academy Drive<br>Vallejo, CA 94590</a></li>
+               <li><a href="tel:7076541000">707-654-1000</a></li>
+            </ul>
+         </div>
+         <div class="col-lg-9 col-xl-8 offset-xl-1">
+            <div class="row footer-nav justify-content-center">
+               <div class="col-6 col-md-3">
+                  <ul class="list-unstyled">
+                     <li><a href="https://portal.office.com/">Email</a></li>
+                     <li><a href="/faculty-and-staff/peoplesoft.html">PeopleSoft</a></li>
+                     <li><a href="https://csum.brightspace.com/">Brightspace</a></li>
+                     <li><a href="https://thepassport.campus.eab.com/">The Passport</a></li>
+                  </ul>
+               </div>
+               <div class="col-6 col-md-3">
+                  <ul class="list-unstyled">
+                     <li><a href="https://library.csum.edu/" target="_blank">Library</a></li>
+                     <li><a href="/about/location.html">Map &amp; Parking</a></li>
+                     <li><a href="/campus-news/index.html">News &amp; Events</a></li>
+                     <li><a href="/about/contact-us.html">Contact Us</a></li>
+                  </ul>
+               </div>
+               <div class="col-6 col-md-3">
+                  <ul class="list-unstyled">
+                     <li><a href="/about/a-z.html">A-Z Department List</a></li>
+                     <li><a href="/about/staff-directory.html">Campus Directory</a></li>
+                     <li><a href="/diversity/index.html">Diversity &amp; Inclusion</a></li>
+                     <li><a href="/title-ix/index.html">Title IX</a></li>
+                  </ul>
+               </div>
+               <div class="col-6 col-md-3">
+                  <ul class="list-unstyled">
+                     <li><a href="/accessibility/index.html">Accessibility</a></li>
+                     <li><a href="/accreditation/index.html">Accreditation</a></li>
+                     <li><a href="/police-department/emergency/emergency-procedures.html">Emergencies</a></li>
+                     <li><a href="/right-to-know/index.html">Right to Know</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="copyright">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <ul class="list-inline">
+                  <li class="list-inline-item"><span aria-label="direct edit login" id="directedit">©</span>Copyright 2022. All Rights Reserved. A California State University Campus
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer><button data-target="#0" class="cd-top"><span class="sr-only">Back to Top</span></button><!-- OU Search Ignore End Here --><script src="https://templates.csum.edu/ou-alerts/alerts-config.alerts.js?v=2.0-20210217145133"></script>
+<script>
+	// archive alert processing
+	if (document.getElementById(ouEmergencyAlerts.archivedAlertDivId)) {
+		ouEmergencyAlerts.loadAlertFeed("processAlertFeedForArchivePage", "activeAlertFeed", "archiveActiveAlertHeading");  
+		setTimeout(function() {
+			ouEmergencyAlerts.loadAlertFeed("processAlertFeedForArchivePage", "archiveAlertFeed", "archiveAlertHeading");
+		}, 200);
+	}
+	// active alert processing
+	ouEmergencyAlerts.determineActiveAlertOutput();
+</script><script type="text/template" id="oualerts-active-announcement">
+<div id="oualerts-active-alert-display" class="oualerts-notify oualerts-notify-announcement oualerts-top oualerts-top-fixed ouAlertsFadeInDown oualerts-animated-fast">
+	<div class="oualerts-notify-body">
+		{% if (o.showDate) { %}
+		<div class="oualerts-notify-date">{%=ouEmergencyAlerts.alertDateFormat("F d, Y h:i A",o.pubDate)%}</div>
+		{% } %}
+		<h3 class="oualerts-notify-title">
+			
+						<svg class="oualerts-notify-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 271 286"><path fill-rule="evenodd" d="M241.964 157.267v69.997c0 5.11-5.639 8.199-9.934 5.442l-86.454-55.51h-13.388l11.06 28.862c18.297 3.828 32.042 20.078 32.042 39.544 0 22.311-18.056 40.398-40.328 40.398-17.471 0-32.347-11.13-37.949-26.698l-.0122.005-31.4593-82.111h-5.3193C26.9624 177.196 0 150.187 0 116.869c0-33.3175 26.9624-60.3268 60.2222-60.3268h85.3538L232.03 1.0324c4.295-2.7574 9.934.3319 9.934 5.4417v69.9975h18.282c5.939 0 10.754 4.8231 10.754 10.7727v59.2497c0 5.95-4.815 10.773-10.754 10.773h-18.282zm-15.055 54.237l-75.278-48.334V70.5682l75.278-48.3337V211.504zm15.055-69.319h13.98V91.5533h-13.98v50.6317z" clip-rule="evenodd"/></svg>
+					
+			{%=o.title%}
+		</h3>
+		{% if (o.subtitle) { %}
+		<p class="oualerts-notify-subtitle"><strong>{%=o.subtitle %}</strong></p>
+		{% } %}
+		{% if (o.description) { %}
+		<p class="oualerts-notify-msg">{%=o.description %}
+			{% } %}
+			{% if (o.guid) { %}
+			<br>
+			<a href="{%=o.guid %}" class="oualerts-notify-link">Read More...</a>
+			{% } %}
+			{% if (o.description) { %}
+		</p>
+		{% } %}
+		<p class="oualerts-notify-footer">
+			<button class="oualerts-close-button" id="oualerts-close-button">Close</button>
+		</p>
+	</div>
+</div>
+</script>
+<script type="text/template" id="oualerts-active-warning">
+<div id="oualerts-active-alert-display" class="oualerts-notify oualerts-notify-warning oualerts-top oualerts-top-fixed ouAlertsFadeInDown oualerts-animated-fast">
+	<div class="oualerts-notify-body">
+		{% if (o.showDate) { %}
+		<div class="oualerts-notify-date">{%=ouEmergencyAlerts.alertDateFormat("F d, Y h:i A",o.pubDate)%}</div>
+		{% } %}
+		<h3 class="oualerts-notify-title">
+			
+						<svg class="oualerts-notify-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 273 273"><path fill-rule="evenodd" d="M273 136.5c0 75.387-61.113 136.5-136.5 136.5C61.1131 273 0 211.887 0 136.5 0 61.1131 61.1131 0 136.5 0 211.887 0 273 61.1131 273 136.5zM123 58v105h27V58h-27zm0 157v-26.5h27V215h-27z" clip-rule="evenodd"/></svg>
+					
+			{%=o.title%}
+		</h3>
+		{% if (o.subtitle) { %}
+		<p class="oualerts-notify-subtitle"><strong>{%=o.subtitle %}</strong></p>
+		{% } %}
+		{% if (o.description) { %}
+		<p class="oualerts-notify-msg">{%=o.description %}
+			{% } %}
+			{% if (o.guid) { %}
+			<br>
+			<a href="{%=o.guid %}" class="oualerts-notify-link">Read More...</a>
+			{% } %}
+			{% if (o.description) { %}
+		</p>
+		{% } %}
+		<p class="oualerts-notify-footer">
+			<button class="oualerts-close-button" id="oualerts-close-button">Close</button>
+		</p>
+	</div>
+</div>
+</script>
+<script type="text/template" id="oualerts-active-emergency">
+<div id="oualerts-active-alert-display" class="oualerts-notify oualerts-notify-emergency oualerts-top oualerts-top-fixed ouAlertsFadeInDown oualerts-animated-fast">
+	<div class="oualerts-notify-body">
+		{% if (o.showDate) { %}
+		<div class="oualerts-notify-date">{%=ouEmergencyAlerts.alertDateFormat("F d, Y h:i A",o.pubDate)%}</div>
+		{% } %}
+		<h3 class="oualerts-notify-title">
+			
+						<svg class="oualerts-notify-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 298 273"><path fill-rule="evenodd" d="M137.626 7.553c4.947-8.9403 17.801-8.9403 22.748 0l135.948 245.652c4.795 8.665-1.471 19.295-11.374 19.295H13.0524c-9.903 0-16.1695-10.63-11.3744-19.295L137.626 7.553zM136.5 85v100h25V85h-25zm0 149.5v-24h25v24h-25z" clip-rule="evenodd"/></svg>
+					
+			{%=o.title%}
+		</h3>
+		{% if (o.subtitle) { %}
+		<p class="oualerts-notify-subtitle"><strong>{%=o.subtitle %}</strong></p>
+		{% } %}
+		{% if (o.description) { %}
+		<p class="oualerts-notify-msg">{%=o.description %}
+			{% } %}
+			{% if (o.guid) { %}
+			<br>
+			<a href="{%=o.guid %}" class="oualerts-notify-link">Read More...</a>
+			{% } %}
+			{% if (o.description) { %}
+		</p>
+		{% } %}
+		<p class="oualerts-notify-footer">
+			<button class="oualerts-close-button" id="oualerts-close-button">Close</button>
+		</p>
+	</div>
+</div>
+</script>
+<script type="text/template" id="oualerts-archived-template">
+{% if (o[0].htmlHeading) { %}
+<h2 class="oualerts-archive-main-heading">{%=o[0].htmlHeading %}</h2>
+{% } %}
+<ul class="oualerts-achive-list">
+	{% for (var i=0; o.length > i; i++) { %}
+	<li class="oualerts-achive-list-item oualerts-archive-type-{%=o[i].severity%}">
+		<div class="oualerts-achive-list-item-inner">
+			<h3 class="oualerts-archive-title">{%=o[i].title%}</h3>
+			<div class="oualerts-archive-date">{%=ouEmergencyAlerts.alertDateFormat("F d, Y h:i A",o[i].pubDate)%}</div>
+			{% if (o[i].subtitle) { %}
+			<p class="oualerts-archive-subtitle"><strong>{%=o[i].subtitle %}</strong></p>
+			{% } %}
+			{% if (o[i].description) { %}
+			<p class="oualerts-archive-msg">{%=o[i].description %}
+				{% } %}
+				{% if (o[i].guid) { %}
+				<a href="{%=o[i].guid %}" class="oualerts-archive-link">{%=ouEmergencyAlerts[o[i].severity + "Archive"].readMoreText%}</a>
+				{% } %}
+				{% if (o[i].description) { %}
+			</p>
+			{% } %}
+			{% if (o[i].updates) { %}
+			<h4 class="oualerts-archive-list-update-header">{%=ouEmergencyAlerts[o[i].severity + "Archive"].updateText %}</h4>
+			<ul class="oualerts-achive-list-update">
+				{% for (var k=0; o[i].updates.length > k; k++) { %}
+				<li class="oualerts-achive-list-item-update">
+					<div class="oualerts-achive-list-item-update-inner">
+						<h5 class="oualerts-archive-title-update">{%=o[i].updates[k].title%}</h5>
+						<div class="oualerts-archive-date-update">{%=ouEmergencyAlerts.alertDateFormat("F d, Y h:i A",o[i].updates[k].pubDate)%}</div>
+						{% if (o[i].updates[k].subtitle) { %}
+						<p class="oualerts-archive-subtitle-update"><strong>{%=o[i].updates[k].subtitle %}</strong></p>
+						{% } %}
+						{% if (o[i].updates[k].description) { %}
+						<p class="oualerts-archive-msg-update">{%=o[i].updates[k].description %}
+							{% } %}
+							{% if (o[i].updates[k].guid) { %}
+							<a href="{%=o[i].updates[k].guid %}" class="oualerts-archive-link-update">{%=ouEmergencyAlerts[o[i].severity + "Archive"].readMoreText%}</a>
+							{% } %}
+							{% if (o[i].updates[k].description) { %}
+						</p>
+						{% } %}
+					</div>
+				</li>
+				{% } %}
+			</ul>
+			{% } %}
+		</div>
+	</li>
+	{% } %}
+</ul>
+</script>
+<!-- OU Search Ignore Start Here --><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="/_resources/js/bootstrap.js"></script>
+<script src="/_resources/js/scripts.js"></script>
+<script src="/_resources/js/slick-lightbox.js"></script>
+<script src="/_resources/js/slick.min.js"></script>
+<script src="/_resources/js/lightbox.js"></script>
+<script src="/_resources/js/navigation.js"></script>
+<!--Data Sort Tables JS-->
+<!-- <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script> -->
+<script src="https://www.csum.edu/_resources/js/jquery.1.10.20.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+<!-- <script>
+	$(document).ready(function() {
+		$('#directory-list').DataTable( {
+			"pageLength": 25,
+			"order": [[ 1, "asc" ]]
+		} );
+	} );
+</script> -->
+<script>$('.datatable').DataTable({
+	"fnDrawCallback": function() {
+
+		$table = $(this);
+
+		// only apply this to specific tables
+		if ($table.closest(".datatable-multi-row").length) {
+
+			// for each row in the table body...
+			$table.find("tbody>tr").each(function() {
+				var $tr = $(this);
+
+				// get the "extra row" content from the <script> tag.
+				// note, this could be any DOM object in the row.
+				var extra_row = $tr.find(".extra-row-content").html();
+
+				// in case draw() fires multiple times, 
+				// we only want to add new rows once.
+				if (!$tr.next().hasClass('dt-added')) {
+					$tr.after(extra_row);
+					$tr.find("td").each(function() {
+
+						// for each cell in the top row,
+						// set the "rowspan" according to the data value.
+						var $td = $(this);
+						var rowspan = parseInt($td.data("datatable-multi-row-rowspan"), 10);
+						if (rowspan) {
+							$td.attr('rowspan', rowspan);
+						}
+					});
+				}
+
+			});
+
+		} // end if the table has the proper class
+	} // end fnDrawCallback()
+});</script><!-- OU Search Ignore End Here --><!-- OU Search Ignore Start Here -->
+<!-- Insert google analytics here -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5936706-24"></script>
+
+<script>
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){dataLayer.push(arguments);}
+
+gtag('js', new Date());
+
+gtag('config', 'UA-5936706-24');
+
+</script>
+<!-- OU Search Ignore End Here -->
+      <div id="ou-hidden" style="display:none;"><a id="de" rel="nofollow" href="https://a.cms.omniupdate.com/11/?skin=oucampus&amp;account=csum&amp;site=www2&amp;action=de&amp;path=/index.pcf">©</a></div><script>
+			if(document.getElementById("de") != null && document.getElementById("directedit")) {
+				var link = document.getElementById("de").parentNode.innerHTML;
+				document.getElementById("de").parentNode.innerHTML = "";
+				document.getElementById("directedit").innerHTML = link.replace(/^\s+|\s+$/gm,'');
+			}
+		</script><script type="text/javascript" src="//cdn.omniupdate.com/ldp-galleries/v2/fancybox/jquery.fancybox.min.js"></script><script>
+				$(document).ready(function () {
+					$('[data-fancybox]').fancybox({
+					
+						buttons: [],
+						afterLoad: function(i, slide) { slide.$image.attr('alt', slide.$thumb.attr('alt')); },
+						btnTpl: {
+							download:
+							'<a download data-fancybox-download class="fancybox-button fancybox-button--download" title="{{DOWNLOAD}}" aria-label="{{DOWNLOAD}}" href="javascript:;">' +
+							'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.62 17.09V19H5.38v-1.91zm-2.97-6.96L17 11.45l-5 4.87-5-4.87 1.36-1.32 2.68 2.64V5h1.92v7.77z"/></svg>' +
+							"</a>",
+
+							zoom:
+							'<button data-fancybox-zoom class="fancybox-button fancybox-button--zoom" title="{{ZOOM}}" aria-label="{{ZOOM}}">' +
+							'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.7 17.3l-3-3a5.9 5.9 0 0 0-.6-7.6 5.9 5.9 0 0 0-8.4 0 5.9 5.9 0 0 0 0 8.4 5.9 5.9 0 0 0 7.7.7l3 3a1 1 0 0 0 1.3 0c.4-.5.4-1 0-1.5zM8.1 13.8a4 4 0 0 1 0-5.7 4 4 0 0 1 5.7 0 4 4 0 0 1 0 5.7 4 4 0 0 1-5.7 0z"/></svg>' +
+							"</button>",
+
+							fullScreen: '<button data-fancybox-fullscreen class="fancybox-button fancybox-button--fsenter" title="{{FULL_SCREEN}}" aria-label="{{FULL_SCREEN}}>' +
+							'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 16h3v3h2v-5H5zm3-8H5v2h5V5H8zm6 11h2v-3h3v-2h-5zm2-11V5h-2v5h5V8z"/></svg>' +
+							"</button>",
+
+							slideShow: '<button data-fancybox-play class="fancybox-button fancybox-button--play" title="{{PLAY_START}}" aria-label="{{PLAY_START}}">' +
+							'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 5.4v13.2l11-6.6z"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.33 5.75h2.2v12.5h-2.2V5.75zm5.15 0h2.2v12.5h-2.2V5.75z"/></svg>' +
+							"</button>",
+
+							close:
+							'<button data-fancybox-close class="fancybox-button fancybox-button--close" title="{{CLOSE}}" aria-label="{{CLOSE}}">' +
+							'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 10.6L6.6 5.2 5.2 6.6l5.4 5.4-5.4 5.4 1.4 1.4 5.4-5.4 5.4 5.4 1.4-1.4-5.4-5.4 5.4-5.4-1.4-1.4-5.4 5.4z"/></svg>' +
+							"</button>",
+
+							thumbs:
+							'<button data-fancybox-thumbs class="fancybox-button fancybox-button--thumbs" title="{{THUMBS}}" aria-label="{{THUMBS}}">' +
+							'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.59 14.59h3.76v3.76h-3.76v-3.76zm-4.47 0h3.76v3.76h-3.76v-3.76zm-4.47 0h3.76v3.76H5.65v-3.76zm8.94-4.47h3.76v3.76h-3.76v-3.76zm-4.47 0h3.76v3.76h-3.76v-3.76zm-4.47 0h3.76v3.76H5.65v-3.76zm8.94-4.47h3.76v3.76h-3.76V5.65zm-4.47 0h3.76v3.76h-3.76V5.65zm-4.47 0h3.76v3.76H5.65V5.65z"/></svg>' +
+							"</button>",
+
+							// Arrows
+							arrowLeft:
+							'<button data-fancybox-prev class="fancybox-button fancybox-button--arrow_left" title="{{PREV}}" aria-label="{{PREV}}">' +
+							'<div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.28 15.7l-1.34 1.37L5 12l4.94-5.07 1.34 1.38-2.68 2.72H19v1.94H8.6z"/></svg></div>' +
+							"</button>",
+
+							arrowRight:
+							'<button data-fancybox-next class="fancybox-button fancybox-button--arrow_right" title="{{NEXT}}" aria-label="{{NEXT}}">' +
+							'<div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.4 12.97l-2.68 2.72 1.34 1.38L19 12l-4.94-5.07-1.34 1.38 2.68 2.72H5v1.94z"/></svg></div>' +
+							"</button>",
+
+							// This small close button will be appended to your html/inline/ajax content by default,
+							// if "smallBtn" option is not set to false
+							smallBtn:
+							'<button type="button" data-fancybox-close class="fancybox-button fancybox-close-small" title="{{CLOSE}}" aria-label="{{CLOSE}}">' +
+							'<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"/></svg>' +
+							"</button>"
+						},
+					});
+				});
+			</script><!-- ouc:info uuid="cd9c7404-74a4-4158-a4dc-6f94b1e56b6a"/ --></body>
+</html>

@@ -1,0 +1,2706 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# "> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-398023-3"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-398023-3", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});gtag("config", "UA-398023-53", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});gtag("config", "G-3F5L6WYJ4W", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});gtag("config", "UA-75813690-2", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});gtag("config", "G-XJ9SKW94MM", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location","allow_ad_personalization_signals":false});</script>
+<link rel="canonical" href="https://www.ucdavis.edu/" />
+<link rel="shortlink" href="https://www.ucdavis.edu/" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.ucdavis.edu/home" />
+<meta property="og:title" content="UC Davis" />
+<meta property="og:description" content="UC Davis innovates to address the world’s most challenging problems and educates tomorrow’s leaders." />
+<meta name="facebook-domain-verification" content="b92i6f0qbb5t6ftcf81sivfjiaw9p5" />
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@ucdavis" />
+<meta name="twitter:description" content="UC Davis innovates to address the world’s most challenging problems and educates tomorrow’s leaders." />
+<meta name="twitter:title" content="UC Davis" />
+<meta name="twitter:url" content="https://www.ucdavis.edu/home" />
+<meta name="twitter:image:alt" content="" />
+<meta name="twitter:image:height" content="720" />
+<meta name="twitter:image:width" content="1280" />
+<meta name="twitter:image" content="https://www.ucdavis.edu" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-f3d2d5828f08983b27e",applicationID:"454414157"};/*! For license information please see nr-loader-rum-1220.min.js.LICENSE.txt */
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.NRBA=e():t.NRBA=e()}(self,(function(){return function(){var t,e,n={9034:function(t,e,n){"use strict";var r=n(4168);e.Z=(0,r.ky)(16)},5973:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1])},4280:function(t,e,n){"use strict";n.d(e,{H:function(){return o}});var r=document.createElement("div");r.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e";var o,i=r.getElementsByTagName("div").length;o=4===i?6:3===i?7:2===i?8:1===i?9:0},5955:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=function(t,e){var n=this;return t&&"object"==typeof t?e&&"object"==typeof e?(Object.assign(this,e),void Object.entries(t).forEach((function(t){var e=t[0],r=t[1];n[e]=r}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")}},441:function(t,e,n){"use strict";n.d(e,{C:function(){return c},L:function(){return u}});var r=n(1424),o=n(5955),i={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function c(t){if(!t)throw new Error("All info objects require an agent identifier!");if(!a[t])throw new Error("Info for "+t+" was never set");return a[t]}function u(t,e){if(!t)throw new Error("All info objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"info")}},1476:function(t,e,n){"use strict";n.d(e,{Dg:function(){return c},Mt:function(){return u}});var r=n(1424),o=n(5955),i={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},a={};function c(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"config")}function u(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");var n=function(t){if(!t)throw new Error("All configuration objects require an agent identifier!");if(!a[t])throw new Error("Configuration for "+t+" was never set");return a[t]}(t);if(n){for(var r=e.split("."),o=0;o<r.length-1;o++)if("object"!=typeof(n=n[r[o]]))return;n=n[r[r.length-1]]}return n}},2085:function(t,e,n){"use strict";n.d(e,{Y:function(){return r}});var r=(0,n(1424).mF)().o},1220:function(t,e,n){"use strict";n.d(e,{O:function(){return w},s:function(){return x}});var r={};n.r(r),n.d(r,{agent:function(){return a},match:function(){return f},version:function(){return c}});var o=n(4280),i=n(6959),a=null,c=null;if(navigator.userAgent){var u=navigator.userAgent,s=u.match(/Version\/(\S+)\s+Safari/);s&&-1===u.indexOf("Chrome")&&-1===u.indexOf("Chromium")&&(a="Safari",c=s[1])}function f(t,e){if(!a)return!1;if(t!==a)return!1;if(!e)return!0;if(!c)return!1;for(var n=c.split("."),r=e.split("."),o=0;o<r.length;o++)if(r[o]!==n[o])return!1;return!0}var d=n(5955),l=n(1424),v=n(4168),p=window.sessionStorage,h="NRBA_SESSION_ID";var g=n(1476),y=window.XMLHttpRequest,m=y&&y.prototype,b={};function w(t){if(!t)throw new Error("All runtime objects require an agent identifier!");if(!b[t])throw new Error("Runtime for "+t+" was never set");return b[t]}function x(t,e){if(!t)throw new Error("All runtime objects require an agent identifier!");var n,a;b[t]=new d.I(e,(n=t,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===o.H?2e3:3e4,offset:(0,i.yf)(),onerror:void 0,origin:""+window.location,ptid:void 0,releaseIds:{},sessionId:!0===(0,g.Mt)(n,"privacy.cookies_enabled")?(null===(a=p.getItem(h))&&(a=(0,v.ky)(16),p.setItem(h,a)),a):"0",xhrWrappable:y&&m&&m.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:r})),(0,l.Qy)(t,b[t],"runtime")}},158:function(t,e,n){"use strict";n.d(e,{q:function(){return r}});var r=["1220","PROD"].filter((function(t){return t})).join(".")},3707:function(t,e,n){"use strict";n.d(e,{w:function(){return o}});var r={agentIdentifier:""},o=function(t){var e=this;if("object"!=typeof t)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,r),Object.entries(t).forEach((function(t){var n=t[0],o=t[1];Object.keys(r).includes(n)&&(e.sharedContext[n]=o)}))}},1776:function(t,e,n){"use strict";n.d(e,{ee:function(){return r}});var r,o=n(1424),i=n(4217),a=n(357),c="nr@context",u=(0,o.fP)();function s(){}function f(){return new s}function d(){(r.backlog.api||r.backlog.feature)&&(r.aborted=!0,r.backlog={})}u.ee?r=u.ee:(r=function t(e,n){var o={},u={},l={},v={on:g,addEventListener:g,removeEventListener:y,emit:h,get:b,listeners:m,context:p,buffer:w,abort:d,aborted:!1,isBuffering:x,debugId:n,backlog:e&&e.backlog?e.backlog:{}};return v;function p(t){return t&&t instanceof s?t:t?(0,i.X)(t,c,f):f()}function h(t,n,o,i,a){if(!1!==a&&(a=!0),!r.aborted||i){e&&a&&e.emit(t,n,o);for(var c=p(o),s=m(t),f=s.length,d=0;d<f;d++)s[d].apply(c,n);var l=O()[u[t]];return l&&l.push([v,t,n,c]),c}}function g(t,e){o[t]=m(t).concat(e)}function y(t,e){var n=o[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return o[t]||[]}function b(e){return l[e]=l[e]||t(v,e)}function w(t,e){var n=O();v.aborted||(0,a.D)(t,(function(t,r){e=e||"feature",u[r]=e,e in n||(n[e]=[])}))}function x(t){return!!O()[u[t]]}function O(){return v.backlog}}(void 0,"globalEE"),u.ee=r)},7361:function(t,e,n){"use strict";n.d(e,{E:function(){return r},p:function(){return o}});var r=n(1776).ee.get("handle");function o(t,e,n,o,i){i?(i.buffer([t],o),i.emit(t,e,n)):(r.buffer([t],o),r.emit(t,e,n))}},3350:function(t,e,n){"use strict";n.d(e,{X:function(){return i}});var r=n(7361);i.on=a;var o=i.handlers={};function i(t,e,n,i){a(i||r.E,o,t,e,n)}function a(t,e,n,o,i){i||(i="feature"),t||(t=r.E);var a=e[i]=e[i]||{};(a[n]=a[n]||[]).push([t,o])}},4408:function(t,e,n){"use strict";n.d(e,{m:function(){return i}});var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(t){}function i(t){return r?{passive:!0,capture:!!t}:!!t}},4168:function(t,e,n){"use strict";function r(){var t=null,e=0,n=window.crypto||window.msCrypto;function r(){return t?15&t[e++]:16*Math.random()|0}n&&n.getRandomValues&&(t=n.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)a+="x"===(o=i[c])?r().toString(16):"y"===o?(o=3&r()|8).toString(16):o;return a}function o(t){var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<t;i++)o.push(a().toString(16));return o.join("");function a(){return e?15&e[n++]:16*Math.random()|0}}n.d(e,{Rl:function(){return r},ky:function(){return o}})},6959:function(t,e,n){"use strict";n.d(e,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var r=n(2364),o=(new Date).getTime(),i=o;function a(){return r.G&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-i}function c(){return o}function u(t){i=t}function s(){return i}},2364:function(t,e,n){"use strict";n.d(e,{G:function(){return r}});var r=void 0!==window.performance&&window.performance.timing&&void 0!==window.performance.timing.navigationStart},1793:function(t,e,n){"use strict";function r(t){var e,n=0;for(e=0;e<t.length;e++)n+=(e+1)*t.charCodeAt(e);return Math.abs(n)}n.d(e,{v:function(){return s},s:function(){return u}});var o=n(6972),i=n(5973),a=n(6959),c=n(2364),u=!0;function s(t){var e=function(){if(i.I&&i.I<9)return;if(c.G)return u=!1,window.performance.timing.navigationStart}()||function(){for(var t=document.cookie.split(" "),e=0;e<t.length;e++)if(0===t[e].indexOf("NREUM=")){for(var n,o,i,a,c=t[e].substring("NREUM=".length).split("&"),u=0;u<c.length;u++)0===c[u].indexOf("s=")?i=c[u].substring(2):0===c[u].indexOf("p=")?";"===(o=c[u].substring(2)).charAt(o.length-1)&&(o=o.substr(0,o.length-1)):0===c[u].indexOf("r=")&&";"===(n=c[u].substring(2)).charAt(n.length-1)&&(n=n.substr(0,n.length-1));if(n){var s=r(document.referrer);(a=s==n)||(a=r(document.location.href)==n&&s==o)}if(a&&i){if((new Date).getTime()-i>6e4)return;return i}}}();e&&((0,o.B)(t,"starttime",e),(0,a.nb)(e))}},6972:function(t,e,n){"use strict";n.d(e,{B:function(){return i},L:function(){return a}});var r=n(6959),o={};function i(t,e,n){void 0===n&&(n=(0,r.zO)()+(0,r.os)()),o[t]=o[t]||{},o[t][e]=n}function a(t,e,n,r){var i,a,c=t.sharedContext.agentIdentifier,u=null==(i=o[c])?void 0:i[n],s=null==(a=o[c])?void 0:a[r];void 0!==u&&void 0!==s&&t.store("measures",e,{value:s-u})}},7299:function(t,e,n){"use strict";n.d(e,{T:function(){return a}});var r=window,o=r;function i(){return o}var a={isFileProtocol:function(){var t=i(),e=!(!t.location||!t.location.protocol||"file:"!==t.location.protocol);e&&(a.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},847:function(t,e,n){"use strict";n.d(e,{K:function(){return a}});var r=n(1220),o=n(1476),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function a(t){var e={};return i.forEach((function(n){e[n]=function(t,e){return!0!==(0,r.O)(e).disabled&&!1!==(0,o.Mt)(e,t+".enabled")}(n,t)})),e}},5023:function(t,e,n){"use strict";n.d(e,{W:function(){return o}});var r=n(1776),o=function(t,e,n){void 0===n&&(n=[]),this.agentIdentifier=t,this.aggregator=e,this.ee=r.ee.get(t),this.externalFeatures=n}},4217:function(t,e,n){"use strict";n.d(e,{X:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(t){}return t[e]=o,o}},357:function(t,e,n){"use strict";n.d(e,{D:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}},603:function(t,e,n){"use strict";n.d(e,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var r=n(1476),o=n(3707),i=n(7299);function a(t,e){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},a(t,e)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(t){var e,n;function r(e){return t.call(this,e)||this}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,a(e,n);var o=r.prototype;return o.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},o.obfuscateString=function(t){if(!t||"string"!=typeof t)return t;for(var e=s(this.sharedContext.agentIdentifier),n=t,r=0;r<e.length;r++){var o=e[r].regex,i=e[r].replacement||"*";n=n.replace(o,i)}return n},r}(o.w);function s(t){var e=[],n=(0,r.Mt)(t,"obfuscate")||[];return e=e.concat(n),i.T.isFileProtocol()&&e.push(c),e}function f(t){for(var e=!1,n=!1,r=0;r<t.length;r++){"regex"in t[r]?"string"!=typeof t[r].regex&&t[r].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),n=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),n=!0);var o=t[r].replacement;o&&"string"!=typeof o&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),e=!0)}return!e&&!n}},1424:function(t,e,n){"use strict";n.d(e,{EZ:function(){return u},Qy:function(){return c},ce:function(){return o},fP:function(){return i},gG:function(){return s},mF:function(){return a}});var r=n(6959),o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function i(){return window.NREUM||(window.NREUM={}),void 0===window.newrelic&&(window.newrelic=window.NREUM),window.NREUM}function a(){var t=i();if(!t.o){var e=window,n=e.XMLHttpRequest;t.o={ST:setTimeout,SI:e.setImmediate,CT:clearTimeout,XHR:n,REQ:e.Request,EV:e.Event,PR:e.Promise,MO:e.MutationObserver,FETCH:e.fetch}}return t}function c(t,e,n){var o,a,c=i(),u=c.initializedAgents||{},s=u[t]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[t]=Object.assign({},s,((o={})[n]=e,o)),a)),c}function u(t,e){i()[t]=e}function s(){var t,e;return t=i(),e=t.info||{},t.info=Object.assign({beacon:o.beacon,errorBeacon:o.errorBeacon},e),function(){var t=i(),e=t.init||{};t.init=Object.assign({},e)}(),a(),function(){var t=i(),e=t.loader_config||{};t.loader_config=Object.assign({},e)}(),i()}},8539:function(t){t.exports=function(t,e,n){e||(e=0),void 0===n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}}},r={};function o(t){var e=r[t];if(void 0!==e)return e.exports;var i=r[t]={exports:{}};return n[t](i,i.exports,o),i.exports}o.m=n,o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,{a:e}),e},o.d=function(t,e){for(var n in e)o.o(e,n)&&!o.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},o.f={},o.e=function(t){return Promise.all(Object.keys(o.f).reduce((function(e,n){return o.f[n](t,e),e}),[]))},o.u=function(t){return t+"."+o.h().slice(0,8)+"-1220.js"},o.h=function(){return"2d6a2503b7f18a5b77dd"},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},t={},e="NRBA:",o.l=function(n,r,i,a){if(t[n])t[n].push(r);else{var c,u;if(void 0!==i)for(var s=document.getElementsByTagName("script"),f=0;f<s.length;f++){var d=s[f];if(d.getAttribute("src")==n||d.getAttribute("data-webpack")==e+i){c=d;break}}c||(u=!0,(c=document.createElement("script")).charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.setAttribute("data-webpack",e+i),c.src=n),t[n]=[r];var l=function(e,r){c.onerror=c.onload=null,clearTimeout(v);var o=t[n];if(delete t[n],c.parentNode&&c.parentNode.removeChild(c),o&&o.forEach((function(t){return t(r)})),e)return e(r)},v=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),u&&document.head.appendChild(c)}},o.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},o.p="https://js-agent.newrelic.com/",function(){var t={299:0,82:0};o.f.j=function(e,n){var r=o.o(t,e)?t[e]:void 0;if(0!==r)if(r)n.push(r[2]);else{var i=new Promise((function(n,o){r=t[e]=[n,o]}));n.push(r[2]=i);var a=o.p+o.u(e),c=new Error;o.l(a,(function(n){if(o.o(t,e)&&(0!==(r=t[e])&&(t[e]=void 0),r)){var i=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;c.message="Loading chunk "+e+" failed.\n("+i+": "+a+")",c.name="ChunkLoadError",c.type=i,c.request=a,r[1](c)}}),"chunk-"+e,e)}};var e=function(e,n){var r,i,a=n[0],c=n[1],u=n[2],s=0;if(a.some((function(e){return 0!==t[e]}))){for(r in c)o.o(c,r)&&(o.m[r]=c[r]);if(u)u(o)}for(e&&e(n);s<a.length;s++)i=a[s],o.o(t,i)&&t[i]&&t[i][0](),t[i]=0},n=self.webpackChunkNRBA=self.webpackChunkNRBA||[];n.forEach(e.bind(null,0)),n.push=e.bind(null,n.push.bind(n))}();var i={};return function(){"use strict";o.r(i);var t=o(9034),e=o(4408),n=window,r=n.document;function a(t){"complete"===r.readyState&&t()}function c(t){a(t),r.addEventListener?n.addEventListener("load",t,(0,e.m)(!1)):n.attachEvent("onload",t)}function u(t){a(t),r.addEventListener?r.addEventListener("DOMContentLoaded",t,(0,e.m)(!1)):r.attachEvent("onreadystatechange",a)}var s=o(1776);function f(){f=function(){return t};var t={},e=Object.prototype,n=e.hasOwnProperty,r="function"==typeof Symbol?Symbol:{},o=r.iterator||"@@iterator",i=r.asyncIterator||"@@asyncIterator",a=r.toStringTag||"@@toStringTag";function c(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{c({},"")}catch(t){c=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var o=e&&e.prototype instanceof l?e:l,i=Object.create(o.prototype),a=new j(r||[]);return i._invoke=function(t,e,n){var r="suspendedStart";return function(o,i){if("executing"===r)throw new Error("Generator is already running");if("completed"===r){if("throw"===o)throw i;return P()}for(n.method=o,n.arg=i;;){var a=n.delegate;if(a){var c=x(a,n);if(c){if(c===d)continue;return c}}if("next"===n.method)n.sent=n._sent=n.arg;else if("throw"===n.method){if("suspendedStart"===r)throw r="completed",n.arg;n.dispatchException(n.arg)}else"return"===n.method&&n.abrupt("return",n.arg);r="executing";var u=s(t,e,n);if("normal"===u.type){if(r=n.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:n.done}}"throw"===u.type&&(r="completed",n.method="throw",n.arg=u.arg)}}}(t,n,a),i}function s(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}t.wrap=u;var d={};function l(){}function v(){}function p(){}var h={};c(h,o,(function(){return this}));var g=Object.getPrototypeOf,y=g&&g(g(_([])));y&&y!==e&&n.call(y,o)&&(h=y);var m=p.prototype=l.prototype=Object.create(h);function b(t){["next","throw","return"].forEach((function(e){c(t,e,(function(t){return this._invoke(e,t)}))}))}function w(t,e){function r(o,i,a,c){var u=s(t[o],t,i);if("throw"!==u.type){var f=u.arg,d=f.value;return d&&"object"==typeof d&&n.call(d,"__await")?e.resolve(d.__await).then((function(t){r("next",t,a,c)}),(function(t){r("throw",t,a,c)})):e.resolve(d).then((function(t){f.value=t,a(f)}),(function(t){return r("throw",t,a,c)}))}c(u.arg)}var o;this._invoke=function(t,n){function i(){return new e((function(e,o){r(t,n,e,o)}))}return o=o?o.then(i,i):i()}}function x(t,e){var n=t.iterator[e.method];if(void 0===n){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,x(t,e),"throw"===e.method))return d;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var r=s(n,t.iterator,e.arg);if("throw"===r.type)return e.method="throw",e.arg=r.arg,e.delegate=null,d;var o=r.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,d):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,d)}function O(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function E(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function j(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(O,this),this.reset(!0)}function _(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,i=function e(){for(;++r<t.length;)if(n.call(t,r))return e.value=t[r],e.done=!1,e;return e.value=void 0,e.done=!0,e};return i.next=i}}return{next:P}}function P(){return{value:void 0,done:!0}}return v.prototype=p,c(m,"constructor",p),c(p,"constructor",v),v.displayName=c(p,a,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===v||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,p):(t.__proto__=p,c(t,a,"GeneratorFunction")),t.prototype=Object.create(m),t},t.awrap=function(t){return{__await:t}},b(w.prototype),c(w.prototype,i,(function(){return this})),t.AsyncIterator=w,t.async=function(e,n,r,o,i){void 0===i&&(i=Promise);var a=new w(u(e,n,r,o),i);return t.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},b(m),c(m,a,"Generator"),c(m,o,(function(){return this})),c(m,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var n in t)e.push(n);return e.reverse(),function n(){for(;e.length;){var r=e.pop();if(r in t)return n.value=r,n.done=!1,n}return n.done=!0,n}},t.values=_,j.prototype={constructor:j,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!t)for(var e in this)"t"===e.charAt(0)&&n.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function r(n,r){return a.type="throw",a.arg=t,e.next=n,r&&(e.method="next",e.arg=void 0),!!r}for(var o=this.tryEntries.length-1;o>=0;--o){var i=this.tryEntries[o],a=i.completion;if("root"===i.tryLoc)return r("end");if(i.tryLoc<=this.prev){var c=n.call(i,"catchLoc"),u=n.call(i,"finallyLoc");if(c&&u){if(this.prev<i.catchLoc)return r(i.catchLoc,!0);if(this.prev<i.finallyLoc)return r(i.finallyLoc)}else if(c){if(this.prev<i.catchLoc)return r(i.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return r(i.finallyLoc)}}}},abrupt:function(t,e){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),E(n),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;E(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,n){return this.delegate={iterator:_(t),resultName:e,nextLoc:n},"next"===this.method&&(this.arg=void 0),d}},t}function d(t,e,n,r,o,i,a){try{var c=t[i](a),u=c.value}catch(t){return void n(t)}c.done?e(u):Promise.resolve(u).then(r,o)}var l=0;function v(t){var e;(e=f().mark((function e(){var n,r;return f().wrap((function(e){for(;;)switch(e.prev=e.next){case 0:if(!l++){e.next=2;break}return e.abrupt("return");case 2:return e.prev=2,e.next=5,o.e(552).then(o.bind(o,5552));case 5:return n=e.sent,r=n.aggregator,e.next=9,r(t);case 9:e.next=15;break;case 11:e.prev=11,e.t0=e.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",e.t0),s.ee.abort();case 15:case"end":return e.stop()}}),e,null,[[2,11]])})),function(){var t=this,n=arguments;return new Promise((function(r,o){var i=e.apply(t,n);function a(t){d(i,r,o,a,c,"next",t)}function c(t){d(i,r,o,a,c,"throw",t)}a(void 0)}))})()}var p=o(8539),h=o.n(p),g=o(1424),y=o(1220),m=o(441),b=o(7361),w=o(357),x=o(6959);var O=o(1476),E=o(5955),j={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};var P=!1;var A=o(6972),k=o(1793),L=o(5023);function S(t,e){return S=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},S(t,e)}var T,C,I,R=function(t){var e,n;function r(e){var n;return n=t.call(this,e)||this,(0,k.v)(e),(0,A.B)(e,"firstbyte",(0,x.yf)()),c((function(){return n.measureWindowLoaded()})),u((function(){return n.measureDomContentLoaded()})),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,S(e,n);var o=r.prototype;return o.measureWindowLoaded=function(){var t=(0,x.zO)();(0,A.B)(this.agentIdentifier,"onload",t+(0,x.os)()),(0,b.p)("timing",["load",t],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,A.B)(this.agentIdentifier,"domContent",(0,x.zO)()+(0,x.os)())},r}(L.W);void 0!==document.hidden?(T="hidden",C="visibilitychange",I="visibilityState"):void 0!==document.msHidden?(T="msHidden",C="msvisibilitychange"):void 0!==document.webkitHidden&&(T="webkitHidden",C="webkitvisibilitychange",I="webkitVisibilityState");var M=o(2085);function N(t,e){return N=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},N(t,e)}var D=function(t){var n,r;function o(n){var r,o;if((r=t.call(this,n)||this).pageHiddenTime="hidden"===document.visibilityState?-1:1/0,r.performanceObserver,r.lcpPerformanceObserver,r.clsPerformanceObserver,r.fiRecorded=!1,!r.isEnabled())return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(r);if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){r.performanceObserver=new PerformanceObserver((function(){var t;return(t=r).perfObserver.apply(t,arguments)}));try{r.performanceObserver.observe({entryTypes:["paint"]})}catch(t){}r.lcpPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).lcpObserver.apply(t,arguments)}));try{r.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(t){}r.clsPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).clsObserver.apply(t,arguments)}));try{r.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(t){}}if("addEventListener"in document){r.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(t){document.addEventListener(t,(function(){var t;return(t=r).captureInteraction.apply(t,arguments)}),(0,e.m)(!1))}))}return o=function(){var t;return(t=r).captureVisibilityChange.apply(t,arguments)},"addEventListener"in document&&C&&document.addEventListener(C,(function(){I&&document[I]?o(document[I]):document[T]?o("hidden"):o("visible")}),(0,e.m)(!1)),r}r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,N(n,r);var i=o.prototype;return i.isEnabled=function(){return!1!==(0,O.Mt)(this.agentIdentifier,"page_view_timing.enabled")},i.perfObserver=function(t,e){var n=this;t.getEntries().forEach((function(t){"first-paint"===t.name?(0,b.p)("timing",["fp",Math.floor(t.startTime)],void 0,void 0,n.ee):"first-contentful-paint"===t.name&&(0,b.p)("timing",["fcp",Math.floor(t.startTime)],void 0,void 0,n.ee)}))},i.lcpObserver=function(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(this.pageHiddenTime<r.startTime)return;var o=[r],i=this.addConnectionAttributes({});i&&o.push(i),(0,b.p)("lcp",o,void 0,void 0,this.ee)}},i.clsObserver=function(t){var e=this;t.getEntries().forEach((function(t){t.hadRecentInput||(0,b.p)("cls",[t],void 0,void 0,e.ee)}))},i.addConnectionAttributes=function(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t},i.captureInteraction=function(t){if(t instanceof M.Y.EV&&!this.fiRecorded){var e=Math.round(t.timeStamp),n={type:t.type};this.addConnectionAttributes(n),e<=(0,x.zO)()?n.fid=(0,x.zO)()-e:e>(0,x.os)()&&e<=Date.now()?(e-=(0,x.os)(),n.fid=(0,x.zO)()-e):e=(0,x.zO)(),this.fiRecorded=!0,(0,b.p)("timing",["fi",e,n],void 0,void 0,this.ee)}},i.captureVisibilityChange=function(t){"hidden"===t&&(this.pageHiddenTime=(0,x.zO)(),(0,b.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(L.W),q=o(3350),B="React",z="Angular",G="AngularJS",H="Backbone",F="Ember",V="Vue",Z="Meteor",U="Zepto",X="Jquery";function Q(){var t=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var t=document.querySelectorAll("body > div"),e=0;e<t.length;e++)if(Object.keys(t[e]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(t){return!1}})()&&t.push(B),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(t){return!1}}()&&t.push(G),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(t){return!1}}()&&t.push(z),window.Backbone&&t.push(H),window.Ember&&t.push(F),window.Vue&&t.push(V),window.Meteor&&t.push(Z),window.Zepto&&t.push(U),window.jQuery&&t.push(X)}catch(t){}return t}var W=o(7299),K=o(603),Y=o(158);function J(t,e){return J=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},J(t,e)}var $=function(t){var e,n;function r(e){var n;return(n=t.call(this,e)||this).singleChecks(),(0,q.X)("record-supportability",(function(){var t;return(t=n).recordSupportability.apply(t,arguments)}),void 0,n.ee),(0,q.X)("record-custom",(function(){var t;return(t=n).recordCustom.apply(t,arguments)}),void 0,n.ee),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,J(e,n);var o=r.prototype;return o.recordSupportability=function(t,e){var n=["sm",t,{name:t},e];return(0,b.p)("storeMetric",n,null,void 0,this.ee),n},o.recordCustom=function(t,e){var n=["cm",t,{name:t},e];return(0,b.p)("storeEventMetrics",n,null,void 0,this.ee),n},o.singleChecks=function(){var t=this;this.recordSupportability("Generic/Version/"+Y.q+"/Detected"),u((function(){Q().forEach((function(e){t.recordSupportability("Framework/"+e+"/Detected")}))})),W.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),W.T.supportabilityMetricSent=!0);var e=(0,K.$c)(this.agentIdentifier);e.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),e.length>0&&!(0,K.Ng)(e)&&this.recordSupportability("Generic/Obfuscate/Invalid")},r}(L.W),tt=o(847);new Promise((function(e,n){if(P)e(P);else{var r=(0,g.gG)();try{(0,m.L)(t.Z,r.info),(0,O.Dg)(t.Z,r.init),function(t,e){if(!t)throw new Error("All loader-config objects require an agent identifier!");_[t]=new E.I(e,j),(0,g.Qy)(t,_[t],"loader_config")}(t.Z,r.loader_config),(0,y.s)(t.Z,{}),function(t){var e=(0,g.fP)(),n=s.ee.get(t),r=n.get("tracer"),o="api-",i="api-ixn-";function a(){}(0,w.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(t,n){e[n]=u(o,n,!0,"api")})),e.addPageAction=u(o,"addPageAction",!0),e.setCurrentRouteName=u(o,"routeName",!0),e.setPageViewName=function(e,n){if("string"==typeof e)return"/"!==e.charAt(0)&&(e="/"+e),(0,y.O)(t).customTransaction=(n||"http://custom.transaction")+e,u(o,"setPageViewName",!0,"api")()},e.setCustomAttribute=function(e,n){var r,i=(0,m.C)(t);return(0,m.L)(t,Object.assign({},i,{jsAttributes:Object.assign({},i.jsAttributes,(r={},r[e]=n,r))})),u(o,"setCustomAttribute",!0,"api")()},e.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(t,e){var o={},i=this,a="function"==typeof e;return(0,b.p)("api-ixn-tracer",[(0,x.zO)(),t,o],i,void 0,n),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,x.zO)(),i,a],o),a)try{return e.apply(this,arguments)}catch(t){throw r.emit("fn-err",[arguments,this,"string"==typeof t?new Error(t):t],o),t}finally{r.emit("fn-end",[(0,x.zO)()],o)}}}};function u(t,e,r,o){return function(){return(0,b.p)("record-supportability",["API/"+e+"/called"],void 0,void 0,n),(0,b.p)(t+e,[(0,x.zO)()].concat(h()(arguments)),r?null:this,o,n),r?void 0:this}}(0,w.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(t,e){c[e]=u(i,e)})),e.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),(0,b.p)("record-supportability",["API/noticeError/called"],void 0,void 0,n),(0,b.p)("err",[t,(0,x.zO)(),!1,e],void 0,void 0,n)}}(t.Z),e(P=!0)}catch(t){n(t)}}})).then((function(){var e,n,r,o=(0,tt.K)(t.Z);o.page_view_event&&new R(t.Z),o.page_view_timing&&new D(t.Z),o.metrics&&new $(t.Z),e="lite",n?setTimeout((function(){return v(e)}),r||1e3):c((function(){return v(e)}))}))}(),i}()}));</script>
+<meta http-equiv="apple-mobile-web-app-capable" content="yes" />
+<link rel="modulepreload" href="https://cdn.skypack.dev/pin/lit@v2.0.0-rc.3-RFrIXWBysJfo8GpKQ4Gc/mode=imports,min/optimized/lit.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/jquery.module.vG6vucuxogm0.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/_snowpack/pkg/jquery-hoverintent.QzuCi_STP-r5.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/_snowpack/pkg/superfish.hzX6spBBrKIs.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/_snowpack/pkg/slim-select.UX-dxNggOu_g.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/_snowpack/pkg/slidetoggle.QuAuD4z8gQd1.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/1_pattern_lab/lib/accessiblity-functions.YSa007ZYNnDb.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/1_pattern_lab/lib/submenu-toggle.i3ToZsVSIofa.js" />
+<link rel="modulepreload" href="/profiles/sitefarm/themes/sitefarm_one/dist/1_pattern_lab/primary-nav.EIN3KI_nzq1M.js" />
+<link rel="preload" href="https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.woff2" as="font" type="font/woff" crossorigin="true" />
+<link rel="preload" href="https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.woff2" as="font" type="font/woff" crossorigin="true" />
+<link rel="preload" href="https://campusfont.ucdavis.edu/proxima-nova/proximanova_extrabold_macroman/proximanova-extrabold-webfont.woff2" as="font" type="font/woff" crossorigin="true" />
+<link rel="preload" href="https://use.fontawesome.com/releases/v6.0.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff" crossorigin="true" />
+<link rel="icon" href="/sites/default/files/ucd-favicon5_0.png" type="image/png" />
+<link rel="preconnect" href="https://s7.addthis.com" />
+<link rel="preconnect" href="https://m.addthis.com" />
+<script src="/sites/default/files/google_tag/home_site/google_tag.script.js?rlpwcs" defer></script>
+
+    <title>UC Davis | UC Davis</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_MsyY1g1vNhJCthoR4crPjHVJU1-6oPB7A3WXtIt4SQw.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_l-Q5BuVYysT6d0aOjpFukKgtxMmIb0MECzYxDkO92iM.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_u9ISgdaTBBlA35PiB-qWFkZCXsLt8wMKl3jLl7jyKGE.css" />
+
+    <script src="/profiles/sitefarm/themes/sitefarm_one/dist/main.szqXjKcwiVpJ.js?v=9.3.22" type="module"></script>
+
+  </head>
+  <body class="path-frontpage page-node-type-landing-page node-2378 l-header--fixed">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4N8X8M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="layout-container ">
+
+  <header class="l-header header">
+    <div class="mobile-bar">
+      <div class="mobile-bar__nav-toggle">
+        <button class="nav-toggle js-nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle Main Menu">
+          <span class="nav-toggle__icon nav-toggle__icon--menu">Menu</span>
+        </button>
+      </div>
+      <div class="mobile-bar__fixed-site-name"><a href="/" title="Home" rel="home">UC Davis</a></div>
+      <div class="mobile-bar__university">
+        <a href="/"><img src="/profiles/sitefarm/themes/sitefarm_one/images/uc-logo-gold.svg" class="ucd-logo" alt="UC Davis Logo" /></a>
+      </div>
+    </div>
+
+        <div class="l-header__branding"></div>
+
+    <div class="l-navbar header__navbar navbar menu--closed">
+      <div class="l-container--navigation off-canvas off-canvas--left">
+        <div class="off-canvas__container l-nav-horizontal">
+          <div class="l-nav-horizontal__brand">
+            <a href="/"><img src="/profiles/sitefarm/themes/sitefarm_one/images/uc-logo-gold.svg" class="ucd-logo" alt="UC Davis Logo" width="100" height="16" /></a>
+          </div>
+          <div class="l-nav-horizontal__search-popup">
+              <div class="region region-search">
+    <button class="search-popup__open js-search-popup__open">
+  <span class="search-popup__open-icon">Open Search</span>
+</button>
+<div class="search-block-form search-popup" data-drupal-selector="search-block-form" id="block-ucd-search" role="search">
+      <form action="/gcs/search" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." class="search-form__input form-search" placeholder="Search..." required="required" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value=" Submit" />
+</div>
+
+</form>
+
+  </div>
+
+
+  </div>
+
+          </div>
+          <div class="l-nav-horizontal__quick-links">
+                            <div class="region region-quick-links">
+    <div class="quick-links">
+  <button id="block-ucd-quicklinks-menu" class="quick-links__title" aria-controls="quick-links" aria-expanded="false" aria-label="Toggle Quick Links Menu">
+    Quick Links
+    <span class="submenu-toggle"><span class="submenu-toggle__icon">+</span></span>
+  </button>
+  <nav aria-labelledby="block-ucd-quicklinks-menu" id="block-ucd-quicklinks" class="quick-links__menu u-hidden--visually quick-links--two-columns quick-links--highlight">
+              
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="http://my.ucdavis.edu/">myUCDavis</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://myadmissions.ucdavis.edu/">MyAdmissions</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://giving.ucdavis.edu/?utm_source=ucdhome&amp;utm_medium=btn&amp;utm_campaign=expect%20greater&amp;utm_content=quicklinks">Make a Gift to UC Davis</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.ucdavis.edu/emergency/#quicklink">Emergency Services</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://campusmap.ucdavis.edu/">Campus Map</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.ucdavis.edu/calendar/#quicklink">Calendar</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.ucdavis.edu/visit/#quicklink">Visit</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.ucdavis.edu/admissions/apply/#quicklink">Apply</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.ucdavis.edu/jobs/#quicklink">Jobs</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.ucdavisaggies.com/">Athletics</a>
+              </li>
+                <li class="menu-item">
+        <a href="/campus-life/things-to-do/calendar/academic" data-drupal-link-system-path="node/2162">Academic Dates</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://canvas.ucdavis.edu/">Canvas</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://catalog.ucdavis.edu/">General Catalog</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://sisweb.ucdavis.edu/">Schedule Builder</a>
+              </li>
+                <li class="menu-item">
+        <a href="/commencement" data-drupal-link-system-path="node/2366">Commencement</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://shcs.ucdavis.edu/">Student Health</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.alumni.ucdavis.edu/">Alumni</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://ucdavisstores.com/">UC Davis Stores</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://directory.ucdavis.edu">Directory</a>
+              </li>
+        </ul>
+  
+
+
+      </nav>
+</div>
+
+  </div>
+
+                      </div>
+          <div class="l-nav-horizontal__primary-nav">
+              <div class="region region-navigation">
+    
+
+
+<nav aria-labelledby="block-ucd-main-menu-menu" id="block-ucd-main-menu" class="primary-nav primary-nav--mega primary-nav--justify">
+            
+      <h2 class="visually-hidden" id="block-ucd-main-menu-menu">Main navigation (extended config)</h2>
+    
+
+        
+              <ul suggestion="region_navigation" class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper primary-nav__top-link">
+            <a href="/about" data-drupal-link-system-path="node/11">          About Us<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/administration" data-drupal-link-system-path="node/49915">          Administration<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/about/administration/initiatives" title="UC Davis has ambitious goals that have long defined our university and continue to drive us today." data-drupal-link-system-path="node/2048">Initiatives</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/principles-and-policies" data-drupal-link-system-path="node/2054">Principles and Policies</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/top-administrative-units" data-drupal-link-system-path="node/2055">Top Administrative Units</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/sites/default/files/media/documents/uc-davis-administrative-org-chart.pdf">Org chart</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/administration/staff-resources" data-drupal-link-system-path="node/48784">          Staff Resources<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/about/administration/staff-resources/computing-resources" data-drupal-link-system-path="node/48783">Computing Resources</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/about/diversity" data-drupal-link-system-path="node/2047">Diversity and Inclusion</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/rankings" data-drupal-link-system-path="node/2336">Rankings</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/locations" data-drupal-link-system-path="node/2140">          Locations<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/locations/middle-of-everywhere" data-drupal-link-system-path="node/2141">          In the Middle of Everywhere<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/about/locations/middle-of-everywhere/bay-area-day-trips" data-drupal-link-system-path="node/50127">Bay Area day trips</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/locations/middle-of-everywhere/beach-day-trips-uc-davis" data-drupal-link-system-path="node/50121">Beach day trips</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/locations/middle-of-everywhere/sierra-nevada-day-trips" data-drupal-link-system-path="node/50133">Sierra Nevada day trips</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/locations/middle-of-everywhere/wine-country-day-trips" data-drupal-link-system-path="node/50136">Wine country day trips</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/locations/transportation" data-drupal-link-system-path="node/2261">          Transportation<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/about/locations/transportation/join-team-bike" data-drupal-link-system-path="node/2308">Join &#039;Team Bike&#039;</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/about/locations/unique-to-uc-davis" data-drupal-link-system-path="node/2142">Unique to UC Davis</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/about/sustainability" data-drupal-link-system-path="node/2045">Sustainability</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/visit" data-drupal-link-system-path="node/2059">          Visit UC Davis<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="http://visit.ucdavis.edu/tourreg">Campus Tour</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/campus-tour" data-drupal-link-system-path="node/50024">Campus Tour</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/plan-your-visit" data-drupal-link-system-path="node/50099">Plan your visit</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/directions-parking" data-drupal-link-system-path="node/2040">Directions and Parking</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/visit/tour-guides" data-drupal-link-system-path="node/2046">          Tour Guides<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/about/visit/tour-guides/alayna-davidson" data-drupal-link-system-path="node/2051">Alayna Davidson &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/jack-crandall" data-drupal-link-system-path="node/2063">Jack Crandall &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/jojo-carusa" data-drupal-link-system-path="node/2065">Jojo Carusa &#039;24</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/michelle-lester" data-drupal-link-system-path="node/2068">Michelle Lester &#039;22</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/nathan-le" data-drupal-link-system-path="node/2069">Nathan Le &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/christina-saunders" data-drupal-link-system-path="node/49542">Christina Saunders &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/coral-pongsuwan" data-drupal-link-system-path="node/50816">Coral Pongsuwan &#039;24</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/jenna-heath" data-drupal-link-system-path="node/50815">Jenna Heath &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/joe-sweeney" data-drupal-link-system-path="node/50814">Joe Sweeney &#039;24</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/joelle-suh" data-drupal-link-system-path="node/49545">Joelle Suh &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/carusa" data-drupal-link-system-path="node/49552">Jojo Carusa ‘23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/kailyn-healey" data-drupal-link-system-path="node/49551">Kailyn Healey &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/lester" data-drupal-link-system-path="node/49547">Michelle Lester ‘23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/missy-zepeda" data-drupal-link-system-path="node/49553">Missy Zepeda &#039;24</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/neshmia-alam" data-drupal-link-system-path="node/50812">Neshmia Alam &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/rachel-lucine" data-drupal-link-system-path="node/49548">Rachel Lucine &#039;23</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/ray-fields" data-drupal-link-system-path="node/50819">Ray Fields &#039;24</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/riley-mann" data-drupal-link-system-path="node/49550">Riley Mann &#039;24</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/ryan-taylor" data-drupal-link-system-path="node/49546">Ryan Taylor &#039;24</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/tour-guides/zoe-brumbaugh" data-drupal-link-system-path="node/50813">Zoe Brumbaugh &#039;24</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/welcome-center" data-drupal-link-system-path="node/2332">Welcome Center</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/about/visit/campus-virtual-tour" data-drupal-link-system-path="node/2361">Virtual Tour</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/uc-davis-health-care" data-drupal-link-system-path="node/2041">UC Davis Health</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/wellness-safety" data-drupal-link-system-path="node/2144">          Campus Safety<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/campus-life/wellness-safety/emergency" data-drupal-link-system-path="node/2145">Emergencies and FAQs</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/about/campus-safety/help" data-drupal-link-system-path="node/2052">          Help<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/about/campus-safety/help/contact" data-drupal-link-system-path="node/2369">Contact Us</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper primary-nav__top-link">
+            <a href="/admissions" data-drupal-link-system-path="node/21">          Admissions<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate" title="Information about admission to UC Davis for prospective undergraduates" data-drupal-link-system-path="node/2241">          Undergraduate Admissions<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/apply" data-drupal-link-system-path="node/2303">          Apply to UC Davis<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/apply/after-application" data-drupal-link-system-path="node/2312">          After You Apply<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/admissions/undergraduate/apply/deferred-enrollment" data-drupal-link-system-path="node/2321">Deferred Enrollment</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/apply/after-reporting-changes" data-drupal-link-system-path="node/2315">Reporting Changes After Admission</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/apply/waitlist" data-drupal-link-system-path="node/2322">Applicant Waitlist</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/apply/application-review-criteria" data-drupal-link-system-path="node/2320">Application Review Criteria</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/apply/personal-insight-questions" data-drupal-link-system-path="node/2310">Personal Insight Questions</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/freshman" data-drupal-link-system-path="node/2242">          Freshman Admission<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/freshman/requirements" data-drupal-link-system-path="node/2244">          Freshman Admission Requirements<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/admissions/undergraduate/freshman/requirements/advanced-placement-exam" data-drupal-link-system-path="node/2248">Advanced Placement Exams</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/freshman/requirements/international-baccalaureate-exam" data-drupal-link-system-path="node/2249">International Baccalaureate Exams</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/freshman/application-tips" data-drupal-link-system-path="node/2246">Freshman Application Tips</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/freshman/timeline" data-drupal-link-system-path="node/2245">Freshman Timeline</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/freshman/special-situations" data-drupal-link-system-path="node/2247">Freshman Special Situations</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/freshman/college-preparation-programs" data-drupal-link-system-path="node/2251">College Preparation Programs</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/transfer" data-drupal-link-system-path="node/2243">          Transfer Admission<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/planning" data-drupal-link-system-path="node/2256">Plan Your Transfer</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/requirements" data-drupal-link-system-path="node/2255">Transfer Admission Requirements</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/application-tips" data-drupal-link-system-path="node/2275">Transfer Application Tips</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/timeline" data-drupal-link-system-path="node/2258">Transfer Timeline</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/transfer/transfer-admission-guarantee" data-drupal-link-system-path="node/2335">          Transfer Admission Guarantee<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/transfer-admission-guarantee/requirements" data-drupal-link-system-path="node/2287">TAG Requirements</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/transfer-admission-guarantee/decisions" data-drupal-link-system-path="node/2288">TAG Decisions</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/transfer-admission-guarantee/faq" data-drupal-link-system-path="node/2289">TAG FAQs</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/transfer/transfer-admission-guarantee/counselors" data-drupal-link-system-path="node/2290">          TAG Counselor Resources<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="http://tag.ucdavis.edu/contacts.cfm">Counselor Contacts</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/transfer-admission-guarantee/counselors/tag-evaluations" data-drupal-link-system-path="node/2291">TAG Evaluations</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/transfer/selective-major-requirements" data-drupal-link-system-path="node/2280">          Selective Major Requirements<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/admissions/transfer/major-requirements-college-agricultural-environmental-sciences" data-drupal-link-system-path="node/2282">Major Requirements: CAES</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/transfer/major-requirements-college-biological-sciences" data-drupal-link-system-path="node/2283">Major Requirements: CBS</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/transfer/major-requirements-college-letters-sciences" data-drupal-link-system-path="node/2285">Major Requirements: CLS</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/transfer/major-requirements-college-engineering" data-drupal-link-system-path="node/2284">Major Requirements: COE</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/international-records" data-drupal-link-system-path="node/2292">Transfer with International Records</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/transfer/special-situations" data-drupal-link-system-path="node/2276">Transfer Special Situations</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/international" data-drupal-link-system-path="node/2294">          International Admission<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/admissions/undergraduate/international/exams-visas" data-drupal-link-system-path="node/2295">International Exam and Visa Requirements</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/international/records" data-drupal-link-system-path="node/2296">International Records</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/international/resources" data-drupal-link-system-path="node/2297">International Student Resources</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/events" data-drupal-link-system-path="node/2298">          Events<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/undergraduate/events/college-fairs" data-drupal-link-system-path="node/2326">          College Fairs<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/admissions/undergraduate/events/college-fairs/national" data-drupal-link-system-path="node/2327">National College Fairs</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/events/college-fairs/international" data-drupal-link-system-path="node/2328">International College Fairs</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/events/discover" data-drupal-link-system-path="node/2331">Discover UC Davis</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/events/aggie-transfer-scholars-weekend" data-drupal-link-system-path="node/2306">Aggie Transfer Scholars Weekend</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/events/aggie-to-be" data-drupal-link-system-path="node/2305">Aggie to Be</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/contact" data-drupal-link-system-path="node/2307">Contact Undergraduate Admissions</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/parents" data-drupal-link-system-path="node/2345">Parents and Families</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/counselors" data-drupal-link-system-path="node/2311">Counselors</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undergraduate/more-info" data-drupal-link-system-path="node/2362">More Information</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/undocumented-student-applicants" data-drupal-link-system-path="node/49441">Undocumented Applicants</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/graduate-school" data-drupal-link-system-path="node/2319">Graduate Admissions</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/professional-school-admissions" data-drupal-link-system-path="node/2347">Professional Admissions</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/admissions/cost" data-drupal-link-system-path="node/2299">          Cost &amp; Aid<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/cost/financial-aid-scholarships" data-drupal-link-system-path="node/50043">Financial Aid and Scholarships</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/financial-aid-scholarships/higher-education-emergency-relief-fund" data-drupal-link-system-path="node/2334">Higher Education Emergency Relief Fund</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/cost/next-steps" data-drupal-link-system-path="node/2300">Next Steps</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/cost/educational-opportunity-program" data-drupal-link-system-path="node/2250">Educational Opportunity Program</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/admissions/apply" data-drupal-link-system-path="node/2346">Apply to UC Davis</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper primary-nav__top-link">
+            <a href="/academics" data-drupal-link-system-path="node/16">          Academics<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/academics/majors" data-drupal-link-system-path="node/2032">          Majors<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/majors/blog" data-drupal-link-system-path="node/48732">          Majors Blog<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/majors/blog/career-preparation" data-drupal-link-system-path="node/2072">          Career Preparation<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="https://urc.ucdavis.edu/">Research</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/majors/blog/career-preparation/advising" data-drupal-link-system-path="node/2073">Advising</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/majors/blog/career-preparation/beyond-classroom" data-drupal-link-system-path="node/2077">Beyond the Classroom</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/majors/blog/career-preparation/honors" data-drupal-link-system-path="node/2086">Honors Programs</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="https://www.ucdavis.edu/jobs/student-jobs-internships/" title="https://www.ucdavis.edu/jobs/student-jobs-internships/">Internships</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/individual-majors" data-drupal-link-system-path="node/2075">Individual Majors</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/undeclared-and-exploratory-majors" data-drupal-link-system-path="node/2076">Undeclared and Exploratory Majors</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/majors/blog/subscribe" data-drupal-link-system-path="node/2087">Subscribe</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/majors/blog/top-ten-majors" data-drupal-link-system-path="node/48734">Top 10 majors</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/academics/minors" data-drupal-link-system-path="node/2033">Minors</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/academics/graduate" data-drupal-link-system-path="node/2034">Graduate Programs</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/academics/professional-programs" data-drupal-link-system-path="node/2092">Professional Programs</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/academics/colleges-and-schools" title="Whether you are an undergraduate, graduate or professional student, you’ll find our colleges and schools connect you to peers, staff and faculty dedicated to your success." data-drupal-link-system-path="node/2070">          Colleges and Schools<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/academics/colleges-and-schools/academic-departments" data-drupal-link-system-path="node/2078">Academic Departments</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/college-agricultural-and-environmental-sciences" data-drupal-link-system-path="node/49292">College of Agricultural and Environmental Science</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/college-biological-sciences" data-drupal-link-system-path="node/49293">College of Biological Sciences</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/college-engineering" data-drupal-link-system-path="node/49294">College of Engineering</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/college-letters-and-science" data-drupal-link-system-path="node/49295">College of Letters and Science</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/graduate-school-management" data-drupal-link-system-path="node/49296">Graduate School of Management</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/graduate-studies" data-drupal-link-system-path="node/49297">Graduate Studies</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/school-education" data-drupal-link-system-path="node/49298">School of Education</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/school-law" data-drupal-link-system-path="node/49300">School of Law</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/school-medicine" data-drupal-link-system-path="node/49301">School of Medicine</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/school-nursing" data-drupal-link-system-path="node/49302">School of Nursing</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/colleges-and-schools/school-veterinary-medicine" data-drupal-link-system-path="node/49303">School of Veterinary Medicine</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/academics/our-faculty" data-drupal-link-system-path="node/2363">          Our Faculty<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/academics/our-faculty/faculty-resources" data-drupal-link-system-path="node/48781">          Faculty Resources<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/academics/our-faculty/faculty-resources/teaching-resources" data-drupal-link-system-path="node/48782">Teaching Resources</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/academics/teaching-learning/student-resources" data-drupal-link-system-path="node/2146">Student Resources</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/academics/women-stem" data-drupal-link-system-path="node/2099">          Women in STEM<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/academics/women-stem/linda-bisson-battling-barriers-bias" data-drupal-link-system-path="node/2085">Battling Barriers, Bias to Retain and Recruit STEM Talent</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/academics/women-stem/rachel-houtz-building-community" data-drupal-link-system-path="node/2084">Building Community to Benefit Physics Students</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/academics/women-stem/for-the-love-of-wild-things" data-drupal-link-system-path="node/2119">For the love of wild things</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/academics/women-stem/heart-health-pioneer-stem-champion" data-drupal-link-system-path="node/2118">Heart health pioneer, STEM champion</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/academics/women-stem/marjannie-akintunde-stem-road" data-drupal-link-system-path="node/2083">The STEM Road Less Traveled</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/academics/women-stem/using-stem-improve-lives" data-drupal-link-system-path="node/2117">Using STEM to improve lives</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/academics/study-abroad" data-drupal-link-system-path="node/2071">Study Abroad</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper primary-nav__top-link">
+            <a href="/research" data-drupal-link-system-path="node/26">          Research<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/undergraduate" data-drupal-link-system-path="node/2330">Undergraduate Research</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/graduate-professional" data-drupal-link-system-path="node/2098">Graduate Research</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="https://research.ucdavis.edu/">Office of Research</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/library" data-drupal-link-system-path="node/2100">Library</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/museums-collections" data-drupal-link-system-path="node/2091">Museums and Collections</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/partners" data-drupal-link-system-path="node/2090">Research Partners</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries" data-drupal-link-system-path="node/50208">          UC Davis Discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries/agricultural-discoveries" data-drupal-link-system-path="node/50217">          Agricultural discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/discoveries/agricultural-discoveries/blazing-way-chardonnay" data-drupal-link-system-path="node/50219">Blazing the way for chardonnay</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/agricultural-discoveries/breeding-better-bees" data-drupal-link-system-path="node/50273">Breeding better bees</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/agricultural-discoveries/tomato-harvester" data-drupal-link-system-path="node/50258">Mechanical tomato harvester</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/agricultural-discoveries/rice-genetics" data-drupal-link-system-path="node/50272">Rice genetics</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries/biology-discoveries" data-drupal-link-system-path="node/50242">          Biology discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/discoveries/biology-discoveries/chloroplasts-contain-dna" data-drupal-link-system-path="node/50274">Chloroplasts contain DNA</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/biology-discoveries/surviving-extreme-drying" data-drupal-link-system-path="node/50275">Surviving Extreme Drying</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries/engineering-discoveries" data-drupal-link-system-path="node/50248">          Engineering discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/discoveries/engineering-discoveries/broadband-communications" data-drupal-link-system-path="node/50292">Broadband communications</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/engineering-discoveries/plug-in-hybrids" data-drupal-link-system-path="node/50291">Plug-in hybrid cars</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries/environmental-discoveries" data-drupal-link-system-path="node/50251">          Environmental discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/discoveries/environmental-discoveries/leaded-gasoline" data-drupal-link-system-path="node/50293">Getting lead out of gasoline</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/environmental-discoveries/saving-lake-tahoe" data-drupal-link-system-path="node/50295">Saving Lake Tahoe</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries/medical-discoveries" data-drupal-link-system-path="node/50236">          Medical discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/discoveries/medical-discoveries/feline-aids" data-drupal-link-system-path="node/50285">Feline AIDS</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/medical-discoveries/fragile-x-syndrome" data-drupal-link-system-path="node/50284">Fragile X syndrome (FXTAS)B</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/medical-discoveries/HIV-treatment-protocols" data-drupal-link-system-path="node/50288">HIV Treatment protocols</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/medical-discoveries/one-bead-one-compound" data-drupal-link-system-path="node/50283">One bead, one compound</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/medical-discoveries/real-time-dna" data-drupal-link-system-path="node/50286">Real-time imaging of single DNA enzymes</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/medical-discoveries/whole-body-pet-scan" data-drupal-link-system-path="node/50287">Whole-body PET scan</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries/social-science-discoveries" data-drupal-link-system-path="node/50231">          Social science discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/discoveries/social-science-discoveries/early-hunters-were-female" data-drupal-link-system-path="node/50278">Early hunters were female</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/research/discoveries/social-science-discoveries/science-of-romantic-love" data-drupal-link-system-path="node/50279">Science of love</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/research/discoveries/veterinary-science-discoveries" data-drupal-link-system-path="node/50255">          Veterinary science discoveries<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/research/discoveries/veterinary-science-discoveries/fish-skins-for-animal-burns" data-drupal-link-system-path="node/50296">Treating animal burns with tilapia skins</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper primary-nav__top-link">
+            <a href="/campus-life" data-drupal-link-system-path="node/31">          Campus Life<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/californias-college-town" data-drupal-link-system-path="node/2139">          California’s College Town<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/campus-life/californias-college-town/the-college-tour" data-drupal-link-system-path="node/49192">The College Tour</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/housing" data-drupal-link-system-path="node/2137">Housing</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/dining-food" data-drupal-link-system-path="node/2257">Dining</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/things-to-do" data-drupal-link-system-path="node/2136">          Things to Do<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/things-to-do/calendar" data-drupal-link-system-path="node/2181">          Calendar<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/calendar/campus-poster-calendars" data-drupal-link-system-path="node/49341">Campus Poster Calendars</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/things-to-do/calendar/academic" data-drupal-link-system-path="node/2162">          Academic Dates and Deadlines<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/university-holidays" data-drupal-link-system-path="node/2194">University Holidays</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/quarter-registration-dates" data-drupal-link-system-path="node/2195">Quarter Registration Dates</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/quarter-dates-deadlines" data-drupal-link-system-path="node/2196">Quarter Dates and Deadlines</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/quarter-fees-and-billing" data-drupal-link-system-path="node/2197">Quarter Fees and Billing Dates</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life-things-to-do/calendar/academic/undergraduate-admissions-dates" data-drupal-link-system-path="node/2198">          Undergraduate Admission Dates<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/things-to-do/calendar/academic/undergraduate-admissions-dates/college-fairs" data-drupal-link-system-path="node/2199">          College Fair Dates<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/undergraduate-admissions-dates/college-fairs/california" data-drupal-link-system-path="node/2357">California College Fair Dates</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/undergraduate-admissions-dates/college-fairs/national" data-drupal-link-system-path="node/2358">National College Fair Dates</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/undergraduate-admissions-dates/college-fairs/international" data-drupal-link-system-path="node/2359">International College Fair Dates</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/undergraduate-graduation-filing-deadlines" data-drupal-link-system-path="node/2200">Undergraduate Graduation Filing Dates</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/academic/commencement-schedule-graduation-celebrations" data-drupal-link-system-path="node/2201">Commencement Schedule and Graduation Celebrations</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries" data-drupal-link-system-path="node/2164">          Academic Events<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/college-of-agricultural-and-environmental-sciences" data-drupal-link-system-path="node/2163">College of Agricultural and Environmental Studies</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/college-of-biological-sciences" data-drupal-link-system-path="node/2165">College of Biological Sciences Events Calendar</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/college-of-engineering" data-drupal-link-system-path="node/2166">College of Engineering Events Calendar</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/college-of-letters-and-science" data-drupal-link-system-path="node/2167">College of Letters and Science Events Calendar</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/graduate-school-of-management" data-drupal-link-system-path="node/2168">Graduate School of Management Events Calendar</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/school-of-law" data-drupal-link-system-path="node/2169">School of Law</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/school-of-veterinary-medicine" data-drupal-link-system-path="node/2170">School of Veterinary Medicine</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/research" data-drupal-link-system-path="node/2183">Research</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/library" data-drupal-link-system-path="node/2184">Library</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/colleges-schools-libraries/extension" data-drupal-link-system-path="node/2185">UC Davis Extension</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/arts-entertainment" data-drupal-link-system-path="node/2186">Arts and Entertainment</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/athletics-club-sports" data-drupal-link-system-path="node/2187">Athletics</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/health-wellness-safety" data-drupal-link-system-path="node/2188">Health, Wellness, and Safety</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/diversity-inclusion" data-drupal-link-system-path="node/2189">Diversity and Inclusion</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/student-life" data-drupal-link-system-path="node/2190">Student Life</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/staff-faculty-retirees" data-drupal-link-system-path="node/2191">Staff and Faculty</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/global-events" data-drupal-link-system-path="node/2192">Global Events</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/calendar/other-calendars" data-drupal-link-system-path="node/2193">Other Calendars</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/arts-culture" data-drupal-link-system-path="node/2151">          Arts and Culture<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                                    <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/arts-culture/eggheads" data-drupal-link-system-path="node/48724">          UC Davis Eggheads<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/campus-life/arts-culture/eggheads/robert-arneson" data-drupal-link-system-path="node/48725">Robert Arneson: Serious Ideas Behind that Humor</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/campus-life/things-to-do/traditions" data-drupal-link-system-path="node/2152">          Traditions<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/campus-life/things-to-do/traditions/our-uc-davis" data-drupal-link-system-path="node/2157">#ourUCDavis</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/traditions/fall-welcome" data-drupal-link-system-path="node/2153">Fall Welcome</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/commencement/graduation-cap-contest" data-drupal-link-system-path="node/2156">Grad Cap Contest</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/traditions/homecoming" data-drupal-link-system-path="node/2154">Homecoming</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/traditions/picnic-day" data-drupal-link-system-path="node/50246">Picnic Day</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/things-to-do/arboretum" data-drupal-link-system-path="node/2304">Arboretum</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/commencement" data-drupal-link-system-path="node/2366">Commencement</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/student-jobs-internships" data-drupal-link-system-path="node/2044">Student Jobs</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/clubs-and-communities" data-drupal-link-system-path="node/2338">Clubs and Communities</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/campus-life/athletics-sports" data-drupal-link-system-path="node/2262">Athletics</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper primary-nav__top-link">
+            <a href="/news" data-drupal-link-system-path="node/2343">          News<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/news/latest" data-drupal-link-system-path="news/latest">Latest News</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/news/social-media" data-drupal-link-system-path="node/49021">          Social Media<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/news/social-media/guidelines" data-drupal-link-system-path="node/2349">Social Media Guidelines</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/news/university" data-drupal-link-system-path="taxonomy/term/17">          University News<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/news/university/dateline" data-drupal-link-system-path="taxonomy/term/298">Dateline</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/news/student-life" data-drupal-link-system-path="taxonomy/term/24">Student News</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/blogs" data-drupal-link-system-path="node/48756">Blogs</a>
+                        </li>
+                                                <li class="menu-item menu-item--expanded">
+                  <div class="submenu-toggle__wrapper ">
+            <a href="/news/podcasts-and-shows" data-drupal-link-system-path="node/49212">          Podcasts and Shows<span class="primary-nav__submenu-indicator"></span>
+        </a>
+            <button class="submenu-toggle" aria-label="Toggle Submenu"><span class="submenu-toggle__icon"></span></button>
+          </div>
+                        <ul class="menu">
+                                      <li class="menu-item">
+                            <a href="/news/podcasts-and-shows/face-to-face" data-drupal-link-system-path="node/50455">Face to Face</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/news/podcasts-and-shows/that-may-be-the-chancellor" data-drupal-link-system-path="node/49822">That May Be the Chancellor</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/news/podcasts-and-shows/the-backdrop" data-drupal-link-system-path="node/49377">The Backdrop</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/news/podcasts-and-shows/thursday-thoughts" data-drupal-link-system-path="node/49831">Thursday Thoughts</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/news/podcasts-and-shows/uc-davis-live" data-drupal-link-system-path="node/48981">UC Davis LIVE</a>
+                        </li>
+                                  <li class="menu-item">
+                            <a href="/news/podcasts-and-shows/unfold" data-drupal-link-system-path="node/2350">Unfold</a>
+                        </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item">
+                            <a href="/outgrow" data-drupal-link-system-path="node/2240">Outgrow the Expected</a>
+                        </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="l-main">
+    <a id="main-content" tabindex="-1"></a>
+      <div class="region region-pre-title">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+
+    
+
+          
+    
+    <div class="l-container ">
+      
+
+      
+      
+      <section class="    ">
+                  
+          <div class="l-content">
+              <div class="region region-content">
+    <div id="block-ucd-content" class="block block-system block-system-main-block panel o-box">
+    
+    
+        
+<article about="/home">
+
+      
+        
+  
+        
+  
+      <div class="node__content">
+        <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div class="l-full-width u-space-my--flush u-space-px--flush u-space-py--flush block block-layout-builder block-inline-blocksf-basic">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="background-color:#ffbf00; padding: 20px 30px 5px; margin: 0px;"><h2 style="line-height:0.85em; color:#022851;">COVID-19 Information</h2><p><a href="https://www.ucdavis.edu/coronavirus/" style="color:#022851; font-size:0.85rem;">Latest campus information</a>   <span style="color:#022851;"><strong>|</strong></span>  <a href="https://www.ucdavis.edu/covid-19/" style="color:#022851; font-size:0.85rem;">COVID-19 research</a>   <span style="color:#022851;"><span style="color:#022851;"><strong>|</strong></span> <a href="https://campusready.ucdavis.edu/students-and-families" style="color:#022851; font-size:0.85rem;">Fall  Guidance</a></span></p></div></div>
+      
+      </div>
+<div class="l-full-width o-box--flush bot-margin--flush hero-ambient--extra-large hero-ambient block block-layout-builder block-inline-blockucd-hero-ambient-xlarge">
+    
+    
+        <div class="hero-ambient__media">
+    <div class="hero-ambient__image">
+      
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item">  <img src="/sites/default/files/styles/hero_x_large_2000_x_1125/public/media/images/drone-ambient-first-frame-uc-davis.jpg?h=854a7be2&amp;itok=B5Xz0Ep7" width="2000" height="1125" alt="First frame of the UC Davis drone video featuring the water tower at UC Davis" loading="lazy" typeof="foaf:Image" class="image-style-hero-x-large-2000-x-1125" />
+
+
+</div>
+      
+    </div>
+    <video class="hero-ambient__video" width="2002" height="1125" autoplay="true" loop="true" muted="true" playsinline="true">
+      <source src="https://player.vimeo.com/progressive_redirect/playback/521615369/rendition/1080p?loc=external&amp;signature=2946e88fb5dc9724bbc8952691e53801bfc40c4a8300777952fd0a139676abe8"
+        playsinline autoplay muted loop type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>
+  </div>
+
+  <div class="hero-ambient__body">
+          <h1 class="hero-ambient__title">UC Davis </h1>
+    
+          <h2 class="hero-ambient__summary">
+        <strong>California&#039;s College Town</strong>
+      </h2>
+    
+    <div class="hero-ambient__button-group">
+              <a href="/campus-life/californias-college-town" class="hero-ambient__button btn--primary ">Explore Davis</a>
+                    <a href="#" class="hero-ambient__button btn--primary hero-ambient__video-play  ">Watch more</a>
+          </div>
+  </div>
+
+      <div class="hero-ambient__video-popup u-hidden">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-GiFqswnm38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"></iframe>
+    </div>
+  
+  
+
+</div>
+
+    </div>
+  </div>
+
+	<div  class="layout layout__priority-links">
+					<div>
+				<div  class="layout__region layout__region--first">
+					<div class="category-brand--ucd-blue block-vertical-link block block-block-content block-block-content67996e2f-84f6-47dd-b0fd-dbf978a7dcf3">
+    
+    
+            <a href="/majors" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-graduation-cap fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Majors</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+<div class="category-brand--tahoe block-vertical-link block block-block-content block-block-contente88bb3c4-9751-402b-8710-fea8e0a30865">
+    
+    
+            <a href="/admissions" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-book-reader fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Admissions</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+<div class="category-brand--quad block-vertical-link block block-block-content block-block-content399caad4-4914-4224-bc3b-380e1ea232bf">
+    
+    
+            <a href="/admissions/cost" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-dollar-sign fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Cost</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+<div class="category-brand--poppy block-vertical-link block block-block-content block-block-content774ac69b-2be0-4f03-aef5-7341016d7c6b">
+    
+    
+            <a href="/campus-life" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-bicycle fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Campus life</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+<div class="category-brand--strawberry block-vertical-link block block-block-content block-block-content8b02b16f-e70a-4b3d-b87f-2054b34ac149">
+    
+    
+            <a href="/about/visit" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-street-view fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">VISIT</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+<div class="category-brand--redbud block-vertical-link block block-block-content block-block-contentc8363e8a-6c73-48b5-93fb-c3abf4834da1">
+    
+    
+            <a href="/admissions/apply" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-check fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Apply</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+
+				</div>
+			</div>
+			</div>
+  <div class="vert-margins--bottom-medium layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div class="u-space-px--flush u-space-pt--small block block-layout-builder block-inline-blockucd-full-width-teaser">
+    
+    
+    <div class="full-width-teaser category-brand">
+  <div class="full-width-teaser__content category-brand">
+    <h2 class="full-width-teaser__title">
+            California’s 
+                          <br/>
+            <span class="full-width-teaser__title--line2 category-brand__text">
+      college town
+      </span>
+          </h2>
+    <p class="full-width-teaser__text">
+      Davis is the ultimate college town. It’s green, laid back and friendly. You can walk or bike from the main campus to the main street in a few blocks. College students fill up the tables at nearby restaurants and coffee shops with their laptops, homework and friends. The town of Davis helps our students thrive.
+    </p>
+    <div class="full-width-teaser__buttons">
+            <a href="/about/visit/campus-virtual-tour" class="btn--primary category-brand__btn">
+        360 virtual tour
+      </a>
+                  <a href="/about" class="btn--invert category-brand__btn">
+        About us
+      </a>
+          </div>
+  </div>
+    <div class="full-width-teaser__image">
+    
+  <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">  <img src="/sites/default/files/styles/sf_landscape_4x3/public/media/images/aggie-logo-white-22%281%29.png?h=b0b3e068&amp;itok=LfesNf0b" width="640" height="480" alt="Aggies logo over california state" loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-4x3" />
+
+
+</div>
+          </div>
+
+  </div>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+  <div class="vert-margins--bottom-small layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div class="interactive-map">
+  <div class="interactive-map__container">
+    <!-- Primary Locations -->
+    <a href="https://www.ucdavis.edu/about/visit" class="interactive-map__pin interactive-map__pin--primary" title="UC Davis Main Campus">
+      <img class="interactive-map__pin-icon" src="/themes/custom/ucd/images/custom_map/water-tower.svg" alt="UC Davis Main Campus Icon">
+      <div class="interactive-map__pin-text">
+        <img class="interactive-map__pin-img" src="/themes/custom/ucd/images/custom_map/main-campus.png" alt="UC Davis Main Campus" width="180">
+        <h2>Main Campus</h2>
+        <p>Davis, California</p>
+      </div>
+    </a>
+    <a href="https://marinescience.ucdavis.edu/bml/about" class="interactive-map__pin interactive-map__pin--secondary interactive-map__marine-lab" title="UC Davis Bodega Marine Lab">
+      <img class="interactive-map__pin-icon" src="/themes/custom/ucd/images/custom_map/marine-lab.svg" alt="UC Davis Bodega Marine Lab Icon">
+      <div class="interactive-map__pin-text">
+        <img class="interactive-map__pin-img" src="/themes/custom/ucd/images/custom_map/bodega-lab.png" alt="UC Davis Bodega Marine Lab" width="135">
+        <h2>Bodega Marine Lab</h2>
+        <p>Bodega Bay, California</p>
+      </div>
+
+    </a>
+    <a href="https://health.ucdavis.edu/welcome/index.html" class="interactive-map__pin interactive-map__pin--secondary interactive-map__ucd-health" title="UC Davis Health">
+      <img class="interactive-map__pin-icon" src="/themes/custom/ucd/images/custom_map/ucd-health.svg" alt="UC Davis Health Icon">
+      <div class="interactive-map__pin-text">
+        <img class="interactive-map__pin-img" src="/themes/custom/ucd/images/custom_map/ucd-health.png" alt="UC Davis Health" width="135">
+        <h2>UC Davis Health</h2>
+        <p>Sacramento, California</p>
+      </div>
+    </a>
+    <a href="https://tahoe.ucdavis.edu/" class="interactive-map__pin interactive-map__pin--secondary interactive-map__tahoe-center" title="UC Davis Tahoe Environmental Research Center">
+      <img class="interactive-map__pin-icon" src="/themes/custom/ucd/images/custom_map/tahoe-research.svg" alt="Microscope Icon">
+      <div class="interactive-map__pin-text">
+        <img class="interactive-map__pin-img" src="/themes/custom/ucd/images/custom_map/tahoe-research.png" alt="UC Davis Tahoe Environmental Research Center" width="135">
+        <h2>Tahoe Environmental Research Center</h2>
+        <p>Incline Village, Nevada</p>
+      </div>
+    </a>
+    <!-- Secondary Locations -->
+    <div class="interactive-map__flag interactive-map__flag--rnp">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/redwood-icon.svg" alt="Redwood National Park"></span><span class="interactive-map__flag-text">Redwoods NP <span class="interactive-map__close-button"></span></span>
+    </div>
+    <div class="interactive-map__flag interactive-map__flag--lvnp">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/lassen-icon.svg" alt="Lassen Volcanic National Park"></span><span class="interactive-map__flag-text">Lassen Volcanic NP <span class="interactive-map__close-button"></span></span>
+    </div>
+    <div class="interactive-map__flag interactive-map__flag--lt">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/lake-tahoe.svg" alt="Lake Tahoe"></span><span class="interactive-map__flag-text">Lake Tahoe <span class="interactive-map__close-button"></span></span>
+    </div>
+    <div class="interactive-map__flag interactive-map__flag--sac">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/sacramento.svg" alt="Sacramento"></span><span class="interactive-map__flag-text">Sacramento <span class="interactive-map__close-button"></span></span>
+    </div>
+    <div class="interactive-map__flag interactive-map__flag--sf">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/san-fran.svg" alt="San Francisco"></span><span class="interactive-map__flag-text">San Francisco <span class="interactive-map__close-button"></span></span>
+    </div>
+    <div class="interactive-map__flag interactive-map__flag--sv">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/silicon-valley.svg" alt="Silicon Valley"></span><span class="interactive-map__flag-text">Silicon Valley <span class="interactive-map__close-button"></span></span>
+    </div>
+    <div class="interactive-map__flag interactive-map__flag--ynp">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/yosemite.svg" alt="Yosemite National Park"></span><span class="interactive-map__flag-text">Yosemite NP <span class="interactive-map__close-button"></span></span>
+    </div>
+    <div class="interactive-map__flag interactive-map__flag--snp">
+      <span class="interactive-map__wave"><span class="interactive-map__dot"></span></span>
+      <span class="interactive-map__icon"><img src="/themes/custom/ucd/images/custom_map/sequoia-icon.svg" alt="Sequoia National Park"></span><span class="interactive-map__flag-text">Sequoia NP <span class="interactive-map__close-button"></span></span>
+    </div>
+    <!-- Map Graphic -->
+    <img src="/themes/custom/ucd/images/custom_map/map.jpg" alt="Map of California">
+  </div>
+  <!-- Message -->
+  <div class="block block-block-content block-block-content7e7e8d45-6162-4c2f-ab5f-4c537684fa43 interactive-map__message">
+    
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2>In the middle of everywhere</h2>
+
+<p>UC Davis is centrally located in Northern California. We’re a day trip away from some of the most beautiful places in the world.</p>
+
+<p><a class="btn--lg btn--primary" href="/about/locations/middle-of-everywhere">Explore the region</a></p>
+</div>
+      
+      </div>
+</div>
+
+    </div>
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div class="bot-margin--flush block block-layout-builder block-inline-blockucd-full-width-teaser">
+    
+    
+    <div class="full-width-teaser category-brand">
+  <div class="full-width-teaser__content category-brand">
+    <h2 class="full-width-teaser__title">
+            A top-tier
+                          <br/>
+            <span class="full-width-teaser__title--line2 category-brand__text">
+      public university
+      </span>
+          </h2>
+    <p class="full-width-teaser__text">
+      
+    </p>
+    <div class="full-width-teaser__buttons">
+                </div>
+  </div>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+  <div class="l-4col">
+
+          <div  class="l-first">
+        <div class="block block-block-content block-block-contenta25ab204-59ef-46e0-a321-ca6bef95ca5c">
+    
+    
+    	<a href="/news/uc-davis-ranked-among-best-world-nation-veterinary-science-ag" class="ranking">
+		<div class="ranking__images">
+			<div class="icon__area">
+				<div class="icon__area--placement">
+					<div class="icon__area--circle">
+						
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/ag-ranking-icon.png" width="597" height="591" alt="Number one wheat icon" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+					</div>
+				</div>
+			</div>
+			<div class="main-image">
+				
+            <div class="field field--name-field-main-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/ag-ranking-wheat%282%29.png" width="700" height="770" alt="orange and red watercolor wheat stalk" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+			</div>
+		</div>
+		<div class="ranking__title">
+			<h2>Ranked 1st in the nation in agriculture</h2>
+		</div>
+		<div class="ranking__middle">
+			<img src="/themes/custom/ucd/images/components/splash-frame.png" alt="">
+		</div>
+		<div class="ranking__back">
+			
+            <div class="field field--name-field-ucd-bkgd-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/ag-ranking-spash%281%29.png" width="700" height="770" alt="watercolor splash orange and red" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+		</div>
+	</a>
+</div>
+
+      </div>
+    
+          <div  class="l-second">
+        <div class="block block-block-content block-block-contentfbf55a82-0586-46fb-84cf-2c53174876d1">
+    
+    
+    	<a href="/news/uc-davis-ranked-among-best-world-nation-veterinary-science-ag" class="ranking">
+		<div class="ranking__images">
+			<div class="icon__area">
+				<div class="icon__area--placement">
+					<div class="icon__area--circle">
+						
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/vet-ranking-icon_2.png" width="597" height="591" alt="paw icon with a one in it" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+					</div>
+				</div>
+			</div>
+			<div class="main-image">
+				
+            <div class="field field--name-field-main-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/dog-cut-out.png" width="700" height="770" alt="The most adorable puppy who ever lived." loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+			</div>
+		</div>
+		<div class="ranking__title">
+			<h2>Ranked 1st in the nation in veterinary medicine</h2>
+		</div>
+		<div class="ranking__middle">
+			<img src="/themes/custom/ucd/images/components/splash-frame.png" alt="">
+		</div>
+		<div class="ranking__back">
+			
+            <div class="field field--name-field-ucd-bkgd-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/vet-ranking-splash%281%29.png" width="700" height="770" alt="water color splash" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+		</div>
+	</a>
+</div>
+
+      </div>
+    
+          <div  class="l-third">
+        <div class="block block-block-content block-block-content3b24743a-1e20-4e22-b719-319c3a8e93eb">
+    
+    
+    	<a href="https://money.com/best-colleges/" class="ranking">
+		<div class="ranking__images">
+			<div class="icon__area">
+				<div class="icon__area--placement">
+					<div class="icon__area--circle">
+						
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/value-ranking-icon-10.png" width="597" height="591" alt="A number 10 with a dollar sign in the 0" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+					</div>
+				</div>
+			</div>
+			<div class="main-image">
+				
+            <div class="field field--name-field-main-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/affordable-ranking-piggy22.png" width="700" height="770" alt="A colorful piggy bank with money sticking out of the top" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+			</div>
+		</div>
+		<div class="ranking__title">
+			<h2>Ranked 10th best university in America, by value</h2>
+		</div>
+		<div class="ranking__middle">
+			<img src="/themes/custom/ucd/images/components/splash-frame.png" alt="">
+		</div>
+		<div class="ranking__back">
+			
+            <div class="field field--name-field-ucd-bkgd-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/affordable-ranking-piggy-back_0.png" width="700" height="770" alt="purple and blue color splash" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+		</div>
+	</a>
+</div>
+
+      </div>
+    
+          <div  class="l-fourth">
+        <div class="block block-block-content block-block-content9d74aa50-8a0a-4ebc-a976-7645fd7467ce">
+    
+    
+    	<a href="/news/uc-davis-still-shines-no-5-among-top-public-universities-wsjthe-rankings" class="ranking">
+		<div class="ranking__images">
+			<div class="icon__area">
+				<div class="icon__area--placement">
+					<div class="icon__area--circle">
+						
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/public-ranking-icon.png" width="597" height="591" alt="A number 5 icon with a grad cap on it" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+					</div>
+				</div>
+			</div>
+			<div class="main-image">
+				
+            <div class="field field--name-field-main-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/public-ranking-books2.png" width="700" height="770" alt="A stack of books with a gradcap on top" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+			</div>
+		</div>
+		<div class="ranking__title">
+			<h2>Ranked 5th nationally among public universities</h2>
+		</div>
+		<div class="ranking__middle">
+			<img src="/themes/custom/ucd/images/components/splash-frame.png" alt="">
+		</div>
+		<div class="ranking__back">
+			
+            <div class="field field--name-field-ucd-bkgd-image field--type-entity-reference field--label-hidden field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/public-ranking-back.png" width="700" height="770" alt="a green and blue paint stroke" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+      
+		</div>
+	</a>
+</div>
+
+      </div>
+    
+  </div>
+  <div class="vert-margins--bottom-medium layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div class="u-space-mt--large block block-layout-builder block-inline-blocksf-basic">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="text-align-center"><a class="btn--lg btn--primary" href="https://www.ucdavis.edu/about/rankings">More rankings</a></p></div>
+      
+      </div>
+
+    </div>
+  </div>
+
+	<div  class="vert-margins--small layout layout__cascade-section">
+					<div class="layout__cascade-section--hero">
+				<div  class="layout__region layout__region--top">
+					<div class="l-full-width o-box--flush block block-layout-builder block-inline-blockucd-cascade-hero">
+    
+    
+    	<div class="cascade-hero">
+		<div class="cascade-hero__bkgrnd category-brand clearfix">
+			<div class="cascade-hero__image">
+				
+  <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item"><div class="media media--type-sf-image-media-type media--view-mode-default">
+  
+          <img src="/sites/default/files/media/images/maggie-the-aggie-cascade-uc-davis.png" width="1200" height="1199" alt="Maggie the Aggie riding her UC Davis branded horse out onto the football field" loading="lazy" typeof="foaf:Image" />
+
+
+
+  </div>
+</div>
+          </div>
+
+			</div>
+			<div class="cascade-hero__content">
+				<h2 class="cascade-hero__title">
+					Unrivaled 
+											<span class="cascade-hero__title--emphasis">student experience</span>
+      						</h2>
+				<p class="cascade-hero__text">UC Davis has all the opportunities you’d expect from a large public university — and a lot of experiences that will surprise you.</p>
+				<div class="cascade-hero__buttons">
+					<a href="/campus-life/californias-college-town" class="btn--primary">
+						California’s college town
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+				</div>
+			</div>
+				<div class="layout__cascade-section--columns">
+			<div  class="layout__region layout__region--first">
+				<div class="o-box--flush block block-layout-builder block-inline-blockucd-marketing-link">
+    
+    
+    	<a href="/campus-life/housing" class="marketing-link">
+		<div class="marketing-link__image">
+			
+  <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Custom Image</div>
+              <div class="field__item">  <img src="/sites/default/files/styles/sf_landscape_16x9/public/media/images/housing-home.jpg?h=c673cd1c&amp;itok=Rzi4b3-S" width="1280" height="720" alt="A new student smiles with his family as he moves into his residence hall." loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-16x9" />
+
+
+</div>
+          </div>
+
+		</div>
+		<div class="marketing-link__body">
+			<h3 class="marketing-link__title">Housing</h3>
+		</div>
+	</a>
+</div>
+<div class="o-box--flush block block-layout-builder block-inline-blockucd-marketing-link">
+    
+    
+    	<a href="/campus-life/dining-food" class="marketing-link">
+		<div class="marketing-link__image">
+			
+  <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Custom Image</div>
+              <div class="field__item">  <img src="/sites/default/files/styles/sf_landscape_16x9/public/media/images/dining-uc-davis-home-ml.jpg?h=b6717701&amp;itok=7DiVlSEQ" width="1280" height="720" alt="A piping hot pizza" loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-16x9" />
+
+
+</div>
+          </div>
+
+		</div>
+		<div class="marketing-link__body">
+			<h3 class="marketing-link__title">Dining</h3>
+		</div>
+	</a>
+</div>
+<div class="o-box--flush block block-layout-builder block-inline-blockucd-marketing-link">
+    
+    
+    	<a href="/campus-life/californias-college-town" class="marketing-link">
+		<div class="marketing-link__image">
+			
+  <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Custom Image</div>
+              <div class="field__item">  <img src="/sites/default/files/styles/sf_landscape_16x9/public/media/images/college-town-grad-uc-davis.jpg?h=b6717701&amp;itok=uu-Njllr" width="1280" height="720" alt="A view of downtown davis during the evening with shoppers and restaurant patrons enjoying the atmosphere" loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-16x9" />
+
+
+</div>
+          </div>
+
+		</div>
+		<div class="marketing-link__body">
+			<h3 class="marketing-link__title">City of Davis</h3>
+		</div>
+	</a>
+</div>
+<div class="o-box--flush block block-layout-builder block-inline-blockucd-marketing-link">
+    
+    
+    	<a href="/campus-life/athletics-sports" class="marketing-link">
+		<div class="marketing-link__image">
+			
+  <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Custom Image</div>
+              <div class="field__item">  <img src="/sites/default/files/styles/sf_landscape_16x9/public/media/images/athletics-campus-life-uc-davis-ml.jpg?h=b6717701&amp;itok=ELz8SNq7" width="1280" height="720" alt="a male and female student painted in UC Davis blue and gold cheer on the Aggies at the annual homecoming football game" loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-16x9" />
+
+
+</div>
+          </div>
+
+		</div>
+		<div class="marketing-link__body">
+			<h3 class="marketing-link__title">Athletics</h3>
+		</div>
+	</a>
+</div>
+
+			</div>
+			<div  class="layout__region layout__region--second">
+				
+<div class="bot-margin--flush block block-layout-builder block-inline-blocksf-basic">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2 class="heading--underline text-align-center"><strong>Campus events</strong></h2></div>
+      
+      </div>
+
+<div class="o-box--flush bot-margin--flush ucd-cascade--left-col block block-layout-builder block-inline-blocksf-basic">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>Submit your UC application</h3>
+
+<p>October 1–November 30</p>
+
+<p><em><a href="https://apply.universityofcalifornia.edu/my-application/login">Apply now!</a></em></p>
+
+<hr />
+<h3>Homecoming and Aggie Spirit Week</h3>
+
+<p>October 10-15, 2022</p>
+
+<p><a href="https://www.ucdavis.edu/campus-life/things-to-do/traditions/homecoming">Learn more</a></p>
+
+<hr />
+<p class="text-align-center"><a class="btn--primary" href="https://www.ucdavis.edu/campus-life/things-to-do/calendar">View more campus events</a></p>
+
+<hr /></div>
+      
+      </div>
+
+			</div>
+		</div>
+	</div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div class="o-box--flush bot-margin--flush block block-layout-builder block-inline-blocksf-basic">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2 class="heading--underline text-align-center"><strong>Unique to UC Davis</strong></h2></div>
+      
+      </div>
+
+    </div>
+  </div>
+  <div class="layout layout--twocol-section layout--twocol-section--50-50 l-2col l-2col--50-50">
+
+          <div  class="l-first">
+        <div class="category-brand--tahoe u-align--center u-space-px--large block block-layout-builder block-inline-blocksf-marketing-highlight">
+    
+    
+      <a href="/about/locations/unique-to-uc-davis" class="marketing-highlight ">
+    <div class="marketing-highlight__image">
+      
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item">  <img src="/sites/default/files/styles/sf_landscape_4x3/public/media/images/beer-brewing-uc-davis.jpg?h=827069f2&amp;itok=39jThTym" width="640" height="480" alt="Students raise a glass with their brewing teacher" loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-4x3" />
+
+
+</div>
+      
+          </div>
+    <div class="marketing-highlight__body">
+      <h3 class="marketing-highlight__title">Learn to brew beer!</h3>
+              <p>That’s right, you can learn the art of liquid bread! UC Davis has an entry level brewing class and even a Master’s in Brewing Science available. </p>
+                    <span class="marketing-highlight__cta">More unique programs</span>
+          </div>
+  </a>
+  
+</div>
+
+      </div>
+    
+          <div  class="l-second">
+        <div class="u-align--center u-space-px--large category-brand--tahoe block block-layout-builder block-inline-blocksf-marketing-highlight">
+    
+    
+      <a href="/campus-life/things-to-do/traditions" class="marketing-highlight ">
+    <div class="marketing-highlight__image">
+      
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item">  <img src="/sites/default/files/styles/sf_landscape_4x3/public/media/images/therapy-fluffy-uc-davis-home-mh.jpg?h=827069f2&amp;itok=w5PthLao" width="640" height="480" alt="A student holds a puppy at the UCD memorial union" loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-4x3" />
+
+
+</div>
+      
+          </div>
+    <div class="marketing-highlight__body">
+      <h3 class="marketing-highlight__title">Take a study break with a puppy!</h3>
+              <p>During finals week students can take a break and pet some adorable fluffy friends at the MU. </p>
+                    <span class="marketing-highlight__cta">More unique traditions</span>
+          </div>
+  </a>
+  
+</div>
+
+      </div>
+    
+  </div>
+  <div class="layout layout--threecol-section layout--threecol-section--25-50-25 vert-margins--medium l-3col l-3col--25-50-25">
+
+    
+          <div  class="l-second">
+        <div class="o-box--flush image-banner block block-block-content block-block-content6a8d80c7-2401-478f-a54a-e2ae575f320a">
+    
+    
+          <a href="https://www.ucdavis.edu/admissions/undergraduate/more-info">
+      
+            <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-hidden field__item">  <img src="/sites/default/files/styles/sf_image_banner/public/media/images/signup_0.png?itok=UJdqBPlZ" width="1035" height="325" alt="a graphic with an envelope and &#039;sign up for more information&#039;" loading="lazy" typeof="foaf:Image" class="image-style-sf-image-banner" />
+
+
+</div>
+      
+      </a>
+  
+  
+</div>
+
+      </div>
+    
+    
+  </div>
+  <div class="vert-margins--bottom-large l-4col">
+
+          <div  class="l-first">
+        <div class="bot-margin--flush block-vertical-link block block-layout-builder block-inline-blocksf-focal-link">
+    
+    
+            <a href="https://give.ucdavis.edu/" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-gift fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Make a gift to UC Davis</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+
+      </div>
+    
+          <div  class="l-second">
+        <div class="bot-margin--flush block-vertical-link block block-layout-builder block-inline-blocksf-focal-link">
+    
+    
+            <a href="https://alumni.ucdavis.edu/" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-user-graduate fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Join the Alumni Association</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+
+      </div>
+    
+          <div  class="l-third">
+        <div class="bot-margin--flush block-vertical-link block block-layout-builder block-inline-blocksf-focal-link">
+    
+    
+            <a href="/about/wellness-safety" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-user-shield fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Campus safety</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+
+      </div>
+    
+          <div  class="l-fourth">
+        <div class="bot-margin--flush block-vertical-link block block-layout-builder block-inline-blocksf-focal-link">
+    
+    
+            <a href="/admissions/undergraduate/parents" class="vertical-link vertical-link--circle">
+    <div class="vertical-link__figure">
+              
+        <span class="vertical-link__image fas fa-user-friends fa-3x"></span>
+          </div>
+
+    <div class="vertical-link__title">
+      
+            <div class="field field--name-field-sf-title field--type-string field--label-hidden field__item">Parent information</div>
+      
+    </div>
+  </a>
+  
+
+</div>
+
+      </div>
+    
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div class="o-box--flush bot-margin--flush block block-layout-builder block-inline-blocksf-basic">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2 class="heading--underline text-align-center"><strong>Trending now</strong></h2></div>
+      
+      </div>
+
+    </div>
+  </div>
+  <div class="layout layout--twocol-section layout--twocol-section--50-50 vert-margins--bottom-small l-2col l-2col--50-50">
+
+          <div  class="l-first">
+        <div class="o-box--flush u-space-mb--large block block-block-content block-block-contentdfc4f182-9873-47bd-8969-cd4d0a6abc9c">
+    
+    
+      <a href="/admissions/blog/7-fun-things-to-do-outside-of-davis" class="listicle">
+    <div class="listicle__image">
+      
+  <div class="field field--name-field-sf-m-block-primary-img field--type-entity-reference field--label-visually_hidden">
+    <div class="field__label visually-hidden">Custom Image</div>
+              <div class="field__item">  <img src="/sites/default/files/styles/sf_landscape_16x9/public/media/images/20190723-lake-tahoe-scenic-uc-davis-01563.jpeg?h=c673cd1c&amp;itok=HCv3PNtC" width="1280" height="720" alt="A scenic picture of Lake Tahoe at sunrise. " loading="lazy" typeof="foaf:Image" class="image-style-sf-landscape-16x9" />
+
+
+</div>
+          </div>
+
+    </div>
+    <div class="listicle__title">
+      <div class="listicle__title--number">
+        <span>7</span>
+      </div>
+      <div class="listicle__title--text">
+        <p>Fun Things to Do Outside of Davis</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      </div>
+    
+          <div  class="l-second">
+        <div class="views-element-container block block-views block-views-blockucd-articles-latest-news-block-2">
+    
+    
+        <div><div class="view view-ucd-articles-latest-news view-id-ucd_articles_latest_news view-display-id-block_2 js-view-dom-id-8ff0d9175ac2f362f848547d4025e0be077ac1c025f7e583325b97f683652c79">
+  
+    
+      <div class="view-header">
+      
+    </div>
+      
+      <div class="view-content">
+                      <span class="views-field views-field-created"><span class="field-content"><div class="news-block--trending">
+  <a href="/news/holiday-helping-2275-pounds-pantry-and-counting">
+    <strong>HOLIDAY HELPING: 2,275 Pounds for The Pantry, and Counting</strong>
+    <br>
+    <span class="news-block--trending__date"> November 22, 2022</span>
+  </a>
+</div></span></span>
+                    <span class="views-field views-field-created"><span class="field-content"><div class="news-block--trending">
+  <a href="/news/uc-davis-chancellor-may-statement-fatal-shooting-lgbtq-colorado">
+    <strong>UC Davis Chancellor May’s Statement on Fatal Shooting at LGBTQ Club in Colorado</strong>
+    <br>
+    <span class="news-block--trending__date"> November 20, 2022</span>
+  </a>
+</div></span></span>
+                    <span class="views-field views-field-created"><span class="field-content"><div class="news-block--trending">
+  <a href="/news/checking-chancellor-may-reject-violence-reject-hate">
+    <strong>Checking In With Chancellor May: Reject Violence. Reject Hate.</strong>
+    <br>
+    <span class="news-block--trending__date"> November 18, 2022</span>
+  </a>
+</div></span></span>
+                    <span class="views-field views-field-created"><span class="field-content"><div class="news-block--trending">
+  <a href="/news/call-goes-out-fall-commencement-volunteers">
+    <strong>Call Goes Out for Fall Commencement Volunteers</strong>
+    <br>
+    <span class="news-block--trending__date"> November 16, 2022</span>
+  </a>
+</div></span></span>
+                    <span class="views-field views-field-created"><span class="field-content"><div class="news-block--trending">
+  <a href="/news/joseph-patel-94-talks-summer-soul">
+    <strong>Joseph Patel ’94 Talks ‘Summer of Soul’</strong>
+    <br>
+    <span class="news-block--trending__date"> November 15, 2022</span>
+  </a>
+</div></span></span>
+      
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+      </div>
+    
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+    </div>
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div class="l-full-width watercolor-tagboard block block-block-content block-block-content4236b9bb-166a-49a4-91a4-2441ab607e82">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="ucd-centered-subheading--large"><h2 class="heading--underline tagboard--title">Follow us</h2></div>
+<div class="branded-social-container social-centered">
+<a href="http://www.facebook.com/ucdavis"><img src="https://www.ucdavis.edu/sites/default/files/2021-05/facebook-icon-branded_0.svg" alt="facebook f" /></a>
+  <a href="https://www.instagram.com/ucdavis"><img src="https://www.ucdavis.edu/sites/default/files/2021-05/instagram-icon-branded.svg" alt="instagram camera icon" /></a>
+  <a href="https://www.twitter.com/ucdavis"><img src="https://www.ucdavis.edu/sites/default/files/2021-05/twitter-icon-branded.svg" alt="twitter bird icon" /></a>
+  <a href="https://www.youtube.com/ucdavis"><img src="https://www.ucdavis.edu/sites/default/files/2021-05/youtube-icon-branded.svg" alt="Youtube play icon" /></a>
+<a href="http://www.tiktok.com/@ucdavis"><img src="https://www.ucdavis.edu/sites/default/files/2021-05/tiktok-icon-branded.svg" alt="ticktok music icon" /></a>
+  <a href="https://www.linkedin.com/school/uc-davis/"><img src="https://www.ucdavis.edu/sites/default/files/2021-05/linkedin-icon-branded.svg" alt="Linkedin in icon" /></a>
+</div>
+<img src="/sites/default/files/media/images/watercolor-tagboard-top2.jpg" alt="watercolor illustration of the highlights of the UC Davis campus including the eggheads, Mondavi Center, UC Davis Health and the Memorial Union" /><div class="tagboard-embed" tgb-embed-id="3072"></div><script src="https://static.tagboard.com/embed/assets/js/embed.js"></script>
+</div>
+      
+      </div>
+
+    </div>
+  </div>
+
+    </div>
+  
+</article>
+
+  </div>
+
+  </div>
+
+          </div>
+                        </section>
+
+          </div>
+
+  </main>
+
+  <footer class="l-footer footer dark-background">
+    <div class="l-container">
+        <div class="region region-footer flex-footer">
+                  <div class="flex-footer__item">
+          
+
+
+<nav aria-labelledby="block-ucd-footer-menu" id="block-ucd-footer" class="footer-nav">
+      
+      <h2 id="block-ucd-footer-menu">UC Davis</h2>
+    
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="http://www.ucdmc.ucdavis.edu/#footer">UC Davis Health</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.vetmed.ucdavis.edu/vmth/#footer">Veterinary Medicine</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://cpe.ucdavis.edu/#footer">UC Davis Continuing and Professional Education</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://ucdavisstores.com/#footer">UC Davis Stores</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.mondaviarts.org#footer">UC Davis Arts</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://mobile.ucdavis.edu/#footer">UC Davis Mobile Apps</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://icc.ucdavis.edu/employer/#footer">Hiring UC Davis Students and Alumni</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://giving.ucdavis.edu/?utm_source=ucdhome&amp;utm_medium=footer&amp;utm_campaign=expect%20greater&amp;utm_content=textlink">Make a Gift to UC Davis</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+        </div>
+              <div class="flex-footer__item">
+          
+
+
+<nav aria-labelledby="block-ucd-footerstudents-menu" id="block-ucd-footerstudents" class="footer-nav">
+      
+      <h2 id="block-ucd-footerstudents-menu">Students</h2>
+    
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="http://orientation.ucdavis.edu/#footer">Orientation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/academics/teaching-learning/student-resources#footer" data-drupal-link-system-path="node/2146">Student Resources</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://gradstudies.ucdavis.edu/current-students/#footer">Graduate Students</a>
+              </li>
+                <li class="menu-item">
+        <a href="/commencement#footer" data-drupal-link-system-path="node/2366">Commencement</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://icc.ucdavis.edu/#footer">Internship and Career Center</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.ucdavis.edu/jobs/student-jobs-internships/#footer">Jobs and Internships</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.ucdavis.edu/admissions/undergraduate/parents#footer">Parents</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+        </div>
+              <div class="flex-footer__item">
+          
+
+
+<nav aria-labelledby="block-ucd-footeralumni-menu" id="block-ucd-footeralumni" class="footer-nav">
+      
+      <h2 id="block-ucd-footeralumni-menu">Alumni</h2>
+    
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="http://www.alumni.ucdavis.edu#footer">Cal Aggie Alumni Association</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.alumni.ucdavis.edu/benefits/career-connections#footer">Career Connections</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.alumni.ucdavis.edu/benefits#footer">Member Benefits</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://registrar.ucdavis.edu/records/transcripts#footer">Transcripts</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://ucdavismagazine.ucdavis.edu#footer">UC Davis Magazine</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+        </div>
+              <div class="flex-footer__item">
+          
+
+
+<nav aria-labelledby="block-ucd-footerfaculty-menu" id="block-ucd-footerfaculty" class="footer-nav">
+      
+      <h2 id="block-ucd-footerfaculty-menu">Faculty</h2>
+    
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/academics/our-faculty/faculty-resources#footer" data-drupal-link-system-path="node/48781">Resources</a>
+              </li>
+                <li class="menu-item">
+        <a href="/academics/our-faculty#footer" data-drupal-link-system-path="node/2363">Teaching</a>
+              </li>
+                <li class="menu-item">
+        <a href="/research#footer" data-drupal-link-system-path="node/26">Research</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/jobs/benefits#footer" data-drupal-link-system-path="node/2039">Benefits</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://academicsenate.ucdavis.edu#footer">Faculty Governance</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+        </div>
+              <div class="flex-footer__item">
+          
+
+
+<nav aria-labelledby="block-ucd-footerstaff-menu" id="block-ucd-footerstaff" class="footer-nav">
+      
+      <h2 id="block-ucd-footerstaff-menu">Staff</h2>
+    
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/about/administration/staff-resources#footer" data-drupal-link-system-path="node/48784">Resources</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://sdps.ucdavis.edu/#footer">Training</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/jobs/benefits#footer" data-drupal-link-system-path="node/2039">Benefits</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/jobs#footer" data-drupal-link-system-path="node/2057">Jobs</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://staff.ucdavis.edu/#footer">Staff Assembly</a>
+              </li>
+                <li class="menu-item">
+        <a href="/website-feedback" data-drupal-link-system-path="node/49026">Website Feedback</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+        </div>
+            </div>
+
+
+      <div class="footer-spacer">
+        <div class="footer-spacer__logo">
+          <a href="https://www.ucdavis.edu/"><img src="/profiles/sitefarm/themes/sitefarm_one/images/aggie-logo-white.svg" class="ucd-logo" alt="UC Davis footer logo" width="180" height="140" loading="lazy" /></a>
+        </div>
+      </div>
+
+        <div class="region region-footer-credits">
+    <div id="block-ucd-uccredits" class="panel--icon-bullhorn uc-footer block block-uc-credits block-uc-credits-block">
+    
+    
+        
+      <p><a href="https://www.ucdavis.edu/">University of California, Davis</a>, One Shields Avenue, Davis, CA 95616 | 530-752-1011</p>
+    <ul class="list--pipe">
+        <li><a href="/about/campus-safety/help/contact">Questions or comments?</a></li>    <li><a href="http://ucdavis.edu/help/privacy-accessibility.html">Privacy & Accessibility</a></li>    <li><a href="https://diversity.ucdavis.edu/principles-community">Principles of Community</a></li>    <li><a href="http://www.universityofcalifornia.edu/">University of California</a></li>        <li>Last update: September 23, 2022</li>  </ul>
+  <p>Copyright © The Regents of the University of California, Davis campus. All rights reserved.</p>
+</div>
+
+<div id="block-retargetingpixel" class="panel--icon-bullhorn block block-block-content block-block-content201d0a0e-7b2f-42c0-b50c-cdc8daef7afe">
+      
+        
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><img height="1" width="1" style="border-style:none;" alt="" src="https://insight.adsrvr.org/track/pxl/?adv=eaappjz&amp;ct=0:9wy2tib&amp;fmt=3" /></div>
+      
+      </div>
+
+  </div>
+
+
+      <div class="u-align--center">This site is officially grown in <a href="https://sitefarm.ucdavis.edu">SiteFarm</a>.</div>
+
+    </div>
+  </footer>
+
+</div>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/2378","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":{},"trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ajaxTrustedUrl":{"\/gcs\/search":true},"user":{"uid":0,"permissionsHash":"b8ee8a3b6db84eaf7975df6054009adef40558853a5c3c0e87711329faa0f384"}}</script>
+<script src="/sites/default/files/js/js_nlm7XvIloyPDi0SaRBYmQtQBChCi536bF5OFGig-VRY.js"></script>
+<script src="/profiles/sitefarm/themes/sitefarm_one/dist/primary-nav.nuKHgqPrYVsT.js?v=9.3.22" type="module"></script>
+<script src="/themes/custom/ucd/dist/main.js?v=9.3.22" type="module"></script>
+<script src="/themes/custom/ucd/dist/app.js?v=9.3.22" type="module"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-f3d2d5828f08983b27e","applicationID":"454414157","transactionName":"ZwMGZBdXWUBVURFQXV5JJVMRX1hdG3YXTEJRCjheClJSb3ddC01AXwoIVRdqeVxQVzNQV0clC14RRFhfWFcXFAxGDwFH","queueTime":0,"applicationTime":668,"atts":"S0QFEl9NSk4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

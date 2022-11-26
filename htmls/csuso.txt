@@ -1,0 +1,1382 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="fb: https://www.facebook.com/2008/fbml content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VwQFUlBVCRAJXVhTBgAEXlc=",licenseKey:"NRJS-214b2942b01dae54dc2",applicationID:"999111383"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(27),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(28),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(10),t(9),"addEventListener"in window&&t(6),c.xhrWrappable&&t(11),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function i(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+l])try{window.performance[h](m,i,!1)}catch(t){}else try{window.performance[h]("webkit"+m,i,!1)}catch(t){}}function o(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(10),f=t(9),u=t(5),d=t(19),l="learResourceTimings",p="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",S=t("loader");if(!S.disabled){S.features.stn=!0,t(8),"addEventListener"in window&&t(6);var O=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof O&&(this.bstStart=S.now())}),a.on(b,function(t,e){var n=t[0];n instanceof O&&s("bst",[n,e,this.bstStart,S.now()])}),c.on(x,function(t,e,n){this.bstStart=S.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),this.bstType])}),f.on(x,function(){this.bstStart=S.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=S.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):p in window.performance&&(window.performance["c"+l]?window.performance[p](m,i,d(!1)):window.performance[p]("webkit"+m,i,d(!1))),document[p]("scroll",o,d(!1)),document[p]("keypress",o,d(!1)),document[p]("click",o,d(!1))}}},{}],5:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(28),a=t(27);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],10:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],11:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function o(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,S.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=t(19),p=NREUM.o,h=p.XHR,m=p.MO,v=p.PR,w=p.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,l(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,S=document.createTextNode(R);new m(a).observe(S,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],12:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(w.traceContextParentHeader=i(h,m),w.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(24),h=t(14);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],13:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function i(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(14),f=t(12).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(20),m=t(18),v=t(15),w=t(19),g=t(21).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(11),t(7),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;if("string"==typeof o?n=o:"object"==typeof o&&o instanceof y?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n),"data"!==this.params.protocol){var s=(""+(o&&o instanceof y&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],14:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],15:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(18);e.exports=r},{}],16:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),o(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(27),s=t(28),c=t("ee").get("tracer"),f=t("loader"),u=t(21),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var l=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(l,function(t,e){d[e]=i(p,e,!0,"api")}),d.addPageAction=i(p,"addPageAction",!0),d.setCurrentRouteName=i(p,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),o("err",[t,f.now(),!1,e])}},{}],17:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],20:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],21:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[s,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:i}},{}],22:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(29);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],23:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var i=[r],o=a({});o&&i.push(o),p("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,p("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),p("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,l,p=t("handle"),h=t("loader"),m=t(26),v=t(19),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}l=new PerformanceObserver(o);try{l.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],24:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(t)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],25:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],26:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(19);e.exports=r;var o,a,s;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],27:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],28:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],29:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[y[n]];return l&&l.push([x,n,r,s]),s}}function o(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return l[t]=l[t]||i(n)}function w(t,e){p.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(27),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!O++){var t=S.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+S.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+S.offset],null,"api")}var a=t(22),s=t("handle"),c=t(27),f=t("ee"),u=t(25),d=t(17),l=t(19),p=d.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",w="attachEvent",g=h.XMLHttpRequest,y=g&&g.prototype,x=!1;NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:g,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},R=g&&y&&y[v]&&!/CriOS/.test(navigator.userAgent),S=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:x};if(!x){t(16),t(23),m[v]?(m[v]("DOMContentLoaded",o,l(!1)),h[v]("load",r,l(!1))):(m[w]("onreadystatechange",i),h[w]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var O=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(28),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,13,4,3]);</script>
+<link rel="shortcut icon" href="https://www.sonoma.edu/sites/www/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Sonoma State University is a public institution in the California northern bay area that was founded in 1961. It enrolls 9,300 students, and its campus of 269 acres is a jewel in the middle of Sonoma County’s wine country. It ranks in the 2018 edition of the US News &amp; World Report Best Colleges as 57th among Regional Universities in the West." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.sonoma.edu/" />
+<link rel="shortlink" href="https://www.sonoma.edu/" />
+<meta property="og:site_name" content="Sonoma State University" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.sonoma.edu/" />
+<meta property="og:title" content="Sonoma State University" />
+<meta name="facebook-domain-verification" content="lc16dl9bixb1dc1ie1afzrvtou8c14" />
+  <title>Sonoma State University</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_LMf7pD0EkMMcn3GAMYbwP6wuVKRzm8nRQeNddrkHg0Y.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_MbipdXcJAkkXghD27CMySd6mJI1NcdiRjtxIdzzqCV4.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css" media="screen" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_gDJsST1MGh0QklNQ71CbU-U8qjb4-ODMRQ-JNr2DjY0.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_1Jr9k-NQHlGzwAz1CnKZHR_xBSYsU7kEYkCqx2XuXWc.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/all/modules/contrib/popup/popup.css?rlrsa7" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/all/modules/contrib/popup/styles/black/popup-element.css?rlrsa7" media="screen, projection" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_VcqARVHPQDZ1ffD6aA7-42mKAxkwzaYCc3oampW8epA.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_wfUyebO3TlFZXithF5jI9xumm5Xks0wCQP8_jw4pnCk.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css/css_fxFz2tqI6NT6lelCliR8YSPwdHeEsV9ZOPwApzK6fgE.css" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css_injector/css_injector_79.css?rlrsa7" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css_injector/css_injector_81.css?rlrsa7" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css_injector/css_injector_85.css?rlrsa7" media="all" />
+<link rel="stylesheet" href="https://www.sonoma.edu/sites/www/files/css_injector/css_injector_87.css?rlrsa7" media="all" />
+  <script src="https://www.sonoma.edu/sites/www/files/js/js_s7yA-hwRxnKty__ED6DuqmTMKG39xvpRyrtyCrbWH4M.js"></script>
+<script src="https://www.sonoma.edu/sites/www/files/js/js_Q_MIyvZBUj5tWZZ-q1U5ICYF0ZfLlqS_u6ffJS4Uf98.js"></script>
+<script src="https://www.sonoma.edu/sites/www/files/js/js_sRPXxboI4gvcDFU7CwcmtTtU_NTyUtCr-ynPxVdszXQ.js"></script>
+<script src="https://www.sonoma.edu/sites/www/files/js/js_IuJiRdzRPXI502GMPTgad2DZlnkq_-RMGwV90vmzkro.js"></script>
+<script>jQuery.extend(Drupal.absolute_messages, {"dismiss":{"status":false,"warning":false,"error":false},"dismiss_time":{"status":"","warning":"","error":""},"dismiss_all_count":2});</script>
+<script src="https://www.sonoma.edu/sites/www/files/js/js_PxwAzaC7p9rq04oGU5pUOQtKiVvPY8EzxfLfMoEJ4yw.js"></script>
+<script src="https://www.sonoma.edu/sites/all/modules/contrib/popup/popup.js?rlrsa7"></script>
+<script src="https://www.sonoma.edu/sites/www/files/js/js_vH8cWvsG5bQ0Z_22YPYiaGCYnRRkGnkyPOr_VGMxlOw.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-76558693-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="https://www.sonoma.edu/sites/www/files/js/js_kV4JkAxh6WHLBqz_5ZAMejCEqM1TuZ5pjXsEeKONRq8.js"></script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.type='text/javascript';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T2V939T');</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"ssuedu_child","theme_token":"3fwNCB4PTGq5EceebcK-reQkenE7W3aznGL6Mko2OtE","jquery_version":"1.8","js":{"sites\/all\/libraries\/stacktable\/stacktable.min.js":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/modules\/features\/kwall_accordion_menu\/js\/kwall_accordion_menu.js":1,"sites\/all\/modules\/features\/sonoma_slide_menu\/js\/kwall_slide_menu.js":1,"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/easing\/jquery.easing.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/libraries\/jquery.placeholder\/jquery.placeholder.min.js":1,"sites\/all\/modules\/contrib\/jquery_placeholder\/jquery_placeholder.js":1,"sites\/all\/libraries\/slick\/slick\/slick.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/codefilter\/codefilter.js":1,"sites\/all\/modules\/custom\/ssuedu_custom\/js\/ssuedu_custom.js":1,"sites\/all\/modules\/custom\/ssuedu_custom\/js\/selectivizr-min.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/absolute_messages\/absolute_messages.js":1,"1":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/popup\/popup.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/themes\/custom\/ssuedu_theme\/js\/slideshow.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/modules\/contrib\/quicktabs\/js\/quicktabs.js":1,"sites\/all\/modules\/contrib\/extlink\/js\/extlink.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/contrib\/slick\/js\/slick.load.min.js":1,"3":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/slick\/slick\/slick.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/codefilter\/codefilter.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_appliance\/theme\/google_appliance.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/absolute_messages\/absolute_messages.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/popup\/popup.css":1,"sites\/all\/modules\/contrib\/popup\/styles\/black\/popup-element.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/features\/kwall_accordion_menu\/css\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/modules\/features\/kwall_accordion_menu\/css\/kwall_accordion_menu.css":1,"sites\/all\/modules\/features\/sonoma_slide_menu\/css\/kwall_slide_menu.css":1,"sites\/all\/modules\/contrib\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/libraries\/stacktable\/stacktable.css":1,"sites\/all\/themes\/custom\/ssuedu_theme\/system.menus.css":1,"sites\/all\/themes\/custom\/ssuedu_theme\/css\/base\/normalize.css.less":1,"sites\/all\/themes\/custom\/ssuedu_theme\/fonts\/stylesheet.css":1,"sites\/all\/themes\/custom\/ssuedu_theme\/css\/styles.css.less":1,"sites\/all\/themes\/custom\/ssuedu_theme\/css\/themes\/print.css.less":1,"sites\/all\/themes\/custom\/ssuedu_child_theme\/css\/styles_ssuedu_child.css.less":1,"public:\/\/css_injector\/css_injector_66.css":1,"public:\/\/css_injector\/css_injector_67.css":1,"public:\/\/css_injector\/css_injector_69.css":1,"public:\/\/css_injector\/css_injector_79.css":1,"public:\/\/css_injector\/css_injector_81.css":1,"public:\/\/css_injector\/css_injector_85.css":1,"public:\/\/css_injector\/css_injector_87.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/www\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"popup":{"effects":{"show":{"default":"this.body.show();","fade":"\n        if (this.opacity){\n          this.body.fadeTo(\u0027medium\u0027,this.opacity);\n        }else{\n          this.body.fadeIn(\u0027medium\u0027);\n        }","slide-down":"this.body.slideDown(\u0027medium\u0027)","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027show\u0027,\n            opacity:(this.opacity ? this.opacity : \u0027show\u0027)\n          }, \u0027medium\u0027\n        );"},"hide":{"default":"this.body.hide();","fade":"this.body.fadeOut(\u0027medium\u0027);","slide-down":"this.body.slideUp(\u0027medium\u0027);","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027hide\u0027,\n            opacity:\u0027hide\u0027\n          }, \u0027medium\u0027\n        );"}},"linger":250,"delay":0},"better_exposed_filters":{"views":{"ssu_notice_block":{"displays":{"alert_block":{"filters":[]}}},"video_slideshow":{"displays":{"block":{"filters":[]},"block_2":{"filters":[]}}},"events":{"displays":{"attachment_1":{"filters":[]},"block_2":{"filters":[]}}},"news":{"displays":{"block_1":{"filters":[]}}},"testimonial_carousel":{"displays":{"default":{"filters":[]}}},"stats_carousel":{"displays":{"default":{"filters":[]}}}}},"flexslider":{"optionsets":{"video_slideshow":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":true,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":false,"slideshowSpeed":"7000","directionNav":true,"controlNav":true,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"video_slideshow"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"currentPath":"node\/28","currentPathIsAdmin":false,"jquery_placeholder":{"edit-query":{"selector":"#edit-query"},"edit-query--2":{"selector":"#edit-query--2"}},"urlIsAjaxTrusted":{"\/ssu-search":true},"kwall_slide_menu":{"searchOpenSelector":".header-search-open-button","menuOpenSelector":".header-menu-open-button","navSearchMenuID":"kwall-slide-in-nav-search-menu","navMenuID":"kwall-slide-in-nav-menu"},"quicktabs":{"qt_news_and_events":{"name":"news_and_events","tabs":[{"vid":"events","display":"block_2","args":"","use_title":0,"view_path":"node%2F28","view_dom_id":1,"ajax_args":"","actual_args":[]},{"vid":"news","display":"block_1","args":"","use_title":0,"view_path":"node%2F28","view_dom_id":2,"ajax_args":"","actual_args":[]}],"ajaxPageState":{"jquery_version":"1.8"}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false},"field_group":{"div":"full"},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"autoplaySpeed":3000,"pauseOnHover":true,"pauseOnDotsHover":false,"arrows":true,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mousewheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.34999999999999998,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/contrib/zen/js/html5-respond.js"></script>
+    <![endif]-->
+      <link rel="stylesheet" href="https://use.typekit.net/mwy1qoi.css">
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-28 node-type-landing-page header-bg-default" >
+      <p id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Jump to content</a>
+    </p>
+      
+      	  <div class="ssu-notice" role="alert">
+	        <div class="region region-ssu-notice">
+    <div id="block-views-ssu-notice-block-alert-block" class="block block-views first last odd">
+
+      
+  <div class="view view-ssu-notice-block view-id-ssu_notice_block view-display-id-alert_block ssu-notice-inner view-dom-id-7c24ddfec7ad0a05a73688e01b3ca3df">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even" property="content:encoded"><p class="rtecenter"><a href="https://diversity.sonoma.edu/celebrating-heritage-and-identity/2022-native-american-heritage-month-celebration"><img alt="Native American Heritage Month" class="media-element file-default" data-delta="1" data-fid="18996" data-media-element="1" src="/sites/www/files/diversity-banner-nov22-nativeamericanmonth.jpg" typeof="foaf:Image" /></a><br /><a href="https://diversity.sonoma.edu/celebrating-heritage-and-identity/2022-native-american-heritage-month-celebration">See this month's commemorative events.</a></p>
+</div>
+      </div>
+</div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </div>
+	  </div>
+      <div id="page">
+  <div class="upper-wrapper">
+    <header id="header" role="banner">
+        <div class="header__region region region-header">
+    <div id="block-bean-header-logo-block" class="block block-bean header-logo-block first odd">
+
+      
+  <div class="entity entity-bean bean-simple-block clearfix" about="/block/header-logo-block">
+        <div class="content">
+    <div class="field field-name-field-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="child-theme-one"><a href="/"><img alt="Sonoma State University" height="61" src="/sites/www/files/ssu_full_logo_centered-wht.svg" width="300" /></a></div>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+
+</div>
+<div id="block-menu-menu-header-menu" class="block block-menu header-menu-block last even" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf mainmenu-topnav"><a href="http://admissions.sonoma.edu/explore" class="menu__link">Explore</a></li>
+<li class="menu__item is-leaf leaf mainmenu-topnav"><a href="http://admissions.sonoma.edu/apply" class="menu__link">Apply</a></li>
+<li class="menu__item is-leaf leaf mainmenu-topnav"><a href="/visitors" class="menu__link">Visitors</a></li>
+<li class="menu__item is-leaf leaf mainmenu-topnav"><a href="/give" class="menu__link">Give</a></li>
+<li class="menu__item is-leaf leaf mainmenu-topnav"><a href="https://login.sonoma.edu/" class="menu__link">Login</a></li>
+<li class="menu__item is-leaf leaf"><a href="#" class="menu__link header-search-open-button">Search</a></li>
+<li class="menu__item is-leaf last leaf"><a href="#" class="menu__link header-menu-open-button">Toggle Menu</a></li>
+</ul>
+</div>
+  </div>
+    </header>
+
+    <div id="main">
+
+      <div id="navigation" class="clearfix">
+        <div class="inner-wrapper">
+            <div class="region region-navigation">
+    <div id="block-kwall-slide-menu-search" class="block block-kwall-slide-menu navigation-slide-menu-block first odd">
+
+      
+  <div class="kwall-slide-in-nav-search-menu closed" id="kwall-slide-in-nav-search-menu"><div class="slide-menu-close"><a href="#" class="slide-menu-close-button" aria-controls="kwall-slide-in-nav-search-menu"><span class="element-invisible">Close Nav</span></a></div><div class="container-inline"><form action="/ssu-search" method="get" id="ssusearch-search-block-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-query">
+  <label class="element-invisible" for="edit-query">search query <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Search" type="text" id="edit-query" name="query" value="" size="15" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /><input type="hidden" name="form_build_id" value="form-wFZDnjFn3U1ZYiCACodk0jdBouOOoTZlVmDpnpSNiho" />
+<input type="hidden" name="form_id" value="ssusearch_search_block_form" />
+</div></form></div><div id="block-menu-block-3" class="block block-menu-block first odd" role="navigation">
+
+        <h2 class="block__title block-title">Common Searches</h2>
+    
+  <div class="menu-block-wrapper menu-block-3 menu-name-menu-search-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1057"><a href="/academics/degree-programs" class="menu__link">What majors and minors are offered?</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1058"><a href="http://www.sonoma.edu/aa/gs/" class="menu__link">Where can I find information about graduate programs?</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1059"><a href="http://www.sonoma.edu/registration/fees.html" class="menu__link">How much is tuition?</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1060"><a href="http://www.sonoma.edu/finaid" class="menu__link">What financial aid packages are available?</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1064"><a href="https://login.sonoma.edu/" class="menu__link">Where can I log in to SSU Online?</a></li>
+</ul></div>
+
+</div>
+</div><a href="#" class="kwall-slide-menu-overlay" aria-controls="kwall-slide-in-nav-search-menu"><span class="element-invisible">Close Nav</span></a>
+</div>
+<div id="block-kwall-slide-menu-menu" class="block block-kwall-slide-menu navigation-slide-menu-block kwall-slide-in-nav-menu-block last even">
+
+      
+  <div class="kwall-slide-in-nav-menu closed" id="kwall-slide-in-nav-menu"><div class="slide-menu-close"><a href="#" class="slide-menu-close-button" aria-controls="kwall-slide-in-nav-menu"><span class="element-invisible">Close Nav</span></a></div><div class="container-inline"><form action="/ssu-search" method="get" id="ssusearch-search-block-form--2" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-query">
+  <label class="element-invisible" for="edit-query--2">search query <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Search" type="text" id="edit-query--2" name="query" value="" size="15" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /><input type="hidden" name="form_build_id" value="form-ihWrd6oj1-kljRi1rUM30lasF8bWDObM6KfGwKp-dDw" />
+<input type="hidden" name="form_id" value="ssusearch_search_block_form" />
+</div></form></div><div id="block-menu-block-1" class="block block-menu-block slide-in-nav-menu-block accordion-menu-block even" aria-label="Accordion Menu Nav" tabindex="-1" role="navigation">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu accordion-nav-menu accordion-nav-top-level-menu"><li class="menu__item is-leaf first leaf menu-mlid-3901 mainmenu-slidenav"><a href="http://admissions.sonoma.edu/explore" class="menu__link">Explore</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2367 mainmenu-slidenav"><a href="http://admissions.sonoma.edu/apply" class="menu__link">Apply</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2369 mainmenu-slidenav"><a href="/visitors" class="menu__link">Visit</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2371 mainmenu-slidenav"><a href="/give" class="menu__link">Give</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2373 mainmenu-slidenav mainmenu-slidenav-last"><a href="https://login.sonoma.edu/" class="menu__link">Login</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-947 menu-quicklink"><a href="/a-z" class="menu__link">A - Z</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-679 menu-quicklink"><a href="http://library.sonoma.edu/" class="menu__link">Library</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2397 menu-quicklink"><a href="https://ldaps.sonoma.edu/fasd/" class="menu__link">Directory</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2215 menu-quicklink"><a href="/students" class="menu__link">Students</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2395 menu-quicklink"><a href="https://map.sonoma.edu/" class="menu__link">Maps</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2239 menu-quicklink"><a href="/faculty-staff" class="menu__link">Faculty &amp; Staff</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-680 menu-quicklink"><a href="http://sonomaseawolves.com/" class="menu__link">Athletics</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-682 menu-quicklink"><a href="http://www.ssualumni.org/" class="menu__link">Alumni</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2241"><a href="/about" class="menu__link">About Us</a><a href="#" class="submenu-toggle" aria-haspopup="true"><i class="fa fa-plus" aria-hidden="true"></i><span class="element-invisible">Toggle Submenu</span></a><span class="border">&nbsp;</span><ul class="menu accordion-nav-menu accordion-nav-sub-menu"><li class="menu__item is-leaf first leaf menu-mlid-671"><a href="/about/mission" class="menu__link">Mission</a></li>
+<li class="menu__item is-leaf is-parent leaf has-children menu-mlid-672"><a href="/about/history" class="menu__link">History</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-673"><a href="/about/facts" class="menu__link">Facts</a></li>
+<li class="menu__item is-leaf is-parent leaf has-children menu-mlid-674"><a href="http://diversity.sonoma.edu" class="menu__link">Diversity</a></li>
+<li class="menu__item is-leaf is-parent leaf has-children menu-mlid-675"><a href="/about/president" class="menu__link">President</a></li>
+<li class="menu__item is-leaf is-parent leaf has-children menu-mlid-676"><a href="/about/administration" class="menu__link">Administration</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-21367"><a href="/divisions-departments" class="menu__link">Divisions &amp; Departments</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3817"><a href="http://strategicplan.sonoma.edu/" class="menu__link">Strategic Plan</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-21371"><a href="http://sustainablessu.sonoma.edu/" class="menu__link">Sustainability</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-684"><a href="/academics" class="menu__link">Academics</a><a href="#" class="submenu-toggle" aria-haspopup="true"><i class="fa fa-plus" aria-hidden="true"></i><span class="element-invisible">Toggle Submenu</span></a><span class="border">&nbsp;</span><ul class="menu accordion-nav-menu accordion-nav-sub-menu"><li class="menu__item is-leaf first leaf menu-mlid-2063"><a href="/academics/degree-programs" class="menu__link">Degree Programs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-979"><a href="/academics/schools-departments" class="menu__link">Schools &amp; Departments</a></li>
+<li class="menu__item is-leaf is-parent leaf has-children menu-mlid-974"><a href="/academics/calendar" class="menu__link">Academic Calendar</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-975"><a href="/academics/support" class="menu__link">Academic Support</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-976"><a href="//advising.sonoma.edu/" class="menu__link">Advising Central</a></li>
+<li class="menu__item is-leaf is-parent leaf has-children menu-mlid-977"><a href="/academics/schedule-classes" class="menu__link">Schedule of Classes</a></li>
+<li class="menu__item is-leaf is-parent last leaf has-children menu-mlid-978"><a href="http://catalog.sonoma.edu" class="menu__link">Catalog</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-669"><a href="http://admissions.sonoma.edu/" class="menu__link">Admissions &amp; Aid</a><a href="#" class="submenu-toggle" aria-haspopup="true"><i class="fa fa-plus" aria-hidden="true"></i><span class="element-invisible">Toggle Submenu</span></a><span class="border">&nbsp;</span><ul class="menu accordion-nav-menu accordion-nav-sub-menu"><li class="menu__item is-leaf first leaf menu-mlid-2375"><a href="http://admissions.sonoma.edu/experience" class="menu__link">Experience Sonoma State</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2337"><a href="http://admissions.sonoma.edu/how-apply" class="menu__link">How to Apply</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2365"><a href="http://admissions.sonoma.edu/i-have-applied" class="menu__link">I Have Applied</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-985"><a href="http://admissions.sonoma.edu/forms" class="menu__link">Forms</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1015"><a href="http://www.sonoma.edu/finaid/" class="menu__link">Financial Aid</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-21369"><a href="http://seawolfservices.sonoma.edu/fees" class="menu__link">Student Fees &amp; Charges</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2339"><a href="http://registrar.sonoma.edu/" class="menu__link">Registrar</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-668"><a href="http://getinvolved.sonoma.edu/" class="menu__link">Campus Life</a><a href="#" class="submenu-toggle" aria-haspopup="true"><i class="fa fa-plus" aria-hidden="true"></i><span class="element-invisible">Toggle Submenu</span></a><span class="border">&nbsp;</span><ul class="menu accordion-nav-menu accordion-nav-sub-menu"><li class="menu__item is-leaf first leaf menu-mlid-1045"><a href="http://as.sonoma.edu/" class="menu__link">Associated Students</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1048"><a href="http://www.seawolfliving.com/" class="menu__link">Seawolf Living</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1046"><a href="http://getinvolved.sonoma.edu/recognized-student-organizations" class="menu__link">Clubs &amp; Organizations</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1043"><a href="http://getinvolved.sonoma.edu/fraternity-and-sorority-life" class="menu__link">Fraternities &amp; Sororities</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1044"><a href="http://campusrec.sonoma.edu/" class="menu__link">Campus Recreation</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1049"><a href="http://housing.sonoma.edu" class="menu__link">Housing</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1050"><a href="http://culinary.sonoma.edu/" class="menu__link">Culinary Services</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2345"><a href="/campus-life/things-to-do" class="menu__link">Things to do at SSU</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1047"><a href="/campus-life/about-area" class="menu__link">About the Area</a></li>
+</ul></li>
+<li class="menu__item is-expanded last expanded menu-mlid-667"><a href="http://news.sonoma.edu" class="menu__link">News &amp; Events</a><a href="#" class="submenu-toggle" aria-haspopup="true"><i class="fa fa-plus" aria-hidden="true"></i><span class="element-invisible">Toggle Submenu</span></a><span class="border">&nbsp;</span><ul class="menu accordion-nav-menu accordion-nav-sub-menu"><li class="menu__item is-leaf first leaf menu-mlid-1053"><a href="/calendar" class="menu__link">Seawolf Calendar</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3647"><a href="http://news.sonoma.edu/social-media-feeds" class="menu__link">Social Media Feeds</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1054"><a href="http://news.sonoma.edu/insights" class="menu__link">Insights Magazine</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-5239"><a href="/updates" class="menu__link">Campus Updates</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1056"><a href="http://news.sonoma.edu/media" class="menu__link">For the Media</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2083"><a href="http://gmc.sonoma.edu/" class="menu__link">Green Music Center</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2121"><a href="http://tickets.sonoma.edu/" class="menu__link">Box Office Tickets</a></li>
+</ul></li>
+</ul></div>
+
+</div>
+</div><a href="#" class="kwall-slide-menu-overlay" aria-controls="kwall-slide-in-nav-menu"><span class="element-invisible">Close Nav</span></a>
+</div>
+  </div>
+        </div>
+      </div><!-- /#navigation -->
+
+      <div id="highlighted" class="clearfix">
+          <div class="region region-highlighted">
+    <div id="block-views-video-slideshow-block-2" class="block block-views first last odd">
+
+      
+  <div class="view view-video-slideshow view-id-video_slideshow view-display-id-block_2 view-slideshow hero-slideshow video-slideshow view-dom-id-3a0756384aa64ce20352758d1af47936">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider optionset-video-slideshow">
+  <ul class="slides"><li><div class="hero-slide-wrapper">
+  <div class="hero-bkg">
+    <div class="video-wrapper"  >
+    </div>
+    <div class="field-content"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/front_slide/public/field/image/eng-lab-lester_032316_1332-1440x805.png?itok=erBU0faP" width="1440" height="805" alt="Two students in electrical engineering lab" /></div>  </div>
+  <div class="hero-content slide-text">
+    <strong class="hero-title field-name-field-slide-title"><div class="field-content">Accepting Fall 2023 applications now</div></strong>
+    <p class="hero-subhead field-name-field-slide-text"></p>
+    <div class="hero-links field-name-field-slide-link">
+      <div class="field field-name-field-slide-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://admissions.sonoma.edu/apply">Apply</a></div>
+      </div>
+</div>
+            
+          </div>
+  </div>
+</div></li>
+<li><div class="hero-slide-wrapper">
+  <div class="hero-bkg">
+    <div class="video-wrapper"  >
+    </div>
+    <div class="field-content"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/front_slide/public/stories-from-sonoma-big-nite-1440x805.png?itok=Tc7WGfde" width="1440" height="805" alt="Large group of students pose for camera" /></div>  </div>
+  <div class="hero-content slide-text">
+    <strong class="hero-title field-name-field-slide-title"><div class="field-content">Stories from Sonoma</div></strong>
+    <p class="hero-subhead field-name-field-slide-text">Introducing a new series of exciting stories from SSU</p>
+    <div class="hero-links field-name-field-slide-link">
+      <div class="field field-name-field-slide-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://news.sonoma.edu/stories">Read first story</a></div>
+      </div>
+</div>
+            
+          </div>
+  </div>
+</div></li>
+<li><div class="hero-slide-wrapper">
+  <div class="hero-bkg">
+    <div class="video-wrapper"  >
+    </div>
+    <div class="field-content"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/front_slide/public/field/image/tour-wwwbanner-4800x3195-lester_032516_0368.png?itok=ASTLQIp9" width="1440" height="805" alt="Many people walk on the sidewalk with hills in background" /></div>  </div>
+  <div class="hero-content slide-text">
+    <strong class="hero-title field-name-field-slide-title"><div class="field-content">A hidden gem</div></strong>
+    <p class="hero-subhead field-name-field-slide-text">Discover the beauty of the SSU campus</p>
+    <div class="hero-links field-name-field-slide-link">
+      <div class="field field-name-field-slide-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://admissions.sonoma.edu/experience-ssu/campus-tours">Take a tour</a></div>
+      </div>
+</div>
+            
+          </div>
+  </div>
+</div></li>
+<li><div class="hero-slide-wrapper">
+  <div class="hero-bkg">
+    <div class="video-wrapper"  >
+    </div>
+    <div class="field-content"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/front_slide/public/lester-032316-2323-b-1440x805.png?itok=pR45RkVx" width="1440" height="805" alt="Three student walk outdoors under tree trees with green and pink foliage" /></div>  </div>
+  <div class="hero-content slide-text">
+    <strong class="hero-title field-name-field-slide-title"><div class="field-content">Get into the Sonoma State of Mind</div></strong>
+    <p class="hero-subhead field-name-field-slide-text">Explore our exceptional programs</p>
+    <div class="hero-links field-name-field-slide-link">
+      <div class="field field-name-field-slide-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://www.sonoma.edu/academics/degree-programs">Find your major </a></div>
+      </div>
+</div>
+            
+          </div>
+  </div>
+</div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </div>
+      </div><!-- /#highlighted -->
+      <div class="main-content-wrapper">
+        <div class="inner-wrapper">
+          <div>
+                  </div>
+          <div id="content" class="column" role="main">
+                        <a id="main-content"></a>
+                                      <h1 class="title" id="page-title">Sonoma State University</h1>
+                                                                                    
+
+
+<article class="node-28 node node-landing-page view-mode-full clearfix" about="/home" typeof="sioc:Item foaf:Document">
+
+      <header>
+                  <span property="dc:title" content="Sonoma State University" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  
+  
+  
+</article><!-- /.node -->
+<div id="block-quicktabs-news-and-events" class="block block-quicktabs news-events-tabs-block last even">
+
+        <h2 class="block__title block-title">Events & News</h2>
+    
+  <div  id="quicktabs-news_and_events" class="quicktabs-wrapper quicktabs-style-nostyle"><div class="item-list"><ul class="quicktabs-tabs quicktabs-style-nostyle"><li class="first"><a href="/home?qt-news_and_events=0#qt-news_and_events" id="quicktabs-tab-news_and_events-0" class="quicktabs-tab quicktabs-tab-view quicktabs-tab-view-events-block-2 active">Events</a></li>
+<li class="active last"><a href="/home?qt-news_and_events=1#qt-news_and_events" id="quicktabs-tab-news_and_events-1" class="quicktabs-tab quicktabs-tab-view quicktabs-tab-view-news-block-1 active">News</a></li>
+</ul></div><div id="quicktabs-container-news_and_events" class="quicktabs_main quicktabs-style-nostyle"><div  id="quicktabs-tabpage-news_and_events-0" class="quicktabs-tabpage quicktabs-hide"><div class="view view-events view-id-events view-display-id-block_2 view-dom-id-81baec0100cea2b674f282b6a293fc57">
+        
+  
+      <div class="attachment attachment-before">
+      <div class="view view-events view-id-events view-display-id-attachment_1 grid-view">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing date-wrapper">        <span class="field-content"><div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-23T00:00:00-08:00">23</span></div>
+<div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-23T00:00:00-08:00">Nov</span></div></span>  </div>  
+          <div class="field field-name-field-image-event field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="/calendar/thanksgiving-break-no-classes-0"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/column_listing/public/default_images/news-event-default.jpg?itok=XkXK3B85" width="315" height="200" alt="Sonoma State University" /></a></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing-1 text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="/calendar/thanksgiving-break-no-classes-0">Thanksgiving Break (no classes)</a></div>
+<div class="field-type-datetime"><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2022-11-23T00:00:00-08:00">12:00am</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T23:00:00-08:00">11:00pm</span></span></span></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first no-image-event">
+      
+  <div class="views-field views-field-nothing date-wrapper">        <span class="field-content"><div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T13:00:00-08:00">25</span></div>
+<div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T13:00:00-08:00">Nov</span></div></span>  </div>  
+  <div class="views-field views-field-nothing-1 text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="/calendar/feel-good-fridays-self-care-group-0">Feel Good Fridays: A Self-Care Group</a></div>
+<div class="field-type-datetime"><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T13:00:00-08:00">1:00pm</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T14:00:00-08:00">2:00pm</span></span></span></div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even no-image-event">
+      
+  <div class="views-field views-field-nothing date-wrapper">        <span class="field-content"><div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T16:00:00-08:00">25</span></div>
+<div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T16:00:00-08:00">Nov</span></div></span>  </div>  
+  <div class="views-field views-field-nothing-1 text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="/calendar/trans-gender-questioning-group-24">Trans &amp; Gender Questioning Group</a></div>
+<div class="field-type-datetime"><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T16:00:00-08:00">4:00pm</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2022-11-25T17:00:00-08:00">5:00pm</span></span></span></div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd no-image-event">
+      
+  <div class="views-field views-field-nothing date-wrapper">        <span class="field-content"><div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-30T12:00:00-08:00">30</span></div>
+<div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-30T12:00:00-08:00">Nov</span></div></span>  </div>  
+  <div class="views-field views-field-nothing-1 text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="/calendar/women-color-collective-wocc-24">Women of Color Collective (WOCC)</a></div>
+<div class="field-type-datetime"><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2022-11-30T12:00:00-08:00">12:00pm</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2022-11-30T13:00:00-08:00">1:00pm</span></span></span></div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even no-image-event">
+      
+  <div class="views-field views-field-nothing date-wrapper">        <span class="field-content"><div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-01T22:00:00-08:00">1</span></div>
+<div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-01T22:00:00-08:00">Dec</span></div></span>  </div>  
+  <div class="views-field views-field-nothing-1 text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="/calendar/asp-presents-free-bowling-night-ugly-sweater">ASP Presents: Free Bowling Night - Ugly Sweater</a></div>
+<div class="field-type-datetime"><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2022-12-01T22:00:00-08:00">10:00pm</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2022-12-02T00:00:00-08:00">12:00am</span></span></span></div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd no-image-event">
+      
+  <div class="views-field views-field-nothing date-wrapper">        <span class="field-content"><div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-03T12:00:00-08:00">3</span></div>
+<div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-03T12:00:00-08:00">Dec</span></div></span>  </div>  
+  <div class="views-field views-field-nothing-1 text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="/calendar/getaway-trip-movie-matinee-1">Getaway Trip: Movie Matinee</a></div>
+<div class="field-type-datetime"><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2022-12-03T12:00:00-08:00">12:00pm</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2022-12-03T17:00:00-08:00">5:00pm</span></span></span></div></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even views-row-last no-image-event">
+      
+  <div class="views-field views-field-nothing date-wrapper">        <span class="field-content"><div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-04T12:30:00-08:00">4</span></div>
+<div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-04T12:30:00-08:00">Dec</span></div></span>  </div>  
+  <div class="views-field views-field-nothing-1 text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="/calendar/getaway-trip-ice-skating">Getaway Trip: Ice Skating</a></div>
+<div class="field-type-datetime"><span class="date-display-single"><span class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2022-12-04T12:30:00-08:00">12:30pm</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2022-12-04T16:00:00-08:00">4:00pm</span></span></span></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a class="button" href="/calendar">View All Events</a>    </div>
+  
+  
+</div></div><div  id="quicktabs-tabpage-news_and_events-1" class="quicktabs-tabpage "><div class="view view-news view-id-news view-display-id-block_1 list-view grid-view view-dom-id-fb6ccc21501b6ed229ce175fe6db1927">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://www.sonoma.edu/sites/www/files/styles/column_listing/public/field/image/jessye-mcdowell_huysum.jpg?itok=O1ZgOEE2"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/column_listing/public/field/image/jessye-mcdowell_huysum.jpg?itok=O1ZgOEE2" width="315" height="200" alt="Jessye McDowell, Future Sets (After Huysum), 2021, digital print on aluminum." title="Jessye McDowell, Future Sets (After Huysum), 2021, digital print on aluminum." /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="//news.sonoma.edu/article/emerging-women-artists-featured-university-art-gallerys-newest-exhibition
+      
+
+ ">Emerging Women Artists Featured in University Art Gallery&#039;s Newest Exhibition</a></div>
+<div class="field field-name-field-date-news field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-03T00:00:00-07:00">November 3, 2022</span></div>
+      </div>
+</div>
+</span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://www.sonoma.edu/sites/www/files/styles/column_listing/public/field/image/jessica_valdez.jpeg?itok=qyXBnlYI"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/column_listing/public/field/image/jessica_valdez.jpeg?itok=qyXBnlYI" width="315" height="200" alt="" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="//news.sonoma.edu/article/ssu-student-joins-vp-kamala-harris-roundtable-discussion-abortion-rights
+      
+
+ ">SSU Student Joins VP Kamala Harris Roundtable Discussion On Abortion Rights</a></div>
+<div class="field field-name-field-date-news field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-10-18T00:00:00-07:00">October 18, 2022</span></div>
+      </div>
+</div>
+</span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+          <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://www.sonoma.edu/sites/www/files/styles/column_listing/public/field/image/roman-gallardo-img_7702.jpeg?itok=-Wv-P94O"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/column_listing/public/field/image/roman-gallardo-img_7702.jpeg?itok=-Wv-P94O" width="315" height="200" alt="Roman Gallardo" title="Roman Gallardo" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content"><div class="views-field-title"><a href="//news.sonoma.edu/article/ssu-mcnair-scholar-earns-ford-foundation-and-national-science-foundation-fellowships
+      
+
+ ">SSU McNair Scholar earns Ford Foundation and National Science Foundation Fellowships</a></div>
+<div class="field field-name-field-date-news field-type-datetime field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-10-11T00:00:00-07:00">October 11, 2022</span></div>
+      </div>
+</div>
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a class="button" href="http://news.sonoma.edu/">View All News</a>    </div>
+  
+  
+</div></div></div></div>
+</div>
+                      </div><!-- /#content -->
+
+          
+                  </div>
+      </div><!-- /.main-content-wrapper -->
+      <div id="sub-content" class="clearfix">
+            <div class="region region-sub-content">
+    <div id="block-bean-sub-content-view-mode" class="block block-bean sub-content-paragraphs-block first last odd">
+
+      
+  <article class="node-28 node node-landing-page view-mode-sub_content_region clearfix" about="/home" typeof="sioc:Item foaf:Document">
+
+      <header>
+                  <span property="dc:title" content="Sonoma State University" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  
+<div class="paragraphs-items paragraphs-items-field-sub-content-paragraphs paragraphs-items-field-sub-content-paragraphs-full paragraphs-items-full">
+  <div class="field field-name-field-sub-content-paragraphs field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-three-column-cta">
+  <div class="content">
+    
+<div class="paragraphs-items paragraphs-items-field-column-cta-item paragraphs-items-field-column-cta-item-full paragraphs-items-full">
+  <div class="field field-name-field-column-cta-item field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-three-column-cta-item">
+  <div class="content">
+    <div class="field field-name-field-image-column-cta field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/virtual-tour-schulz-slide-450x297.png?itok=SclocZzM" width="315" height="210" alt="Schulz Information Center" /></div>
+      </div>
+</div>
+<div class="group-text-wrapper field-group-div"><div class="field field-name-field-category-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Take a 360 Virtual Tour</div>
+      </div>
+</div>
+<div class="field field-name-field-title-column-cta field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">See and learn about our beautiful campus </div>
+      </div>
+</div>
+</div><div class="field field-name-field-link-column-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://tour.concept3d.com/share/UyflGFJ2e/stop/1">Start tour</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-three-column-cta-item">
+  <div class="content">
+    <div class="field field-name-field-image-column-cta field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/screen_shot_2022-08-24_at_4.48.37_pm.png?itok=5ZHFXuc3" width="315" height="210" alt="volleyball player jumps up at the net" /></div>
+      </div>
+</div>
+<div class="group-text-wrapper field-group-div"><div class="field field-name-field-category-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Go Seawolves</div>
+      </div>
+</div>
+<div class="field field-name-field-title-column-cta field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Student-athletes compete in fall sports</div>
+      </div>
+</div>
+</div><div class="field field-name-field-link-column-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://sonomaseawolves.com/index.aspx">See full schedule</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-three-column-cta-item">
+  <div class="content">
+    <div class="field field-name-field-image-column-cta field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/cta_b5a9191-cory_weaver-265x176.png?itok=JqpuhJYa" width="315" height="210" alt="Weill Hall audience" /></div>
+      </div>
+</div>
+<div class="group-text-wrapper field-group-div"><div class="field field-name-field-category-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Green Music Center</div>
+      </div>
+</div>
+<div class="field field-name-field-title-column-cta field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">10th Anniversary Season</div>
+      </div>
+</div>
+</div><div class="field field-name-field-link-column-cta field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://gmc.sonoma.edu/10thanniversaryseason/">See the highlights</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-testimonial-carousel">
+  <div class="content">
+    <div class="field field-name-field-view-testimonial field-type-viewfield field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="view view-testimonial-carousel view-id-testimonial_carousel view-display-id-default view-dom-id-a530fdbdf976038e882662acc5c41fc6">
+        
+  
+  
+      <div class="view-content">
+            <div class="slick slick--view--testimonial-carousel slick--view--testimonial-carousel--default slick--optionset--testimonials" id="slick-views-testimonial-carousel-1">
+      <div class="slick__slider" id="slick-views-testimonial-carousel-1-slider" data-slick="{&quot;dots&quot;:true,&quot;fade&quot;:true,&quot;useTransform&quot;:false}">
+  
+          <div class="slick__slide slide slide--0">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/kyanna_thurston.jpeg?itok=zzG4sAS1" width="368" height="368" alt="Kyanna Thurston" title="Kyanna Thurston" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Hey! My name is Kyanna Thurston (she/her/hers) and I’m a 3rd year at SSU. I’m a proud black, queer, low income, first generation college student.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Kyanna Thurston,  Business Accounting</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--1">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/nicole_rivera.jpeg?itok=tirt8K3P" width="368" height="368" alt="Nicole Rivera" title="Nicole Rivera" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">SSU became my home away from home.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Nicole Rivera, Declaring Biology </div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--2">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/will.jpeg?itok=5goazr4b" width="368" height="368" alt="Will Montgomery III" title="Will Montgomery III" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">SSU has brought me so many positive memories, experiences, and perspectives. I know I will leave with people to cherish for a lifetime</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Will Montgomery III, History </div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--3">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/kayla_.jpeg?itok=0MdpHdXL" width="368" height="368" alt="Kayla Moceri" title="Kayla Moceri" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Taking PSY 428, intro to counseling has helped me find my path after college. It made my long-term goal of becoming a CBT seem attainable.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Kayla Moceri, Psychology </div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--4">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/jordan.jpeg?itok=E8SM2aYX" width="368" height="368" alt="Jordan Ng" title="Jordan Ng" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">The second you stop growing and getting better, is the second you lose control. Never let that happen. Humble yourself, work harder.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Jordan Ng</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--5">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/melanea.jpeg?itok=fEbowNB3" width="368" height="368" alt="Melanea Ontiveros " title="Melanea Ontiveros " /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">My involvement on and off campus, display my social responsibility and my dedication to make an impact on our present and our future.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Melanea Ontiveros,  Sociology </div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--6">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/mack.jpeg?itok=UwEldZ9P" width="368" height="368" alt="Mackenzie Patefield " title="Mackenzie Patefield " /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">My involvement has helped me make Sonoma State feel like home, and has given me a vehicle to help others feel accepted and content on campus.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Mackenzie Patefield, Communications</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--7">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/riley.jpeg?itok=2Z4pSeSi" width="368" height="368" alt="Riley Reck" title="Riley Reck" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Differences unite us, community keeps us strong.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Riley Reck</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--8">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/jannette.jpeg?itok=L4zxGSkG" width="368" height="368" alt="Education; Concentration in Environmental Education " title="Education; Concentration in Environmental Education " /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">The SSU Mini-Corps program taught me how to grow as a passionate leader through finding my strengths and weaknesses in the educational setting as a future bilingual teacher while assisting K-12 students.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Jannette Sandoval, Education; Concentration in Environmental Education </div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--9">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/jess_torres.jpeg?itok=-RPlKemG" width="368" height="368" alt="Jess Torres" title="Jess Torres" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">As a graduate student, I became the first Mathematics, Engineering, Science, Achievement (MESA) Mentor Program Coordinator for our campus. </div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Jess Torres</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--10">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/kathy.jpeg?itok=Uw2w181r" width="368" height="368" alt="Kathy Danielle Valladares " title="Kathy Danielle Valladares " /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">To see someone who shares your story, tell you “I can do this too.” It&#039;s an empowering feeling. One I’m honored to give my students, as my leaders and advisors do for me.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Kathy Danielle Valladares</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--11">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/nicholas.jpeg?itok=9hnO35rf" width="368" height="368" alt=" Nicholas Vang" title=" Nicholas Vang" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">If you and I ever have the pleasure to meet and get to know each other, it’ll be a fun time.</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Nicholas Vang, Pre-Business</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--12">      <div class="slide__content">              
+          <div class="field field-name-field-image-testimonial field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/testimonial/public/field/image/tim.jpeg?itok=i-Fxh9Ns" width="368" height="368" alt="Timothy Wilbur (Tim)" title="Timothy Wilbur (Tim)" /></div>
+      </div>
+</div>
+    
+  <div class="views-field views-field-nothing text-wrapper">        <span class="field-content">
+   <div class="field-name-field-quote-testimonial"><div class="field field-name-field-quote-testimonial field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">SSU has given me a home away from home. I am forever grateful for that!</div>
+      </div>
+</div>
+</div>
+   <div class="field-name-field-name-testimonial"><div class="field field-name-field-name-testimonial field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Timothy Wilbur (Tim),  Geography, Environment and Planning</div>
+      </div>
+</div>
+</div>
+</span>  </div>            
+      
+    </div>  </div>    
+      </div>
+    <nav class="slick__arrow">
+      <button type="button" data-role="none" class="slick-prev" aria-label="previous">Previous</button>            <button type="button" data-role="none" class="slick-next" aria-label="next">Next</button>    </nav>
+  </div>
+      </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-academic-schools">
+  <div class="content">
+    <div class="group-title-wrapper field-group-div">
+  <h2 class="field field-name-field-image-grid-item-header field-type-text field-label-hidden">
+    Academic Schools  </h2>
+
+<div class="paragraphs-items paragraphs-items-field-image-grid-item paragraphs-items-field-image-grid-item-full paragraphs-items-full">
+  <div class="field field-name-field-image-grid-item field-type-paragraphs field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-image-grid-item">
+  <div class="content">
+    <div class="field field-name-field-image-grid-item-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/ah1_1.jpg?itok=_rxfWSGr" width="315" height="210" alt="Man playing guitar" title="Man playing guitar" /></div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Arts &amp; Humanities</div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://ah.sonoma.edu/">Arts &amp; Humanities</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-grid-item">
+  <div class="content">
+    <div class="field field-name-field-image-grid-item-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/lester_academic_schools-3_1.jpg?itok=KELJEYnk" width="315" height="210" alt="Man sitting in class" title="Man sitting in class" /></div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Business &amp; Economics</div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://sbe.sonoma.edu/">Business &amp; Economics</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-image-grid-item">
+  <div class="content">
+    <div class="field field-name-field-image-grid-item-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/lester_academic_schools-1_2.jpg?itok=aW9h5OKm" width="315" height="210" alt="Woman sitting in class" title="Woman sitting in class" /></div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Education</div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://education.sonoma.edu/">Education</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-grid-item">
+  <div class="content">
+    <div class="field field-name-field-image-grid-item-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/lester_academic_schools-4_1.jpg?itok=LpUm3u1i" width="315" height="210" alt="Woman examining a plant" title="Woman examining a plant" /></div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Extended &amp; Int&#039;l Education</div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://seie.sonoma.edu/">Extended &amp; International Education</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item even"><div class="entity entity-paragraphs-item paragraphs-item-image-grid-item">
+  <div class="content">
+    <div class="field field-name-field-image-grid-item-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/st_1.jpg?itok=BOaDULMn" width="315" height="210" alt="Women in a lab" title="Women in a lab" /></div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Science &amp; Technology</div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://scitech.sonoma.edu/">Science &amp; Technology</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-image-grid-item">
+  <div class="content">
+    <div class="field field-name-field-image-grid-item-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><img typeof="foaf:Image" src="https://www.sonoma.edu/sites/www/files/styles/three_column_cta/public/field/image/lester_academic_schools-12_0.jpg?itok=dy0OzCEo" width="315" height="210" alt="Man sitting in class" title="Man sitting in class" /></div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link-title field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Social Sciences</div>
+      </div>
+</div>
+<div class="field field-name-field-image-grid-item-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="http://socialsciences.sonoma.edu/">Social Sciences</a></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+<div class="field field-name-field-ac-dept-link field-type-link-field field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><a href="/academics/degree-programs">View Academic Programs</a></div>
+      </div>
+</div>
+</div>  </div>
+</div>
+</div>
+          <div class="field-item odd"><div class="entity entity-paragraphs-item paragraphs-item-stats-carousel">
+  <div class="content">
+    <div class="field field-name-field-view-stats field-type-viewfield field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div class="view view-stats-carousel view-id-stats_carousel view-display-id-default view-dom-id-6ab84c61815020c3424eafa512cf3ba7">
+        
+  
+  
+      <div class="view-content">
+            <div class="slick slick--view--stats-carousel slick--view--stats-carousel--default slick--optionset--stats" id="slick-views-stats-carousel-2">
+      <div class="slick__slider" id="slick-views-stats-carousel-2-slider" data-slick="{&quot;slidesPerRow&quot;:3,&quot;slidesToShow&quot;:3,&quot;useTransform&quot;:false,&quot;responsive&quot;:[{&quot;breakpoint&quot;:923,&quot;settings&quot;:{&quot;useTransform&quot;:false}}]}">
+  
+          <div class="slick__slide slide slide--0">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">#19</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Top Public Schools</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">U.S. News &amp; World Report</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--1">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">#34</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Most beautiful campus in the U.S.</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">As ranked by thebestcolleges.org</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--2">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">#1</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Best housing in the CSU</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">As ranked by niche.com</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--3">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Highest</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Graduation rate</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Among transfer students in the CSU System</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--4">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">#1</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">All-Academic Selections</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Among all CSUs in the California Collegiate Athletic Association</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--5">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Most</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Promising place to work</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">in Student Affairs, according to College Student Educators International, Diverse: Issues in Higher Education magazine</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--6">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">38</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Athletic championships</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Our NCAA Division II teams have 3 national, 9 regional and 41 conference championships. Go Seawolves!</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--7">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">#3</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Green Music Center</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">The GMC ranks high among College Degree Search&#039;s 25 Most Amazing Campus Arts Centers.</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>          <div class="slick__slide slide slide--8">      <div class="slide__content">              
+          <div class="field field-name-field-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">#12</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-title-stat field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Best college for transfers</div>
+      </div>
+</div>
+    
+          <div class="field field-name-field-body-stat field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">As ranked by Money magazine</div>
+      </div>
+</div>
+              
+      
+    </div>  </div>    
+      </div>
+    <nav class="slick__arrow">
+      <button type="button" data-role="none" class="slick-prev" aria-label="previous">Previous</button>            <button type="button" data-role="none" class="slick-next" aria-label="next">Next</button>    </nav>
+  </div>
+      </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+</div>
+
+  
+  
+</article><!-- /.node -->
+
+</div>
+  </div>
+      </div><!-- /#sub-content -->
+    </div><!-- /#main -->
+  </div><!-- /.upper-wrapper -->
+  <div class="footer-outer-wrapper">
+      <footer id="footer" class="region region-footer">
+    <div id="block-bean-footer-social-links" class="block block-bean footer-social-links-block first odd">
+
+      
+  <div class="entity entity-bean bean-simple-block clearfix" about="/block/footer-social-links">
+        <div class="content">
+    <div class="field field-name-field-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><ul class="social-links"><li><a class="facebook" href="https://www.facebook.com/sonomastateuniversity" target="_blank">Facebook</a></li>
+	<li><a class="twitter" href="https://twitter.com/ssu_1961" target="_blank">Twitter</a></li>
+	<li><a class="instagram" href="https://instagram.com/sonomastateuniversity" target="_blank">Instagram</a></li>
+	<li><a class="youtube" href="https://www.youtube.com/csusonoma/" target="_blank">Youtube</a></li>
+	<li><a class="rss" href="http://news.sonoma.edu/rss.xml" target="_blank">RSS</a></li>
+</ul></div>
+      </div>
+</div>
+  </div>
+</div>
+
+</div>
+<div id="block-bean-footer-logo" class="block block-bean footer-logo-block even">
+
+      
+  <div class="entity entity-bean bean-simple-block clearfix" about="/block/footer-logo">
+        <div class="content">
+    <div class="field field-name-field-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><div><a href="/"><img alt="Sonoma State University" height="29" src="/sites/www/files/ssu_full_logo_centered-wht.svg" width="143" /></a></div>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+
+</div>
+<div id="block-bean-footer-address" class="block block-bean footer-address-block odd">
+
+      
+  <div class="entity entity-bean bean-simple-block clearfix" about="/block/footer-address">
+        <div class="content">
+    <div class="field field-name-field-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><p>1801 East Cotati Ave<br />
+Rohnert Park, CA 94928<br />
+707.664.2880</p>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+
+</div>
+<div id="block-menu-menu-footer-left-menu" class="block block-menu footer-menu-block footer-left-menu even" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/contact-ssu" class="menu__link">Contact SSU</a></li>
+<li class="menu__item is-leaf leaf"><a href="/privacy" class="menu__link">Privacy Notice</a></li>
+<li class="menu__item is-leaf last leaf"><a href="https://www.calstate.edu/" class="menu__link">California State University</a></li>
+</ul>
+</div>
+<div id="block-menu-menu-footer-center-menu" class="block block-menu footer-menu-block footer-center-menu odd" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="http://accessibility.sonoma.edu/" class="menu__link">Accessibility</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://clery.sonoma.edu/safety_plan" class="menu__link">Campus Safety Plan</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/website-feedback" class="menu__link">Website Feedback</a></li>
+</ul>
+</div>
+<div id="block-menu-menu-footer-right-menu" class="block block-menu footer-menu-block footer-right-menu last even" role="navigation">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="http://www.sonoma.edu/ps/emergency/" class="menu__link">Emergency Information</a></li>
+<li class="menu__item is-leaf leaf"><a href="/employment" class="menu__link">Jobs</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://ophd.sonoma.edu/" class="menu__link">Title IX</a></li>
+</ul>
+</div>
+  </footer>
+  </div>
+</div><!-- /#page -->
+
+  <script src="https://www.sonoma.edu/sites/www/files/js/js_yinw4d7eG3Hsq7lzKfa7t_pSm2qzK9p7K_Fvl_Ye34o.js"></script>
+<script>/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_66356729.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-214b2942b01dae54dc2","applicationID":"999111383","transactionName":"ZFwBMUNXDRZYW0ZaDV0WIgZFXwwLFlZdVwdsSQICVGkVDFxP","queueTime":0,"applicationTime":1422,"atts":"SBsCRwtNHhg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

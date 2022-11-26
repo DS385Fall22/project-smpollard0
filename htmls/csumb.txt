@@ -1,0 +1,612 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<!--favicon added by T4 -->
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="California State University Monterey Bay">
+<meta name="generator" content="Terminalfour">
+<meta name="google-site-verification" content="PBCYYAiyZz10x4MQkpP-zBmP4bVvpKDNrQ6lZ2t79Go" />
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="/media/csumb/site-assets/css/style.css" /> 
+<link rel="stylesheet" type="text/css" media="screen" href="/media/csumb/site-assets/css/t4extra.css" />  <!-- t4extra.css -->
+<link rel="stylesheet" type="text/css" media="screen" href="/media/csumb/site-assets/css/emergency-notice.css" /> 
+<title>Home | California State University Monterey Bay</title>
+<script>document.getElementsByTagName('html')[0].setAttribute('class', 'js')</script>
+<!--[if IE]>
+<script>document.getElementsByTagName('html')[0].setAttribute('class', 'js old-ie')</script>
+<![endif]-->
+<script>
+(function(h,o,t,j,a,r){
+h.hj=h.hj||function()
+
+{(h.hj.q=h.hj.q||[]).push(arguments)}
+;
+h._hjSettings=
+
+{hjid:1194959,hjsv:6}
+;
+a=o.getElementsByTagName('head')[0];
+r=o.createElement('script');r.async=1;
+r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Hotjar -->
+</head>
+<body class="homepage">
+<!-- Everbridge & Site Wide Alerts -->
+<div class="emergencynotice" aria-live="assertive" data-t4-emergency-notices="/media/csumb/site-assets/site-wide-alerts/emergency-notice.php"></div>
+<header class="site-wide-notice site-wide-notice--blue" data-id="id130341" data-version="4.0">
+  <div class="container-fluid container-t4-xl">
+    <p><a href="/health/coronavirus-information/">Visit the COVID-19 webpage for updated information</a></p>
+  </div> 
+</header>
+  
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+  
+  _st('install','_TFrz5SK_svyBR1tH_hV','2.0.0');
+</script>
+<!-- Swifttype Search -->
+<header class="header" aria-label="Site header">
+  <nav class="navbar-expand-lg" aria-label="Header navigation">
+    <div class="header__container container-fluid container-t4-xl">
+      <a href="/" class="navbar-logo">
+        <img src="/media/csumb-logo-white.svg" alt="CSUMB Site logo"  /> 
+
+      </a>
+      <div class="navbar-util">
+        <button class="btn-open-search" type="button" aria-label="Open search modal">
+          <svg class="svg-md-48px" focusable="false" aria-hidden="true">
+            <title>Open search</title>
+            <use xlink:href="/media/csumb/site-assets/images/material-sprite.svg#ic_search_48px"></use>
+          </svg>
+        </button>
+        <div class="navbar-toggler" tabindex="0" aria-label="Toggle mobile navigation">
+          <div></div>
+        </div>
+      </div>
+      <!-- Mobile Sidemenu Design -->
+      <div class="navbar-collapse">
+        <div class="navbar-primary">
+          <div class="navbar-primary__top">
+            <div class="navbar-auth">
+                    <a href="/dashboard/" class="nav-login nav-link">Dashboard</a>
+            </div>
+            <div class="navbar-form">
+              <form action="/search/" id="cse-search-box">
+                <label for="search" class="sr-only">Search</label>
+                <input type="text" class="st-default-search-input" id="search" />
+              </form>
+            </div>
+          </div>
+          <div class="navbar-primary__bottom">
+            <ul class="navbar-nav">
+              <!--header links-->
+             <li>
+    <a href="/admissions/apply-now/">Apply</a>
+  
+    
+            
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+         
+        
+</li><li>
+    <a href="/admissions/explore/">Explore</a>
+  
+    
+            
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+         
+        
+</li><li>
+    <a href="/giving/">Give</a>
+  
+    
+            
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+        
+          
+            
+         
+        
+</li>
+              
+             <li>
+    <a href="#">Menu</a>
+    <ul>
+        <li>
+    <a href="#">Academics
+</a>
+	<ul>
+<li><a href="/academicaffairs/">Academic Affairs</a></li>
+<li><a href="/academics/centers-institutes/">Centers</a></li>
+<li><a href="/academics/colleges-schools-departments/">Colleges</a></li>
+<li><a href="/academics/">Degrees</a></li>
+<li><a href="/library/">Library</a></li>
+<li><a href="/academics/research-engage/">Research</a></li>
+</ul>
+</li> <li>
+    <a href="#">Admission</a>
+	<ul>
+<li><a href="/admissions/freshman-requirements">First-year</a></li>
+<li><a href="/admissions/transfer-requirements">Transfer</a></li>
+<li><a href="/admissions/graduate-admission-requirements">Graduate degrees</a></li>
+<li><a href="/international/apply/">International</a></li>
+<li><a href="/admissions/campus-tours/">Visit campus</a></li>
+</ul>
+</li> <li>
+    <a href="#">Campus Life</a>
+	<ul>
+<li><a href="/seld">Activities</a></li>
+<li><a href="https://otterathletics.com/">Athletics</a></li>
+<li><a href="/hws">Wellness</a></li>
+<li><a href="/housing">Housing</a></li>
+<li><a href="/about/location">Community</a></li>
+<li><a href="/traditions">Traditions</a></li>
+</ul>
+</li> <li>
+    <a href="#">Resources</a>
+	<ul>
+<li><a href="/mastercalendar">Academic calendar</a></li>
+<li><a href="/af">Admin and finance</a></li>
+<li><a href="/cost">Cost calculator</a></li>
+<li><a href="/planning/office-registrar/records/">Records</a></li>
+<li><a href="/iar">Reports and data</a></li>
+<li><a href="/up">University careers</a></li>
+</ul>
+</li> <li>
+    <a href="#">Services</a>
+	<ul>
+<li><a href="/academics/academic-support-services">Academic support</a></li>
+<li><a href="/studentaffairs/enrollment-services">Enrollment</a></li>
+<li><a href="/financialaid">Financial aid</a></li>
+<li><a href="/life/safety-conduct">Safety</a></li>
+<li><a href="/transportation">Transportation</a></li>
+</ul>
+</li> <li>
+    <a href="#">About</a>
+	<ul>
+<li><a href="/academicaffairs/accreditation">Accreditation</a></li>
+<li><a href="/administration/" target="null">Administration</a></li>
+<li><a href="/about">Campus</a></li>
+<li><a href="/diversity">Inclusion</a></li>
+<li><a href="/president">President</a></li>
+<li><a href="/about/mission-strategic-plan">Strategic plan</a></li>
+</ul>
+</li> 
+        <li class="navbar-cta-icons">
+            <div class="navbar-cta-icons__lists">
+               <div class="navbar-cta-icons__item">
+                 <a href="/map/" class="navbar-cta-icons__link">
+                   
+                   
+                   <img src="/media/csumb/site-assets/map-marker-alt-solid-white.svg" alt="maps icon">
+                   <span>Maps</span>
+                 </a>
+               </div>
+              <div class="navbar-cta-icons__item">
+                 <a href="/news/" class="navbar-cta-icons__link">
+                   
+                   <img src="/media/csumb/site-assets/newspaper-solid-white.svg" alt="news icon">
+                   <span>News</span>
+                 </a>
+               </div>
+             <div class="navbar-cta-icons__item">
+                 <a href="/events/" class="navbar-cta-icons__link">
+                   
+                   <img src="/media/csumb/site-assets/calendar-alt-solid-white.svg" alt="calendar icon">
+                   <span>Events</span>
+                 </a>
+               </div>
+              <div class="navbar-cta-icons__item">
+                 <a href="/alumni/" class="navbar-cta-icons__link">
+                 
+                    <img src="/media/csumb/site-assets/user-graduate-solid-white.svg" alt="alumni icon">
+                   <span>Alumni						</span>
+                 </a>
+               </div>
+             </div>
+        </li>
+    </ul>
+</li> 
+           </ul>
+          </div>
+        </div>
+      </div>
+      <div id="search-modal" class="search-modal" aria-label="Site Search">
+        <form action="/search/" id="cse-search-box-mobile">
+          <label for="search-mobile" class="sr-only">Search</label>
+          <input type="text" class="st-default-search-input" id="search-mobile" />
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--<div class="header-placeholder"></div>-->
+<main>
+<section class="hero-banner-cta-box">
+    <div class="hero-banner-cta-box__banner">
+      <div class="hero-banner-cta-box__img">
+        <img src="/media/csumb/ucomm-news-library/homepage-hero-images/hero_003_native_american_voices_111622.jpg" alt="Dr. Melissa Leal speaks at the Otter Student Union | Photo by Katherine Divas-Juarez" style="    " />
+      </div>
+      <div class="hero-banner-cta-box__block bg-primary">
+        <h1 class="hero-banner-cta-box__block__title">Native American Heritage Month at CSUMB
+</h1>
+        <p class="hero-banner-cta-box__block__desc">Dr. Melissa Leal delivered real talk about indigenous culture and politics in the United States</p>
+        <a href="/news/news-listing/dr-melissa-leal-of-the-ohlonecostanoan-esselen-nation-spoke-at-csumb/" class="hero-banner-cta-box__block__button btn btn-secondary-blue-35-light">Read the Story</a>
+        
+      </div>
+    </div>
+  <div class="hero-banner-cta-box__content container-fluid container-t4-xl">
+      <h2 class="hero-banner-cta-box__title">Fall 2023 applications are now open.</h2>
+      <p class="hero-banner-cta-box__desc">CSUMB offers 25 undergraduate degrees, more than 30 minors, nine graduate degrees, and several teacher certifications.
+
+</p>
+      <a href="/admissions/" class="hero-banner-cta-box__button btn btn-secondary-blue-35-dark">Apply Today</a>
+    </div>
+</section>
+
+
+<section class="img-row-cta-button">
+  <div class="img-row-cta-button__wrapper container-fluid container-t4-xl">
+    <div class="img-row-cta-button__card img-row-cta-button__card--right-img">
+      <div class="img-row-cta-button__card__img">
+        <img src="/media/csumb/approved-image-selection/students/Close-Knit-Community-(homepage).jpg" alt="Students gathered on steps" style="    " />
+      </div>
+      <div class="img-row-cta-button__card__content">
+        <h2 class="img-row-cta-button__card__title">Close-knit Campus</h2>
+        <p class="img-row-cta-button__card__desc">As our university has grown, we have maintained the close-knit campus culture prized by our students and our graduates since the university's founding.</p>
+        <a href="/iar/enrollment-fast-facts-most-recent-term/" class="img-row-cta-button__card__button btn btn-primary">Get to Know Us</a>
+      </div>
+    </div>
+  </div>
+</section><div class="statistics">
+  <div class="statistics__wrapper container-fluid container-t4-xl">
+    <div class="row">
+      <div class="statistics__block">
+        <span class="statistics__block__number">1</span>
+        <span class="statistics__block__caption">mile from the beach</span>
+      </div>
+      <div class="statistics__block">
+        <span class="statistics__block__number">72%</span>
+        <span class="statistics__block__caption" style="width:170px;">of students receive financial aid</span>
+      </div>
+      <div class="statistics__block">
+        <span class="statistics__block__number">27:1</span>
+        <span class="statistics__block__caption">student-to-faculty ratio</span>
+      </div>
+      
+      <div class="statistics__block">
+        <span class="statistics__block__number">53%</span>
+        <span class="statistics__block__caption">first-generation students</span>
+      </div>
+      
+      
+    </div>
+  </div>
+</div><section class="news-events bg-secondary-gold-15">
+  <div class="news-events__wrapper container-fluid container-t4-xl">
+    <div class="row">
+      <div class="news-events__col news-events__col--news  col-xl-6">
+        <h2 class="news-events__title">News</h2>
+        <a href="/news/news-listing/tyller-williamson-a-csumb-alum-has-been-elected-mayor-of-monterey/" class="news-events__featured">
+  <div class="news-events__img">
+    <img src="/media/Tyller-Williamson.jpg" alt="Tyller Williamson, Monterey mayor" style="    " />
+  </div>
+  <div class="news-events__block">
+    <div class="news-events__block__content">
+      <p class="news-events__block__title">Tyller Williamson, a CSUMB alum, has been elected mayor of Monterey</p>
+      <p class="news-events__block__desc">The mayor-elect answers questions about his CSUMB education, the campaign, and future goals.</p>
+      <span class="news-events__block__date">November 18, 2022</span>
+    </div>
+  </div>
+</a>
+        <div class="news-events__lists"><a href="/news/news-listing/a-csumb-alumnus-chases-hurricanes-to-save-lives-/" class="news-events__lists__link">
+  <div class="news-events__lists__content">
+    <p class="news-events__lists__title">A CSUMB alumnus chases hurricanes to save lives</p>
+    <p class="news-events__lists__desc">CSUMB alumnus Jason Mansour commands the Gulfstream-IV high altitude hurricane hunter aircraft to collect storm information. </p>
+    <span class="news-events__lists__date">November 17, 2022</span>
+  </div>
+</a><a href="/news/news-listing/education-abroad/" class="news-events__lists__link">
+  <div class="news-events__lists__content">
+    <p class="news-events__lists__title">Education Abroad changes lives through travel</p>
+    <p class="news-events__lists__desc">CSUMB breaks down financial barriers to enable students life-changing opportunities to study abroad. Education Abroad offers over 100 programs in more than 30 countries.</p>
+    <span class="news-events__lists__date">November 8, 2022</span>
+  </div>
+</a></div>
+        <a href="/news/" class="news-events__view-more">
+          View All News
+          <svg class="svg-md-24px" focusable="false" aria-hidden="true">
+            <use xlink:href="/media/csumb/site-assets/images/material-sprite.svg#ic_chevron_right_24px"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="news-events__col news-events__col--events col-xl-6">
+        <h2 class="news-events__title">Events</h2>
+        <div class="news-events__lists">
+          <!-- Events Calendar v2 by TERMINALFOUR -->
+<!-- T4\Calendar :: Version: 2.4 -->
+<a href="/events/event-detail/e-pluribus-unum-achieving-unity-in-the-face-of-diversity.php" class="news-events__featured">
+          <div class="news-events__img">
+            <img src="/media/csumb/section-editors/college-of-health-sciences-and-human-services/Torres-Gil_HiRes_AARP-2008_3.jpg" alt="Man with grey hair and glasses is smiling, wearing a black suit and red tie" style="    " />
+          </div>
+          <div class="news-events__block">
+            <div class="news-events__date">
+                              <div class="news-events__date-label">
+                <span class="news-events__date-start" data-start-date="Dec 02">
+                  <span class="news-events__date-label__month">Dec</span>
+                  <span class="news-events__date-label__date">02</span>
+                </span>
+              </div>
+            </div>
+            <div class="news-events__block__content">
+              <p class="news-events__block__title">E Pluribus Unum: Achieving Unity in the Face of Diversity</p>
+              <p class="news-events__block__desc">12:30 p.m. to 2:30 p.m.<br/>Alumni and Visitors Center</p>
+            </div>
+          </div>
+        </a>
+
+              
+        
+
+
+
+
+
+        <!-- Events Calendar v2 by TERMINALFOUR -->
+<!-- T4\Calendar :: Version: 2.4 -->
+<a href="/events/event-detail/internationalization-series-fishers-and-eels-in-an-age-of-extinction.php" class="news-events__lists__link">
+          <div class="news-events__date">
+                          <div class="news-events__date-label">
+              <span class="news-events__date-start" data-start-date="Dec 02">
+                <span class="news-events__date-label__month">Dec</span>
+                <span class="news-events__date-label__date">02</span>
+              </span>
+            </div>
+          </div>
+          <div class="news-events__lists__content">
+            <p class="news-events__lists__title">Internationalization Series: Fishers and eels in an age of extinction</p>
+            <p class="news-events__lists__desc">7:00 p.m. to 8:00 p.m.<br>Zoom</p>
+          </div>
+        </a>
+
+              
+        
+
+
+
+
+        </div>
+        <a href="/events/" class="news-events__view-more">
+          View All Events
+          <svg class="svg-md-24px" focusable="false" aria-hidden="true">
+            <use xlink:href="/media/csumb/site-assets/images/material-sprite.svg#ic_chevron_right_24px"></use>
+          </svg>
+        </a>
+      </div>
+    </div> 
+  </div>
+</section><section class="hero-banner-opt-contents">
+  <div class="hero-banner-opt-contents__banner hero-banner-opt-contents__banner--img bg-white" style="background-image: url(/media/csumb/approved-image-selection/outside-campus/beach-homepage.jpg)">
+    <div class="hero-banner-opt-contents__block container-fluid container-t4-xl text-center">
+      <h2 class="hero-banner-opt-contents__block__title">Take the Next Step</h2>
+      <p class="hero-banner-opt-contents__block__desc"><p>Stay up to date, schedule a visit, or explore application requirements.</p></p>
+      <div class="hero-banner-opt-contents__block__cta">
+        <a href="/about/" class="hero-banner-opt-contents__block__button btn btn-primary">Learn About Us</a>
+
+        <a href="/admissions/campus-tours/" class="hero-banner-opt-contents__block__button btn btn-primary">Schedule a Tour</a>
+
+        <a href="/admissions/apply-now/" class="hero-banner-opt-contents__block__button btn btn-primary">Apply Today</a>
+      </div>
+    </div>
+  </div>
+</section></main>
+<footer class="footer" aria-label="Site footer">
+  <div class="container-fluid container-t4-xl">
+    <div class="row">
+      <div class="footer__col col-lg-3">
+        <ul class="footer__lists">
+          <li class="footer__items">
+            <span class="footer__link-title">
+              Helpful Links
+            </span>
+          </li>
+          <ul>
+<li class="footer__item"><a href="/mastercalendar/" class="                      footer__link">Calendars</a></li>
+<li class="footer__item"><a class="footer__link" href="https://catalog.csumb.edu/">Catalog</a></li>
+<li class="footer__item"><a href="/planning/class-schedule/" class="                      footer__link">Class Schedule</a></li>
+<li class="footer__item"><a href="/directory/" class="                      footer__link">Directory</a></li>
+<li class="footer__item"><a href="/up/prospective-employees/" class="                      footer__link">Jobs</a></li>
+<li class="footer__item"><a href="/map/" class="                      footer__link">Maps</a></li>
+</ul>
+        </ul>
+      </div>
+      <div class="footer__col col-lg-3">
+        <ul class="footer__lists">
+          <li class="footer__items">
+            <span class="footer__link-title">
+              Health and Safety
+            </span>
+          </li>
+          <ul>
+<li class="footer__item"><a href="/police/" class="                   footer__link">University Police</a></li>
+<li class="footer__item"><a href="/studentlife/care-team/" class="                   footer__link">Care Team</a></li>
+<li class="footer__item"><a href="/hws/" class="                   footer__link">Health and Wellness Services</a></li>
+<li class="footer__item"><a href="/police/emergency/" class="                   footer__link">Emergency Information</a></li>
+</ul>
+        </ul>
+        
+      </div>
+      <div class="footer__col col-lg-6">
+        <div class="footer__content">
+          <p class="footer__heading">
+            California State University, Monterey Bay
+          </p>
+          <div class="footer__contact">
+            <p>
+              <strong>Call: </strong>
+              <span>831-582-3000</span>
+            </p>
+            <p>
+              <strong>Visit: </strong>
+              <span>5108 Fourth Avenue, Marina, CA 93933</span>
+            </p>
+            <p>
+              <strong>Mail: </strong>
+              <span>100 Campus Center, Seaside, CA 93955</span>
+            </p>
+          </div>
+          <div class="footer__social">
+            <ul class="footer__social__list">
+              <li class="footer__social__item">
+                <a href="https://twitter.com/CSUMB" class="footer__social__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" focusable="false" aria-hidden="true">
+                    <title>Twitter</title>
+                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                    </path>
+                  </svg>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+              <li class="footer__social__item">
+                <a href="https://www.facebook.com/CSUMB/" class="footer__social__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" focusable="false" aria-hidden="true">
+                    <title>Facebook</title>
+                    <path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z">
+                    </path>
+                  </svg>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li class="footer__social__item">
+                <a href="https://www.instagram.com/csumb/" class="footer__social__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" focusable="false" aria-hidden="true">
+                    <title>Instagram</title>
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                  </svg>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li class="footer__social__item">
+                <a href="https://www.linkedin.com/school/csu-monterey-bay/" class="footer__social__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" focusable="false" aria-hidden="true">
+                    <title>LinkedIn</title>
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                  </svg>
+                  <span class="sr-only">LinkedIn</span>
+                </a>
+              </li>
+              <li class="footer__social__item">
+                <a href="https://www.youtube.com/channel/UCgds89PGe1OLf_n10bCyLrQ" class="footer__social__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" focusable="false" aria-hidden="true">
+                    <title>You Tube</title>
+                    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                  </svg>
+                  <span class="sr-only">YouTube</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer__col col-lg-10">
+        <ul class="footer__lists footer__lists--inline">
+          <li><a href="https://cm.maxient.com/reportingform.php?CSUMontereyBay&layout_id=0">Report concerning/discriminating behavior</a></li><li><a href="/clery/">Security report</a></li><li><a href="/titleix/">Title IX</a></li><li><a href="/legal/">Legal information</a></li>
+        </ul>
+      </div>
+      <div class="footer__col col-lg-2">
+        <ul class="footer__lists footer__lists--inline footer__lists--inline-left">
+          <li>
+<a class="t4Edit-page" href="https://csumbedu-cms01-production.terminalfour.net/terminalfour/page/directEdit#edit/2/en/7758">&copy; CSUMB 2022</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer> 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TS03D92EYX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TS03D92EYX');
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="/media/csumb/site-assets/js/scripts.js"></script> -->
+<script type="text/javascript" src="/media/csumb/site-assets/js/scripts-1.js"></script><!-- Emergency Alert & Accordion Fixes -->
+<script type="text/javascript" src="/media/csumb/site-assets/js/emergency-notice.js"></script>
+<script type="text/javascript" src="/media/csumb/site-assets/js/t4extra.js"></script><!-- Mobile Mega Menu fix -->
+<script type="text/javascript" src="/media/csumb/site-assets/js/emergency.js"></script> <!-- T4 Alert -->
+
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_40230.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+
+</body>
+</html>

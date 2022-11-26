@@ -1,0 +1,1031 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+		<meta content="Cal State East Bay serves the Bay Area as part of the California State University system, providing access to higher education for a diverse student body." name="description"/>
+		<title>California State University, East Bay</title>
+		<!--BEGIN:GLOBAL-SCRIPTS-HEAD-->
+		<base target="_top"/>
+	</head>
+	<body class="landing">
+ 
+		
+
+<link href="https://www.csueastbay.edu/_global/bootstrap/css/bootstrap.min.css" rel="stylesheet"/><link href="https://www.csueastbay.edu/_global/bootstrap/css/bootstrap-accessibility.css" rel="stylesheet"/><link href="https://www.csueastbay.edu/_global/font-awesome/css/font-awesome.min.css" rel="stylesheet"/><link href="https://www.csueastbay.edu/_global/css/styles.css?v=36" rel="stylesheet"/><link href="https://www.csueastbay.edu/_global/css/styles2.css" rel="stylesheet"/><link href="https://www.csueastbay.edu/_global/css/flexslider.css?v=3" rel="stylesheet"/><link href="https://www.csueastbay.edu/_global/css/slick.css?v=3" rel="stylesheet"/><link href="https://www.csueastbay.edu/_global/css/magnific-pop.css" rel="stylesheet"/><link href="//fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet"/><link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"/><script src="https://www.csueastbay.edu/_global/js/jquery.min.js"></script> 
+		<!--END:GLOBAL-SCRIPTS-HEAD-->
+		<!--[if lt IE 9]>
+		<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link href="./" rel="canonical"/><meta content="article" property="og:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="@csueastbay" name="twitter:site"/><meta content="California State University, East Bay" property="og:title"/><meta content="https://www.csueastbay.edu/news-center/images/csueb-campus.jpg" property="og:image"/><meta content="https://www.csueastbay.edu/news-center/images/csueb-campus.jpg" name="twitter:image"/>
+		
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-5386844-22', 'auto');
+ga('set', 'transport', 'beacon');
+ga('send', 'pageview');
+</script>
+<script src="https://www.csueastbay.edu/_global/js/ga-extra-v2.min.js?v=2" type="text/javascript"></script>
+
+
+		<!--Google Tag Manager--><script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WP98H96');
+</script><!--End Google Tag Manager-->   
+		<!-- Google Tag Manager (noscript) --><noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-WP98H96" style="display:none;visibility:hidden" title="Google Tag Manager" width="0"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+		<!--BEGIN:SKIP TO SECTION NAV-->
+		<div class="screenreader"><a href="#skipToTopNav" title="Skip to Main Site Navigation"><img alt="Top Navigation" height="1" src="https://www.csueastbay.edu/_global/images/pixel.gif" width="1"/></a><a href="#skipToContent" title="Skip to Content"><img alt="Top Navigation" height="1" src="https://www.csueastbay.edu/_global/images/pixel.gif" width="1"/></a><a href="#skipToFooter" title="Skip to Footer"><img alt="Top Navigation" height="1" src="https://www.csueastbay.edu/_global/images/pixel.gif" width="1"/></a></div>
+		<!--END:SKIP TO SECTION NAV-->
+		<!-- BEGIN: Header -->
+		<header>
+			<!-- Navigation -->
+			<nav aria-label="Main Navigation" class="navbar navbar-custom navbar-fixed-top" id="main-nav"> 
+				
+
+<div class="alert alert-warning alert-dismissible" role="alert"><div class="container"><button aria-label="Close" class="close" data-dismiss="alert" type="button"><span aria-hidden="true">&#215;</span></button><div class="alert-message"><p class="alert-title"><strong></strong></p><a href="https://www.csueastbay.edu/together/index.html">COVID-19 Information</a></div></div></div> 
+				<span id="skipToTopNav"></span>  
+				
+
+<div class="container"><div class="navbar-header page-scroll"><a class="navbar-brand page-scroll" href="/index.html"><img alt="California State University, East Bay Signature Mark" class="logo desktop" src="/_global/images/header/csueb-logo.png"/><img alt="California State University, East Bay" class="logo mobile" src="/_global/images/header/csueb-logo-mobile.png"/></a></div><div class="navbar navbar-default yamm"><div class="navbar-header"><button class="search-icon navbar-toggle search-link" data-target="#navbar-collapse-grid-search" data-toggle="collapse" type="button"><span class="fa fa-search"><span>Search</span></span></button><button class="menu-bar navbar-toggle" data-target="#navbar-collapse-grid" data-toggle="collapse" type="button"><span class="fa fa-bars"><span>Menu</span></span></button></div><div class="navbar-collapse" id="navbar-collapse-grid-search"><ul class="nav navbar-nav"><li class="grid-menu"><div class="row"><div class="col-sm-12"><form action="//www.csueastbay.edu/search/" class="ada-hidden" method="get"><div><input name="col" type="hidden" value="7"/><label class="sr-only" for="searchInput2">Search Our Site</label><input aria-label="Search Our Site" class="search-input cleardefault" id="searchInput2" maxlength="255" name="q" placeholder="Search Cal State East Bay..." title="Search Cal State East Bay..." type="text" value="Search Cal State East Bay..."/><input class="search-btn" title="Search" type="submit" value="Search"/><button class="close search-link" data-target="#navbar-collapse-grid-search" data-toggle="collapse" type="button"><span aria-hidden="true">&#215;</span></button></div></form></div></div></li></ul></div><div class="navbar-collapses collapse" id="navbar-collapse-grid"><ul class="nav navbar-nav"><li class="yamm-fw item1"><a href="https://www.csueastbay.edu/apply/index.html"><span aria-hidden="true" class="fa fa-pencil"></span><span class="menu-link">Apply</span></a></li><li class="yamm-fw item1"><a href="https://www.csueastbay.edu/giving/index.html"><span aria-hidden="true" class="fa fa-pencil"></span><span class="menu-link">Give</span></a></li><li class="yamm-fw dropdown mega-dropdown"><a class="dropdown-toggle item1" href="javascript:;"><span aria-hidden="true" class="fa fa-bars"></span><span class="menu-link">Menu</span></a><ul class="dropdown-menu mega-dropdown-menu submenu"><li class="tools"><div class="row"><div class="col-sm-12"><a href="https://www.csueastbay.edu/mycsueb/"><span class="fa fa-laptop"></span>MyCSUEB</a><a href="https://bb.csueastbay.edu/"><img alt="Blackboard Icon" src="/_global/images/elements/blackboard.png"/>Blackboard</a><a href="https://www.csueastbay.edu/online/CanvasLogin/"><img alt="Canvas Icon" src="/_global/images/elements/canvas.png"/>Canvas</a><a href="https://library.csueastbay.edu/"><span class="fa fa-bank"></span>Library</a><a href="https://horizon.csueastbay.edu"><span class="fa fa-envelope-o"></span>Email</a><a href="https://mycompass.csueastbay.edu"><span class="fa fa-laptop"></span>MyCompass</a><a href="https://www.csueastbay.edu/directorysearch"><span class="fa fa-user"></span>Directory</a></div></div></li><li class="grid-menu"><div class="row"><div class="col-sm-3"><div class="section-title"><a href="https://www.csueastbay.edu/about/index.html">About</a><a class="toggle item" data-toggle="dropdown" href="#item-About"><span aria-hidden="false" class="fa fa-angle-down"><span>Expand About Menu</span></span></a></div><div class="hidden sub-column" id="item-About"><a href="http://www.csueastbay.edu/accessibility" target="_blank" title="Accessibility - This link will open in a new window.">Accessibility</a><a href="https://www.csueastbay.edu/alumni/index.html">Alumni</a><a href="https://eastbaypioneers.com/">Athletics</a><a href="https://www.bkstr.com/csueastbayhaywardstore/home">Bookstore</a><a href="https://www.csueastbay.edu/about/visitor-information/index.html">Campus Maps</a><a href="https://www.csueastbay.edu/about/career-opportunities.html">Career Opportunities</a><a href="https://www.csueastbay.edu/concord/index.html">Concord Campus</a><a href="https://www.csueastbay.edu/news-center/index.html">News Center</a><a href="https://ce.csueastbay.edu/ce/about/locations/oakland.html">Oakland Center</a><a href="https://www.csueastbay.edu/administration/index.html">Office of the President</a><a href="https://www.csueastbay.edu/us/index.html">Rentals &amp; Scheduling</a></div></div><div class="col-sm-3"><div class="section-title"><a href="https://www.csueastbay.edu/academics/college.html">COLLEGES AND DEPARTMENTS</a><a class="toggle item" data-toggle="dropdown" href="#item-COLLEGESANDDEPARTMENTS"><span aria-hidden="false" class="fa fa-angle-down"><span>Expand COLLEGES AND DEPARTMENTS Menu</span></span></a></div><div class="hidden sub-column" id="item-COLLEGESANDDEPARTMENTS"><a href="https://www.csueastbay.edu/cbe/index.html">College of Business and Economics</a><a href="https://www.csueastbay.edu/ceas/index.html">College of Education and Allied Studies</a><a href="https://www.csueastbay.edu/class/index.html">College of Letters, Arts, and Social Sciences</a><a href="https://www.csueastbay.edu/csci/index.html">College of Science</a><a href="https://ce.csueastbay.edu/">Continuing Education</a><a href="https://www.csueastbay.edu/online/index.html">Online Programs</a></div></div><div class="col-sm-3"><div class="section-title"><a href="https://www.csueastbay.edu/students/index.html">Current Students</a><a class="toggle item" data-toggle="dropdown" href="#item-CurrentStudents"><span aria-hidden="false" class="fa fa-angle-down"><span>Expand Current Students Menu</span></span></a></div><div class="hidden sub-column" id="item-CurrentStudents"><a href="https://www.csueastbay.edu/academics/index.html">Academics</a><a href="https://www.csueastbay.edu/academics/support-programs.html">Academic Support Programs</a><a href="https://catalog.csueastbay.edu/content.php?catoid=27&amp;navoid=22661">Calendar</a><a href="https://www.csueastbay.edu/eastbaylife/index.html">Campus Life</a><a href="https://www.csueastbay.edu/student-financial-services/index.html">Cashier's Office</a><a href="https://www.csueastbay.edu/financialaid/index.html">Financial Aid</a><a href="https://www.csueastbay.edu/ip/index.html">International Programs</a><a href="https://www.csueastbay.edu/orsp/index.html">Office of Research and Sponsored Programs</a><a href="https://dineoncampus.com/csueb">Pioneer Dining</a><a href="https://www.csueastbay.edu/registrar/index.html">Student Records</a><a href="https://www.csueastbay.edu/housing/index.html">University Housing &amp; Residence Life</a><a href="http://catalog.csueastbay.edu/">University Catalog</a></div></div><div class="col-sm-3"><div class="section-title"><a href="https://www.csueastbay.edu/futurestudents/index.html">Future Students</a><a class="toggle item" data-toggle="dropdown" href="#item-FutureStudents"><span aria-hidden="false" class="fa fa-angle-down"><span>Expand Future Students Menu</span></span></a></div><div class="hidden sub-column" id="item-FutureStudents"><a href="https://www.csueastbay.edu/admissions/index.html">Admissions</a><a href="https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/index.html">Application Deadlines</a><a href="https://www.csueastbay.edu/financialaid/prospective-students1/cost-of-attendance.html">Cost and Financial Aid</a><a href="https://www.csueastbay.edu/graduate-studies/index.html">Graduate Studies</a><a href="https://www.csueastbay.edu/futurestudents/undergraduate-majors-by-college.html">Undergraduate Majors</a><a href="http://www.csueastbay.edu/visit">Visit Campus</a></div><div class="section-title"><span>UNIVERSITY RESOURCES</span><a class="toggle item" data-toggle="dropdown" href="#item-UNIVERSITYRESOURCES"><span aria-hidden="false" class="fa fa-angle-down"><span>Expand UNIVERSITY RESOURCES Menu</span></span></a></div><div class="hidden sub-column" id="item-UNIVERSITYRESOURCES"><a href="http://www.csueastbay.edu/faculty/">Faculty</a><a href="http://www.csueastbay.edu/staff/">Staff</a><a href="https://email.csueastbay.edu/">Faculty and Staff Email</a><a href="http://www.csueastbay.edu/hr/">Human Resources</a></div></div></div><div class="row"><div class="col-sm-12 social"><ul class="list-inline social-buttons"><li><a href="https://www.facebook.com/CalStateEastBay/" target="_blank"><span class="fa fa-facebook"><span>Facebook</span></span></a></li><li><a href="https://www.instagram.com/csueb/" target="_blank"><span class="fa fa-instagram"><span>Instagram</span></span></a></li><li><a href="https://twitter.com/CalStateEastBay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><span class="fa fa-twitter"><span>Twitter</span></span></a></li><li><a href="https://www.youtube.com/channel/UCObJlgPQsJITHxy7RftZY6g" target="_blank"><span class="fa fa-youtube-play"><span>YouTube</span></span></a></li><li><a href="https://www.linkedin.com/edu/california-state-university-east-bay-17825" target="_blank"><span class="fa fa-linkedin"><span>LinkedIn</span></span></a></li></ul></div></div></li></ul></li><li class="dropdown yamm-fw item1 search-link"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span aria-hidden="true" class="fa fa-search"></span><span class="menu-link">Search</span></a><ul class="search-bar dropdown-menu"><li class="grid-menu"><div class="row"><div class="col-sm-12"><form action="//www.csueastbay.edu/search/" class="ada-hidden" method="get"><div><input name="col" type="hidden" value="7"/><label class="sr-only" for="searchInput">Search Our Site</label><input aria-label="Search Our Site" class="search-input cleardefault" id="searchInput" maxlength="255" name="q" placeholder="Search Cal State East Bay..." title="Search Cal State East Bay..." type="text" value="Search Cal State East Bay..."/><input class="search-btn" title="Search" type="submit" value="Search"/></div></form><button aria-label="Close" class="close search-close" type="button"><span aria-hidden="true">&#215;</span></button></div></div></li></ul></li></ul></div></div></div> 
+			</nav>
+		</header>
+		<!-- END: Header -->
+		
+		<div class="flexslider main-slider" id="slider"><h1 class="screenreader">California State University, East Bay</h1><ul class="slides"><li style="background-image: url(https://www.csueastbay.edu/news-center/images/vtour-hp.jpg);"><a href="https://www.csueastbay.edu/news-center/2022/11/cal-state-east-bay-unboxes-virtual-campus-tour.html"><img alt="Students jump pose in front of East Bay letters" src="https://www.csueastbay.edu/_global/images/elements/slider-spacer.png"/><div class="flex-caption"><div class="title">Cal State East Bay “Unboxes” Virtual Campus Tour</div><div class="subtitle">Students can see spaces and environments they will be learning and growing in for the coming years</div></div></a></li><li style="background-image: url(https://www.csueastbay.edu/news-center/images/asi-bod-2022-12.jpg);"><a href="https://www.csueastbay.edu/futurestudents/index.html"><img alt="Ready, Set, Apply!" src="https://www.csueastbay.edu/_global/images/elements/slider-spacer.png"/><div class="flex-caption"><div class="title">Ready, Set, Apply!</div><div class="subtitle">Fall 2023 Application Period Starts October 1</div></div></a></li><li style="background-image: url(https://www.csueastbay.edu/news-center/images/2022-concord-hp.jpg);"><a href="https://www.csueastbay.edu/news-center/2022/11/concord-ecocultural-garden.html"><img alt="Concord Campus Ecocultural Garden" src="https://www.csueastbay.edu/_global/images/elements/slider-spacer.png"/><div class="flex-caption"><div class="title">Recognizing the University’s Indigenous Land</div><div class="subtitle">Concord Campus Breaks Ground in New Ecocultural Garden</div></div></a></li><li style="background-image: url(https://www.csueastbay.edu/news-center/images/2022-stem-hp.jpg);"><a href="https://www.csueastbay.edu/news-center/2022/11/creating-future-leaders-with-stem-careerx.html"><img alt="Students in STEM lab" src="https://www.csueastbay.edu/_global/images/elements/slider-spacer.png"/><div class="flex-caption"><div class="title">Creating Future Leaders with STEM CareerX</div><div class="subtitle">$75,000 grant from the Bayer Fund to launch STEM CareerX at Cal State East Bay</div></div></a></li><li style="background-image: url(_files/images/landing/asc-hp-1900x1200.jpg);"><a href="https://www.csueastbay.edu/news-center/2022/11/state-of-the-art-stem-facility-begins-construction.html"><img alt="Applied Sciences Center" src="https://www.csueastbay.edu/_global/images/elements/slider-spacer.png"/><div class="flex-caption"><div class="title">State-of-the-Art STEM Facility Begins Construction</div><div class="subtitle">On Dec. 8, shovels will hit the dirt, beginning construction for the 21,000 square foot building</div></div></a></li></ul></div>
+		
+		<!-- BEGIN: Content -->
+		<span id="skipToContent"></span>
+		
+
+                  
+    
+        
+                
+    
+    <div class="row band white-bg spotlight">
+    	        	    
+    	                                                                                            <div class="container">
+                                        
+                                                    
+
+                                
+                                                                    	                    	                
+    	                	                	                
+	                
+                                
+
+        		<div class="col-md-4 info-box ">
+        			<a href="https://www.csueastbay.edu/futurestudents/index.html" target="_self">
+        				<img alt="Several students stand in front of East Bay Letters" src="_files/images/home/future-students-hp.jpg"/>
+        				<div class="featured-link">Future Students<span aria-hidden="true" class="fa fa-chevron-circle-right"></span></div>
+        			</a>
+        		</div>
+        		
+        		        		
+        		                
+
+        	
+    	                                                                                        
+
+                                
+                                        	                
+	                
+                                
+
+        		<div class="col-md-4 info-box ">
+        			<a href="https://www.csueastbay.edu/students/index.html" target="_self">
+        				<img alt="Three students walking on campus" src="_files/images/home/current-students-hp-v3.jpg"/>
+        				<div class="featured-link">Current Students<span aria-hidden="true" class="fa fa-chevron-circle-right"></span></div>
+        			</a>
+        		</div>
+        		
+        		        		
+        		                
+
+        	
+    	                                                                                                                                
+
+                                
+                                        	                
+	                
+                                
+
+        		<div class="col-md-4 info-box ">
+        			<a href="https://www.youvisit.com/#/vte/?data-platform=v&amp;data-inst=60134&amp;data-loc=143999&amp;data-stopid=289036&amp;" target="_self">
+        				<img alt="Launch Experience" src="_files/images/corelobby.jpg"/>
+        				<div class="featured-link">Take A Virtual Tour<span aria-hidden="true" class="fa fa-chevron-circle-right"></span></div>
+        			</a>
+        		</div>
+        		
+        		        		
+        		                                    </div>
+                                    
+
+        	        	                </div>
+
+                      
+        <div class="row band infographics content-2 parallax-background text-center  auto  landing">
+        <div class="parallax-container">
+            <div class="parallax-image" style="background-image: url(_files/images/home/parallax/paralax-2021.jpg);"></div>
+        </div>
+        <div class="infographic overlay"></div>
+        <div class="container mobile">
+          <div class="flexslider info-slider">
+        <ul class="slides">
+                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>In 2021, Cal State East Bay became the first public university in California to be honored by the National Institute for Learning Outcomes Assessment.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-graduation-cap"></span>
+                            </div>
+                                                <p>Sixty-two percent of Cal State East Bay students are the first in their family to go to college.</p>
+                    </div>
+                  </li>
+                                                                                                                                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-user"></span>
+                            </div>
+                                                <p>More than 60% of Cal State East Bay students are female. 
+</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>CSUEB has 15 athletic teams and competes in NCAA Division II.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>More than 130,000 alumni contribute to the economic, social and cultural quality of life in the East Bay and beyond. </p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-book"></span>
+                            </div>
+                                                <p>Cal State East Bay offers more than 40 high-quality continuing education degree and certificate programs for working professionals.
+</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                    <div class="info-icon">
+                              <img alt="Campus In Action logo" src="_points-of-pride/images/Campus_In_Action2.png"/>
+                            </div>
+                                                <p>Cal State East Bay is committed to promoting civic engagement among students and has signed a Campus Compact Civic Action Statement.</p>
+                    </div>
+                  </li>
+                                                                                                                      <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-flask"></span>
+                            </div>
+                                                <p>At the Green Biome Institute, faculty and students are sequencing the genomes of the mysterious and disappearing plants that could benefit humans. </p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>Access and retention programs for transfer students, including Sankofa and GANAS, smooth the transition from community college and lead to higher student involvement and graduation rates. </p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-microphone"></span>
+                            </div>
+                                                <p>The annual Cultural Awareness Month series gives recognition to specific communities represented at the university and includes well-known guest speakers from each of those communities. </p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-usd"></span>
+                            </div>
+                                                <p>Within the region, Cal State East Bay alumni influence more than $2.5 billion in industry activity.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-usd"></span>
+                            </div>
+                                                <p>Cal State East Bay ranks #25 in CNBC’s Top 50 US Colleges that Pay off the Most.</p>
+                    </div>
+                  </li>
+                                                                                                                                                                                                                                                                  <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>Alumnus Gene Luen Yang (MS ’03, Education) was the recipient of a prestigious MacArthur Foundation “Genius Grant."</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>The Pioneers for H.O.P.E. program supports students facing homelessness, food insecurity, and other various crisis situations.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>The Wall Street Journal recognizes CSUEB as a Top 10 college in the west for diversity.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>The Wall Street Journal recognizes CSUEB as a Top 10 college in the west for diversity.</p>
+                    </div>
+                  </li>
+                                                                                                                                                  <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                    <div class="info-icon">
+                              <img alt="Pioneers logo" src="_points-of-pride/images/eb-pp2.png"/>
+                            </div>
+                                                <p>Cal State East Bay's 15 athletic teams compete within NCAA Division II.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>The Chronicle of Higher Education consistently names Cal State East Bay as one of the most diverse public institutions in the continental U.S.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-graduation-cap"></span>
+                            </div>
+                                                <p>Cal State East Bay offers more than 40 high-quality continuing education degree and certificate programs for working professionals. 
+</p>
+                    </div>
+                  </li>
+                                                                                                                                                                                                                                                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>Cal State East Bay was noted for its exceptionally diverse student body, ranking as one of the most diverse four-year public college on the U.S. mainland by the Chronicle of Higher Education.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>CSUEB has won a HEED award from INSIGHT Into Diversity magazine for six straight years. The award honors universities that have shown exceptional commitment to diversity and inclusiveness.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-university"></span>
+                            </div>
+                                                <p>Cal State East Bay offers 48 bachelor's degrees, 56 minors, 34 master’s degrees, 23 credentials and certificates and one doctoral degree. </p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>Notable alumni include the late MLB Hall of Famer Joe Morgan, California Wellness Foundation President and CEO Judy Belk, Tony-winning actor James Iglehart and former CSU Chancellor Timothy P. White.</p>
+                    </div>
+                  </li>
+                                                              <li class="random">
+                    <div class="col-md-4 info-box">
+                        <!-- Image Example -->
+                                                                                <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>Cal State East Bay has three campuses — Hayward, Concord and Oakland.</p>
+                    </div>
+                  </li>
+                                    </ul>
+        </div>
+        </div>
+        <div class="container desktop">
+                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>In 2021, Cal State East Bay became the first public university in California to be honored by the National Institute for Learning Outcomes Assessment.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-graduation-cap"></span>
+                            </div>
+                                                <p>Sixty-two percent of Cal State East Bay students are the first in their family to go to college.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                                                                                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-user"></span>
+                            </div>
+                                                <p>More than 60% of Cal State East Bay students are female. 
+</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>CSUEB has 15 athletic teams and competes in NCAA Division II.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>More than 130,000 alumni contribute to the economic, social and cultural quality of life in the East Bay and beyond. </p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-book"></span>
+                            </div>
+                                                <p>Cal State East Bay offers more than 40 high-quality continuing education degree and certificate programs for working professionals.
+</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                        <div class="info-icon">
+                                  <img alt="Campus In Action logo" src="_points-of-pride/images/Campus_In_Action2.png"/>
+                                </div>
+                                                <p>Cal State East Bay is committed to promoting civic engagement among students and has signed a Campus Compact Civic Action Statement.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                                                                        <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-flask"></span>
+                            </div>
+                                                <p>At the Green Biome Institute, faculty and students are sequencing the genomes of the mysterious and disappearing plants that could benefit humans. </p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>Access and retention programs for transfer students, including Sankofa and GANAS, smooth the transition from community college and lead to higher student involvement and graduation rates. </p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-microphone"></span>
+                            </div>
+                                                <p>The annual Cultural Awareness Month series gives recognition to specific communities represented at the university and includes well-known guest speakers from each of those communities. </p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-usd"></span>
+                            </div>
+                                                <p>Within the region, Cal State East Bay alumni influence more than $2.5 billion in industry activity.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-usd"></span>
+                            </div>
+                                                <p>Cal State East Bay ranks #25 in CNBC’s Top 50 US Colleges that Pay off the Most.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                                                                                                                                                                                                                    <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>Alumnus Gene Luen Yang (MS ’03, Education) was the recipient of a prestigious MacArthur Foundation “Genius Grant."</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                <div class="info-icon">
+                                <span class="fa fa-trophy"></span>
+                            </div>
+                                                <p>The Pioneers for H.O.P.E. program supports students facing homelessness, food insecurity, and other various crisis situations.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>The Wall Street Journal recognizes CSUEB as a Top 10 college in the west for diversity.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>The Wall Street Journal recognizes CSUEB as a Top 10 college in the west for diversity.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                                                                                                    <div class="col-md-4 info-box  random ">
+                                                        <div class="info-icon">
+                                  <img alt="Pioneers logo" src="_points-of-pride/images/eb-pp2.png"/>
+                                </div>
+                                                <p>Cal State East Bay's 15 athletic teams compete within NCAA Division II.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>The Chronicle of Higher Education consistently names Cal State East Bay as one of the most diverse public institutions in the continental U.S.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-graduation-cap"></span>
+                            </div>
+                                                <p>Cal State East Bay offers more than 40 high-quality continuing education degree and certificate programs for working professionals. 
+</p>
+                        <!-- </a> -->
+                    </div>
+                                                                                                                                                                                                                                                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>Cal State East Bay was noted for its exceptionally diverse student body, ranking as one of the most diverse four-year public college on the U.S. mainland by the Chronicle of Higher Education.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-globe"></span>
+                            </div>
+                                                <p>CSUEB has won a HEED award from INSIGHT Into Diversity magazine for six straight years. The award honors universities that have shown exceptional commitment to diversity and inclusiveness.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-university"></span>
+                            </div>
+                                                <p>Cal State East Bay offers 48 bachelor's degrees, 56 minors, 34 master’s degrees, 23 credentials and certificates and one doctoral degree. </p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                                            <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>Notable alumni include the late MLB Hall of Famer Joe Morgan, California Wellness Foundation President and CEO Judy Belk, Tony-winning actor James Iglehart and former CSU Chancellor Timothy P. White.</p>
+                        <!-- </a> -->
+                    </div>
+                                                                <div class="col-md-4 info-box  random ">
+                                                                                <div class="info-icon">
+                                <span class="fa fa-users"></span>
+                            </div>
+                                                <p>Cal State East Bay has three campuses — Hayward, Concord and Oakland.</p>
+                        <!-- </a> -->
+                    </div>
+                            
+        </div>
+    </div>
+
+
+                    <div class="row band packery">
+        <div class="container">
+    		<div class="grid-items">
+				<div class="grid-sizer"></div>
+				<div class="gutter-sizer"></div>
+                                                                                                                                                            <div class="grid-item grid-item-large">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt=" A volleyball player smiles holding ball. " class="flip-img" src="_files/images/new-home-page-tiles/athletics-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Athletics
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="A volleyball player smiles holding ball. " class="flip-img" src="_files/images/new-home-page-tiles/athletics-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                                                                                                                <a href="https://www.eastbaypioneers.com/" target="_self">
+                                                                                            <strong>
+                                                                                                            Athletics
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            Cal State East Bay sponsors 15 intercollegiate sports competing at the NCAA Division II level. The Pioneers are part of the California Collegiate Athletic Association.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="Outside of main Concord office" class="flip-img" src="_files/images/new-home-page-tiles/concord-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Concord Campus
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="Outside of main Concord office" class="flip-img" src="_files/images/new-home-page-tiles/concord-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/concord/index.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Concord Campus
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            The Concord campus offers select degree programs and courses designed to meet the general education requirements for both the BA and BS degrees.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="A female in mask and white coat holding test tubes" class="flip-img" src="_files/images/new-home-page-tiles/academics-tile-21.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Academics
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="A female in mask and white coat holding test tubes" class="flip-img" src="_files/images/new-home-page-tiles/academics-tile-21.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/academics/index.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Academics
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            Learn about Cal State East Bay's colleges, departments and academic offerings. 
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="The main entrance of a concrete building" class="flip-img" src="_files/images/new-home-page-tiles/international_education.png"/>
+                                        <div class="flip-title">
+                                                                                            International Education
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="The main entrance of a concrete building" class="flip-img" src="_files/images/new-home-page-tiles/international_education.png"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/ip/" target="_self">
+                                                                                            <strong>
+                                                                                                            International Education
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            From study abroad to welcoming international students, we value global education.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="A student in cap in gown on knees holds up degree" class="flip-img" src="_files/images/new-home-page-tiles/alumni-tile-21.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Alumni
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="A student in cap in gown on knees holds up degree" class="flip-img" src="_files/images/new-home-page-tiles/alumni-tile-21.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/alumni/index.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Alumni
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            The Alumni Association facilitates a lifelong connection between the university and alumni, and seeks to foster Pioneer pride. 
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="A young women smiles in class" class="flip-img" src="_files/images/new-home-page-tiles/continuing-ed-tile-21.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Continuing Education
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="A young women smiles in class" class="flip-img" src="_files/images/new-home-page-tiles/continuing-ed-tile-21.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                                                                                                                <a href="https://www.ce.csueastbay.edu" target="_self">
+                                                                                            <strong>
+                                                                                                            Continuing Education
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            Continuing Education provides professional development training and education by offering more than 35 degree and certificate programs.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="Several students and community members pose for photo" class="flip-img" src="_files/images/new-home-page-tiles/office-of-diversity.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Office of Diversity
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="Several students and community members pose for photo" class="flip-img" src="_files/images/new-home-page-tiles/office-of-diversity.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/diversity/index.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Office of Diversity
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            The Office of Diversity is responsible for ensuring that the commitment to diversity and inclusion is understood across the University. 
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item grid-item-large">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt=" CORE Building" class="flip-img" src="_files/images/new-home-page-tiles/core-5.png"/>
+                                        <div class="flip-title">
+                                                                                            CORE Building
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="CORE Building" class="flip-img" src="_files/images/new-home-page-tiles/core-5.png"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                                                                                                                <a href="https://library.csueastbay.edu/home" target="_self">
+                                                                                            <strong>
+                                                                                                            CORE Building
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            The Libraries, located in the new CORE Building, inspire students, faculty and staff toward intellectual discovery and creation.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="Crowd at an outdoor festival" class="flip-img" src="_files/images/new-home-page-tiles/events-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Calendars and Events
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="Crowd at an outdoor festival" class="flip-img" src="_files/images/new-home-page-tiles/events-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/eastbaylife/calendars.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Calendars and Events
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            See the events and activities happening around campus.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="Woman stands in greenhouse with plants" class="flip-img" src="_files/images/new-home-page-tiles/sustainability-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Sustainability
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="Woman stands in greenhouse with plants" class="flip-img" src="_files/images/new-home-page-tiles/sustainability-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/sustainability/index.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Sustainability
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            Cal State East Bay leads education in environmental, economic and social equity issues
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="A student raises his arms in celebration at graduation" class="flip-img" src="_files/images/new-home-page-tiles/espanol-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Información en Español
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="A student raises his arms in celebration at graduation" class="flip-img" src="_files/images/new-home-page-tiles/espanol-tile.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/espanol/index.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Información en Español
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            Se invita a los futuros estudiantes, a sus familiares y a sus amigos para que se informen acerca de todo lo que Cal State East Bay brinda.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                                                                                                                                                            <div class="grid-item ">
+                        <div class="quickFlip2">
+                            <div class="card front">
+                                <div class="quickFlipWrap">
+                                    <div class="quickFlipCta">
+
+                                                                                <img alt="A young woman shows another her computer. " class="flip-img" src="_files/images/new-home-page-tiles/online-tile2.jpg"/>
+                                        <div class="flip-title">
+                                                                                            Online Programs
+                                                                                    </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                            <div class="card back">
+                                    <div class="quickFlipWrap">
+                                        <img alt="A young woman shows another her computer. " class="flip-img" src="_files/images/new-home-page-tiles/online-tile2.jpg"/>
+                                        <div class="flip-title">
+                                                                                                                                                                                                                                <a href="https://www.csueastbay.edu/online/index.html" target="_self">
+                                                                                            <strong>
+                                                                                                            Online Programs
+                                                                                                    </strong>
+                                                <p>
+                                                                                                            CSUEB’s Online Campus offers nine online degrees, including five bachelor's programs and four master's programs.
+                                                                                                     </p>
+                                                                                            </a>
+                                                                                        <div class="quickFlipCta">Flip Back</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                			</div>
+        </div>
+	</div>
+                    <div class="row band white-bg news">
+        <div class="container">
+          <div class="col-md-12">
+                                                                                                                                                                                                                <h2 class="section-heading">
+                                                                  <span class="red">Cal State East Bay</span>
+                                                                  <span class="black">News</span>
+                                                        </h2>
+                                                                                     <div class="col-md-4 info-box">
+                             <a href="https://www.csueastbay.edu/news-center/2022/06/cal-state-east-bay-receives-2022-east-bay-economic-development-alliance-legacy-award.html" target="_parent"><img alt="Cathy Sandeen on stage" src="https://www.csueastbay.edu/news-center/images/ebeda-nc.jpg"/></a>
+                             <h3>Cal State East Bay Receives 2022 East Bay Economic Development Alliance Legacy Award </h3>
+                             <p>The university has been named the honoree of the 2022 Legacy Award by the East Bay Economic Development Alliance for the lasting impact it has made on the region’s economy and communities. 
+ <a href="https://www.csueastbay.edu/news-center/2022/06/cal-state-east-bay-receives-2022-east-bay-economic-development-alliance-legacy-award.html" title="Read More">Read More<span aria-hidden="true" class="fa fa-angle-right"></span></a></p>
+                          </div>
+                                              <div class="col-md-4 info-box">
+                             <a href="https://www.csueastbay.edu/news-center/2022/06/continued-partnership-with-u.s.-coast-guard-gives-students-scholarships,-careers.html" target="_parent"><img alt="CSUEB president and provost pose with US coast guard" src="https://www.csueastbay.edu/news-center/images/uscg1188.jpg"/></a>
+                             <h3>Continued Partnership with U.S. Coast Guard Gives Students Scholarships, Careers</h3>
+                             <p>Cal State East Bay and the U.S. Coast Guard reaffirmed its partnership for the College Student Pre-Commissioning Initiative, extending the relationship another four years.  <a href="https://www.csueastbay.edu/news-center/2022/06/continued-partnership-with-u.s.-coast-guard-gives-students-scholarships,-careers.html" title="Read More">Read More<span aria-hidden="true" class="fa fa-angle-right"></span></a></p>
+                          </div>
+                                              <div class="col-md-4 info-box">
+                             <a href="https://www.csueastbay.edu/news-center/2022/06/marianna-wolff-receives-2021-vivian-cunniffee-staff-award.html" target="_parent"><img alt="Marianna Wolfe" src="https://www.csueastbay.edu/news-center/images/m-wolff-1188x576.jpg"/></a>
+                             <h3>Marianna Wolff Receives 2021 Vivian Cunniffee Staff Award</h3>
+                             <p>Marianna Wolff, Administrative Support Coordinator in the Department of Speech, Language and Hearing Sciences has been selected as the 2021 Vivian Cunniffe Staff Award honoree.  <a href="https://www.csueastbay.edu/news-center/2022/06/marianna-wolff-receives-2021-vivian-cunniffee-staff-award.html" title="Read More">Read More<span aria-hidden="true" class="fa fa-angle-right"></span></a></p>
+                          </div>
+                                                                                                                <div class="col-md-12 text-center btn-wrap"><a class="btn-primary" href="https://www.csueastbay.edu/news-center/index.html" target="_self" title="More News - This link will open in a new window.">More News</a></div>
+                            </div>
+        </div>
+    </div>
+
+                            <div class="row bang white-bg full">
+        <div class="container">
+          <div class="col-md-12">
+                                                                                                               <h2 class="section-heading">
+                                                          <span class="red">Get Social</span>
+                                                </h2>
+                                                      <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+                    <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css"/>
+                    <ul class="juicer-feed" data-feed-id="csueb"></ul>
+                            </div>
+        </div>
+    </div>
+
+                     
+    <div class="row band white-bg columns full">
+        <div class="container">
+          <div class="col-md-12">
+                                                    
+                            <h3 style="text-align: center; margin-bottom: 20px; font-size: 18px;"><strong>Follow Cal State East Bay!</strong></h3>
+<div style="text-align: center;"><a href="https://www.instagram.com/csueb/"><img alt="Instagram icon" height="48" src="_files/images/home/ig-icon.png" style="border-width: 15px; margin-right: 15px; margin-left: 15px;" width="48"/></a>&#160;<a href="https://twitter.com/calstateeastbay"><img alt="Twitter icon" height="48" src="_files/images/home/twitter-icon.png" style="margin-right: 15px; margin-left: 15px;" width="48"/></a>&#160;<a href="https://www.facebook.com/CalStateEastBay/"><img alt="Facebook icon" height="48" src="_files/images/home/facebook-icon.png" style="margin-right: 15px; margin-left: 15px;" width="48"/></a>&#160;<a href="https://www.youtube.com/channel/UCObJlgPQsJITHxy7RftZY6g"><img alt="YouTube icon" height="48" src="_files/images/home/youtube-icon.png" style="margin-right: 15px; margin-left: 15px;" width="48"/></a></div>
+                                                          </div>
+      </div>
+    </div>
+
+            
+
+
+
+
+   
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- END: Content -->
+		<!-- BEGIN: Footer -->
+		<span id="skipToFooter"></span>  
+		
+
+<div class="footer-top"><div class="row"><div class="container"><div class="col-md-2 col-sm-6"><ul><li class="main-link"><input aria-label="Additional Resources Section" checked="checked" title="Additional Resources" type="checkbox"/><span class="arrow">&#160;</span><span class="footer-link">Additional Resources</span><ul class="footer-collapse"><li><a href="https://www.csueastbay.edu/hr/title-ix/index.html">Sexual Assault / Title IX</a></li><li><a href="https://www.csueastbay.edu/futurestudents/index.html">Prospective Students</a></li><li><a href="https://www.csueastbay.edu/futurestudents/request-info.html">Request Information</a></li><li><a href="http://www.csueastbay.edu/students">Current Students</a></li><li><a href="http://www.csueastbay.edu/faculty/">Faculty</a></li><li><a href="http://www.csueastbay.edu/staff/">Staff</a></li><li><a href="http://www.csueastbay.edu/alumni/">Alumni &amp; Friends</a></li><li><a href="http://www.csueastbay.edu/accessibility">Accessibility</a></li></ul></li></ul></div><div class="col-md-2 col-sm-6"><ul><li class="main-link"><input aria-label="Campus Section" checked="checked" title="Campus" type="checkbox"/><span class="arrow">&#160;</span><span class="footer-link">Campus</span><ul class="footer-collapse"><li><a href="https://www.csueastbay.edu/about/mission-and-strategic-planning/index.html">Mission Statement</a></li><li><a href="http://library.csueastbay.edu/">Library</a></li><li><a href="http://www.csueastbay.edu/bookstore">Bookstore</a></li><li><a href="https://www.csueastbay.edu/aps/index.html">Academic Programs</a></li><li><a href="https://www.csueastbay.edu/futurestudents/files/docs/cal-state-east-bay-viewbook.pdf" target="_blank" title="Viewbook of Colleges- This link will open in a new window.">Viewbook of Colleges</a></li></ul></li></ul></div><div class="col-md-2 col-sm-6"><ul><li class="main-link"><input aria-label="Legal Section" checked="checked" title="Legal" type="checkbox"/><span class="arrow">&#160;</span><span class="footer-link">Legal</span><ul class="footer-collapse"><li><a href="https://www.csueastbay.edu/registrar/records/ferpa-privacy-policy.html">Privacy Statement</a></li><li><a href="https://www.csueastbay.edu/riskmanagement/office-investigations/index.html">Equal Opportunity</a></li><li><a href="https://www.csueastbay.edu/upd/emergency-management-and-resources/index.html">Emergency Info</a></li><li><a href="https://www.csueastbay.edu/upd/files/docs/csueb-annual-security-report.pdf" target="_blank" title="Annual Security Report- This link will open in a new window.">Annual Security Report</a></li><li><a href="https://www.csueastbay.edu/upd/files/docs/csueb-campus-safety-plan.pdf" target="_blank" title="Campus Safety Plan- This link will open in a new window.">Campus Safety Plan</a></li><li><a href="https://www.csueastbay.edu/riskmanagement/complaint.html">Register a Complaint</a></li></ul></li></ul></div><div class="col-md-2 col-sm-6"><ul><li class="main-link"><input aria-label="Tools Section" checked="checked" title="Tools" type="checkbox"/><span class="arrow">&#160;</span><span class="footer-link">Tools</span><ul class="footer-collapse"><li><a href="http://www.csueastbay.edu/directory/" target="_blank" title="Contact Us- This link will open in a new window.">Contact Us</a></li><li><a href="http://www.csueastbay.edu/directorysearch">Directory</a></li><li><a href="https://www.csueastbay.edu/about/visitor-information/index.html">Maps &amp; Directions</a></li><li><a href="https://www.csueastbay.edu/about/career-opportunities.html">Career Opportunities</a></li></ul></li></ul></div></div><div class="footer-logo col-md-12 text-center"><a href="/index.html"><img alt="CSU East Bay" class="img-responsive img-centered" src="/_global/images/footer/csu-logo-footer.png"/></a><p>25800 Carlos Bee Boulevard  |  Hayward, CA 94542  |  510-885-3000</p></div></div></div><footer aria-label="Footer" role="contentinfo"><div class="row"><div class="container"><span class="copyright">© <script>document.write(new Date().getFullYear())</script> California State University, East Bay.  All Rights Reserved.</span></div></div></footer> 
+		<!-- END: Footer -->
+		<!--BEGIN:GLOBAL-SCRIPTS-END-->
+		<script src="https://www.csueastbay.edu/_global/bootstrap/js/bootstrap.min.js"></script><script src="https://www.csueastbay.edu/_global/bootstrap/js/bootstrap-accessibility.js"></script><script src="https://www.csueastbay.edu/_global/js/jquery.fitvids.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script><script src="https://www.csueastbay.edu/_global/js/jquery.flexslider.js"></script><script src="https://www.csueastbay.edu/_global/js/slick.min.js"></script><script src="https://www.csueastbay.edu/_global/js/jquery.magnific-popup.min.js"></script><script src="https://www.csueastbay.edu/_global/js/jquery.quickflip.min.js"></script><script src="https://www.csueastbay.edu/_global/js/bootstrap-tabcollapse.js"></script><script src="https://www.csueastbay.edu/_global/js/packery.pkgd.min.js"></script><script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f08b369b69b3762" type="text/javascript"></script><script src="https://www.csueastbay.edu/_global/js/scripts.js?v=6"></script>
+		<!--END:GLOBAL-SCRIPTS-END-->
+		<script type="text/javascript">if (jQuery(".main-slider").length != 0) {
+                // The slider being synced must be initialized first
+                $('.main-slider').flexslider({ 
+                    animationLoop: true,
+                    useCSS: false,
+                    pauseOnHover: false,
+                    slideshow: true
+                });
+            }
+            </script>
+		
+		
+
+
+	</body>
+</html>
