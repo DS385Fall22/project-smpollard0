@@ -13,3 +13,7 @@ that students can file issues and/or make pull requests, or whatever.
 
 This repository is public, such that your fellow students can clone the
 repository.
+
+References:
+https://regex101.com/
+https://www.regular-expressions.info/refcapture.html
